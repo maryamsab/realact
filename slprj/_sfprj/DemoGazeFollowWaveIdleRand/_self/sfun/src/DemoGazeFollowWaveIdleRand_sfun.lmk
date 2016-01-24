@@ -1,0 +1,80 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"DemoGazeFollowWaveIdleRand_sfun.obj"\
+	"c1_DemoGazeFollowWaveIdleRand.obj"\
+	"c2_DemoGazeFollowWaveIdleRand.obj"\
+	"c4_DemoGazeFollowWaveIdleRand.obj"\
+	"c5_DemoGazeFollowWaveIdleRand.obj"\
+	"c6_DemoGazeFollowWaveIdleRand.obj"\
+	"c8_DemoGazeFollowWaveIdleRand.obj"\
+	"c9_DemoGazeFollowWaveIdleRand.obj"\
+	"c10_DemoGazeFollowWaveIdleRand.obj"\
+	"c11_DemoGazeFollowWaveIdleRand.obj"\
+	"c15_DemoGazeFollowWaveIdleRand.obj"\
+	"c16_DemoGazeFollowWaveIdleRand.obj"\
+	"c17_DemoGazeFollowWaveIdleRand.obj"\
+	"c19_DemoGazeFollowWaveIdleRand.obj"\
+	"c20_DemoGazeFollowWaveIdleRand.obj"\
+	"c21_DemoGazeFollowWaveIdleRand.obj"\
+	"DemoGazeFollowWaveIdleRand_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\5-10-2015-Matlab-Demo-v2\slprj\_sfprj\DemoGazeFollowWaveIdleRand\_self\sfun\src" 
+ 
+
+DemoGazeFollowWaveIdleRand_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o DemoGazeFollowWaveIdleRand_sfun.mexw32 @DemoGazeFollowWaveIdleRand_sfun.lmko
+DemoGazeFollowWaveIdleRand_sfun.obj :	"DemoGazeFollowWaveIdleRand_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "DemoGazeFollowWaveIdleRand_sfun.c"
+c1_DemoGazeFollowWaveIdleRand.obj :	"c1_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_DemoGazeFollowWaveIdleRand.c"
+c2_DemoGazeFollowWaveIdleRand.obj :	"c2_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_DemoGazeFollowWaveIdleRand.c"
+c4_DemoGazeFollowWaveIdleRand.obj :	"c4_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_DemoGazeFollowWaveIdleRand.c"
+c5_DemoGazeFollowWaveIdleRand.obj :	"c5_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_DemoGazeFollowWaveIdleRand.c"
+c6_DemoGazeFollowWaveIdleRand.obj :	"c6_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c6_DemoGazeFollowWaveIdleRand.c"
+c8_DemoGazeFollowWaveIdleRand.obj :	"c8_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_DemoGazeFollowWaveIdleRand.c"
+c9_DemoGazeFollowWaveIdleRand.obj :	"c9_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_DemoGazeFollowWaveIdleRand.c"
+c10_DemoGazeFollowWaveIdleRand.obj :	"c10_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_DemoGazeFollowWaveIdleRand.c"
+c11_DemoGazeFollowWaveIdleRand.obj :	"c11_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_DemoGazeFollowWaveIdleRand.c"
+c15_DemoGazeFollowWaveIdleRand.obj :	"c15_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_DemoGazeFollowWaveIdleRand.c"
+c16_DemoGazeFollowWaveIdleRand.obj :	"c16_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_DemoGazeFollowWaveIdleRand.c"
+c17_DemoGazeFollowWaveIdleRand.obj :	"c17_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_DemoGazeFollowWaveIdleRand.c"
+c19_DemoGazeFollowWaveIdleRand.obj :	"c19_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c19_DemoGazeFollowWaveIdleRand.c"
+c20_DemoGazeFollowWaveIdleRand.obj :	"c20_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_DemoGazeFollowWaveIdleRand.c"
+c21_DemoGazeFollowWaveIdleRand.obj :	"c21_DemoGazeFollowWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_DemoGazeFollowWaveIdleRand.c"
+DemoGazeFollowWaveIdleRand_sfun_registry.obj :	"DemoGazeFollowWaveIdleRand_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "DemoGazeFollowWaveIdleRand_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

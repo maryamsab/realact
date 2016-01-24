@@ -1,0 +1,77 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"DemoGazeFollow_sfun.obj"\
+	"c1_DemoGazeFollow.obj"\
+	"c2_DemoGazeFollow.obj"\
+	"c4_DemoGazeFollow.obj"\
+	"c5_DemoGazeFollow.obj"\
+	"c6_DemoGazeFollow.obj"\
+	"c8_DemoGazeFollow.obj"\
+	"c9_DemoGazeFollow.obj"\
+	"c10_DemoGazeFollow.obj"\
+	"c11_DemoGazeFollow.obj"\
+	"c15_DemoGazeFollow.obj"\
+	"c16_DemoGazeFollow.obj"\
+	"c19_DemoGazeFollow.obj"\
+	"c20_DemoGazeFollow.obj"\
+	"c21_DemoGazeFollow.obj"\
+	"DemoGazeFollow_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\25-9-2015-Matlab-Demo\slprj\_sfprj\DemoGazeFollow\_self\sfun\src" 
+ 
+
+DemoGazeFollow_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o DemoGazeFollow_sfun.mexw32 @DemoGazeFollow_sfun.lmko
+DemoGazeFollow_sfun.obj :	"DemoGazeFollow_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "DemoGazeFollow_sfun.c"
+c1_DemoGazeFollow.obj :	"c1_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_DemoGazeFollow.c"
+c2_DemoGazeFollow.obj :	"c2_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_DemoGazeFollow.c"
+c4_DemoGazeFollow.obj :	"c4_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_DemoGazeFollow.c"
+c5_DemoGazeFollow.obj :	"c5_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_DemoGazeFollow.c"
+c6_DemoGazeFollow.obj :	"c6_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c6_DemoGazeFollow.c"
+c8_DemoGazeFollow.obj :	"c8_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_DemoGazeFollow.c"
+c9_DemoGazeFollow.obj :	"c9_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_DemoGazeFollow.c"
+c10_DemoGazeFollow.obj :	"c10_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_DemoGazeFollow.c"
+c11_DemoGazeFollow.obj :	"c11_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_DemoGazeFollow.c"
+c15_DemoGazeFollow.obj :	"c15_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_DemoGazeFollow.c"
+c16_DemoGazeFollow.obj :	"c16_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_DemoGazeFollow.c"
+c19_DemoGazeFollow.obj :	"c19_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c19_DemoGazeFollow.c"
+c20_DemoGazeFollow.obj :	"c20_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_DemoGazeFollow.c"
+c21_DemoGazeFollow.obj :	"c21_DemoGazeFollow.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_DemoGazeFollow.c"
+DemoGazeFollow_sfun_registry.obj :	"DemoGazeFollow_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "DemoGazeFollow_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

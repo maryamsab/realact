@@ -1,0 +1,981 @@
+ testRPSsmile_Glove_Idle_sfun
+
+ Timestamp is 54f56a0a (Tue Mar 03 00:00:10 2015)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0005ded4H .text                   CODE
+ 0002:00000000 00000294H .idata$5                DATA
+ 0002:00000294 00000004H .CRT$XCA                DATA
+ 0002:00000298 00000004H .CRT$XCZ                DATA
+ 0002:0000029c 00000004H .CRT$XIA                DATA
+ 0002:000002a0 00000004H .CRT$XIAA               DATA
+ 0002:000002a4 00000004H .CRT$XIC                DATA
+ 0002:000002a8 00000004H .CRT$XIZ                DATA
+ 0002:000002b0 00000960H .rdata                  DATA
+ 0002:00000c10 00000004H .rdata$sxdata           DATA
+ 0002:00000c14 00000004H .rtc$IAA                DATA
+ 0002:00000c18 00000004H .rtc$IZZ                DATA
+ 0002:00000c1c 00000004H .rtc$TAA                DATA
+ 0002:00000c20 00000004H .rtc$TZZ                DATA
+ 0002:00000c28 00000064H .xdata$x                DATA
+ 0002:00000c8c 0000008cH .idata$2                DATA
+ 0002:00000d18 00000014H .idata$3                DATA
+ 0002:00000d2c 00000294H .idata$4                DATA
+ 0002:00000fc0 00000ef6H .idata$6                DATA
+ 0002:00001ec0 00000062H .edata                  DATA
+ 0003:00000000 0001a460H .data                   DATA
+ 0003:0001a460 000004a8H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _testRPSsmile_Glove_Idle_initializer 10001000 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000010       _testRPSsmile_Glove_Idle_terminator 10001010 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000020       _sf_testRPSsmile_Glove_Idle_method_dispatcher 10001020 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000090       _sf_testRPSsmile_Glove_Idle_process_check_sum_call 10001090 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000460       _sf_testRPSsmile_Glove_Idle_autoinheritance_info 10001460 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000600       _sf_testRPSsmile_Glove_Idle_get_eml_resolved_functions_info 10001600 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000750       _sf_testRPSsmile_Glove_Idle_third_party_uses_info 10001750 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:000008e0       _sf_testRPSsmile_Glove_Idle_updateBuildInfo_args_info 100018e0 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000a70       _testRPSsmile_Glove_Idle_debug_initialize 10001a70 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000ad0       _testRPSsmile_Glove_Idle_register_exported_symbols 10001ad0 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000ae0       _load_testRPSsmile_Glove_Idle_optimization_info 10001ae0 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000b20       _unload_testRPSsmile_Glove_Idle_optimization_info 10001b20 f   testRPSsmile_Glove_Idle_sfun.obj
+ 0001:00000b80       _sf_c1_testRPSsmile_Glove_Idle_get_eml_resolved_functions_info 10001b80 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00005810       _sf_c1_testRPSsmile_Glove_Idle_get_check_sum 10006810 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00005870       _sf_c1_testRPSsmile_Glove_Idle_get_autoinheritance_info 10006870 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00007980       _sf_c1_testRPSsmile_Glove_Idle_third_party_uses_info 10008980 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000079a0       _sf_c1_testRPSsmile_Glove_Idle_updateBuildInfo_args_info 100089a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000079c0       _sf_internal_get_sim_state_c1_testRPSsmile_Glove_Idle 100089c0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00009060       _sf_internal_set_sim_state_c1_testRPSsmile_Glove_Idle 1000a060 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b770       _c1_testRPSsmile_Glove_Idle_method_dispatcher 1000c770 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00053770       _sf_c2_testRPSsmile_Glove_Idle_get_eml_resolved_functions_info 10054770 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00053a70       _sf_c2_testRPSsmile_Glove_Idle_get_check_sum 10054a70 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00053ad0       _sf_c2_testRPSsmile_Glove_Idle_get_autoinheritance_info 10054ad0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000541c0       _sf_c2_testRPSsmile_Glove_Idle_third_party_uses_info 100551c0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000541e0       _sf_c2_testRPSsmile_Glove_Idle_updateBuildInfo_args_info 100551e0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054200       _sf_internal_get_sim_state_c2_testRPSsmile_Glove_Idle 10055200 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054440       _sf_internal_set_sim_state_c2_testRPSsmile_Glove_Idle 10055440 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054650       _c2_testRPSsmile_Glove_Idle_method_dispatcher 10055650 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000566f0       _sf_c3_testRPSsmile_Glove_Idle_get_eml_resolved_functions_info 100576f0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056740       _sf_c3_testRPSsmile_Glove_Idle_get_check_sum 10057740 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000567a0       _sf_c3_testRPSsmile_Glove_Idle_get_autoinheritance_info 100577a0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056ab0       _sf_c3_testRPSsmile_Glove_Idle_third_party_uses_info 10057ab0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056ad0       _sf_c3_testRPSsmile_Glove_Idle_updateBuildInfo_args_info 10057ad0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056af0       _sf_internal_get_sim_state_c3_testRPSsmile_Glove_Idle 10057af0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056d90       _sf_internal_set_sim_state_c3_testRPSsmile_Glove_Idle 10057d90 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057080       _c3_testRPSsmile_Glove_Idle_method_dispatcher 10058080 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00058600       _sf_process_check_sum_call 10059600 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058630       _sf_process_autoinheritance_call 10059630 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058770       _sf_process_get_third_party_uses_info_call 10059770 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:000588b0       _sf_process_get_updateBuildInfo_args_info_call 100598b0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:000589f0       _sf_process_get_eml_resolved_functions_info_call 100599f0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058b10       _sf_mex_unlock_call        10059b10 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058ba0       _sf_machine_global_initializer_called 10059ba0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058bc0       _sf_machine_global_method_dispatcher 10059bc0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058c00       _sf_machine_global_terminator 10059c00 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058c40       _sf_register_machine_exported_symbols 10059c40 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058c60       _callCustomFcn             10059c60 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058c70       _sf_machine_global_initializer 10059c70 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058ce0       _mdlGetSimState            10059ce0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058d40       _mdlSetSimState            10059d40 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058d70       __ssSetStateAbsTol         10059d70 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058e10       __ssGetAbsTol              10059e10 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058e60       __ssSetInputPortMatrixDimensions 10059e60 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058f10       __ssSetOutputPortMatrixDimensions 10059f10 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00058fc0       __ssSetInputPortVectorDimension 10059fc0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059040       __ssSetOutputPortVectorDimension 1005a040 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:000590c0       _ssIsRunTimeParamTunable   1005a0c0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059120       _ssGetSFuncBlockHandle     1005a120 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059170       __ssGetCurrentInputPortWidth 1005a170 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059240       __ssGetCurrentOutputPortWidth 1005a240 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059310       __ssGetCallSystemNumFcnCallDestinations 1005a310 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059370       _ssWarning                 1005a370 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059450       _ssGetIsZeroCrossControlDisabled 1005a450 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:000594b0       _ssSetIsInputPortUsedForContZcSignal 1005a4b0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059500       _ssSetZcSignalIsZcElementDisc 1005a500 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059580       _ssSetZcSignalName         1005a580 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:000595d0       _ssSetZcSignalWidth        1005a5d0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059620       _ssSetZcSignalZcEventType  1005a620 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059670       _ssSetZcSignalType         1005a670 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:000596c0       _ssSetZcSignalZcTol        1005a6c0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059710       _ssSetZcSignalNeedsEventNotification 1005a710 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059760       _ssCreateAndAddZcSignalInfo 1005a760 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:000597c0       _ssCloneAndAddZcSignalInfo 1005a7c0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059820       _ssGetNumZcSignals         1005a820 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059880       _ssGetZcSignalVector       1005a880 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:000598e0       _ssGetZcSignalZcEvents     1005a8e0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059940       _ssGetZcSignalName         1005a940 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:000599a0       _ssGetZcSignalWidth        1005a9a0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059a00       _ssGetZcSignalZcEventType  1005aa00 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059a60       _ssGetZcSignalType         1005aa60 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059ac0       _ssGetZcSignalZcTol        1005aac0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059b20       _ssGetZcSignalNeedsEventNotification 1005ab20 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059b80       _ssGetZcSignalIsZcElementDisc 1005ab80 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059c00       _ssGetIsInputPortElementContinuous 1005ac00 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059c80       __ssGetInputPortSignalPtrsFcn 1005ac80 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059e80       __ssGetInputPortSignalFcn  1005ae80 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005a010       __ssSetInputPortDirectFeedThroughFcn 1005b010 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005a140       __ssSetInputPortReusableFcn 1005b140 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005a1d0       __ssSetOutputPortReusableFcn 1005b1d0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005a260       _ssGetDTypeIdFromMxArray   1005b260 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005a350       _ssWriteRTWStr             1005b350 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005a390       _ssWriteRTWMxVectParam     1005b390 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005a3d0       _ssWriteRTWMx2dMatParam    1005b3d0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005a410       _ssWriteRTWNameValuePair   1005b410 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005a780       _ssWriteRTWParameters      1005b780 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005ab20       _ssWriteRTWParamSettings   1005bb20 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005afd0       _ssWriteRTWWorkVect        1005bfd0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005b360       _mexFunction               1005c360 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005d0b0       _ProcessMexSfunctionEveryCall 1005e0b0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005d1ce       _sf_debug_set_machine_data_thresholds 1005e1ce f   sf_runtime:sf_runtime.dll
+ 0001:0005d1d4       _sf_debug_set_machine_event_thresholds 1005e1d4 f   sf_runtime:sf_runtime.dll
+ 0001:0005d1da       _sf_debug_initialize_machine 1005e1da f   sf_runtime:sf_runtime.dll
+ 0001:0005d1e0       _sf_load_rtw_optimization_info 1005e1e0 f   sf_runtime:sf_runtime.dll
+ 0001:0005d1e6       _sf_mex_emlrtNameCapturePostProcessR2012a 1005e1e6 f   sf_runtime:sf_runtime.dll
+ 0001:0005d1ec       _sf_mex_assign             1005e1ec f   sf_runtime:sf_runtime.dll
+ 0001:0005d1f2       _sf_mex_createstruct       1005e1f2 f   sf_runtime:sf_runtime.dll
+ 0001:0005d1f8       _sf_mex_destroy            1005e1f8 f   sf_runtime:sf_runtime.dll
+ 0001:0005d1fe       _sf_mex_duplicatearraysafe 1005e1fe f   sf_runtime:sf_runtime.dll
+ 0001:0005d204       _sf_mex_createcellmatrix   1005e204 f   sf_runtime:sf_runtime.dll
+ 0001:0005d20a       _sf_mex_addfield           1005e20a f   sf_runtime:sf_runtime.dll
+ 0001:0005d210       _sf_mex_create             1005e210 f   sf_runtime:sf_runtime.dll
+ 0001:0005d216       _sf_mex_error_message      1005e216 f   sf_runtime:sf_runtime.dll
+ 0001:0005d21c       _sf_mex_call_matlab        1005e21c f   sf_runtime:sf_runtime.dll
+ 0001:0005d222       _sf_mex_setcell            1005e222 f   sf_runtime:sf_runtime.dll
+ 0001:0005d228       _sf_mex_decode_encoded_mx_struct_array 1005e228 f   sf_runtime:sf_runtime.dll
+ 0001:0005d22e       _sf_mex_getcell            1005e22e f   sf_runtime:sf_runtime.dll
+ 0001:0005d234       _sf_mex_dup                1005e234 f   sf_runtime:sf_runtime.dll
+ 0001:0005d23a       _sf_debug_animate          1005e23a f   sf_runtime:sf_runtime.dll
+ 0001:0005d240       _sf_debug_call             1005e240 f   sf_runtime:sf_runtime.dll
+ 0001:0005d246       _sf_debug_set_honor_breakpoints 1005e246 f   sf_runtime:sf_runtime.dll
+ 0001:0005d24c       _sf_debug_set_animation    1005e24c f   sf_runtime:sf_runtime.dll
+ 0001:0005d252       _sf_debug_get_animation    1005e252 f   sf_runtime:sf_runtime.dll
+ 0001:0005d258       _sf_mex_import             1005e258 f   sf_runtime:sf_runtime.dll
+ 0001:0005d25e       _sf_set_rtw_dwork_info     1005e25e f   sf_runtime:sf_runtime.dll
+ 0001:0005d264       _sf_mark_chart_reusable_outputs 1005e264 f   sf_runtime:sf_runtime.dll
+ 0001:0005d26a       _sf_mark_chart_expressionable_inputs 1005e26a f   sf_runtime:sf_runtime.dll
+ 0001:0005d270       _sf_mark_output_events_with_multiple_callers 1005e270 f   sf_runtime:sf_runtime.dll
+ 0001:0005d276       _sf_update_buildInfo       1005e276 f   sf_runtime:sf_runtime.dll
+ 0001:0005d27c       _sf_rtw_info_uint_prop     1005e27c f   sf_runtime:sf_runtime.dll
+ 0001:0005d282       _sf_is_chart_inlinable     1005e282 f   sf_runtime:sf_runtime.dll
+ 0001:0005d288       _sim_mode_is_external      1005e288 f   sf_runtime:sf_runtime.dll
+ 0001:0005d28e       _sim_mode_is_rtw_gen       1005e28e f   sf_runtime:sf_runtime.dll
+ 0001:0005d294       _sf_debug_reset_current_state_configuration 1005e294 f   sf_runtime:sf_runtime.dll
+ 0001:0005d29a       _sf_debug_set_instance_data_value_ptr 1005e29a f   sf_runtime:sf_runtime.dll
+ 0001:0005d2a0       _sf_debug_set_chart_data_compiled_props 1005e2a0 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2a6       _cv_eml_init_mcdc          1005e2a6 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2ac       _cv_script_init_fcn        1005e2ac f   sf_runtime:sf_runtime.dll
+ 0001:0005d2b2       _cv_script_init_script     1005e2b2 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2b8       _cv_eml_init_if            1005e2b8 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2be       _cv_eml_init_fcn           1005e2be f   sf_runtime:sf_runtime.dll
+ 0001:0005d2c4       _cv_eml_init_script        1005e2c4 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2ca       _sf_debug_cv_init_trans    1005e2ca f   sf_runtime:sf_runtime.dll
+ 0001:0005d2d0       _sf_debug_cv_init_state    1005e2d0 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2d6       _sf_debug_cv_init_chart    1005e2d6 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2dc       _sf_debug_set_chart_state_substate_index 1005e2dc f   sf_runtime:sf_runtime.dll
+ 0001:0005d2e2       _sf_debug_set_chart_state_substate_count 1005e2e2 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2e8       _sf_debug_set_chart_substate_index 1005e2e8 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2ee       _sf_debug_set_chart_decomposition 1005e2ee f   sf_runtime:sf_runtime.dll
+ 0001:0005d2f4       _sf_debug_set_chart_substate_count 1005e2f4 f   sf_runtime:sf_runtime.dll
+ 0001:0005d2fa       _sf_debug_set_chart_state_info 1005e2fa f   sf_runtime:sf_runtime.dll
+ 0001:0005d300       _sf_debug_set_chart_event_scope 1005e300 f   sf_runtime:sf_runtime.dll
+ 0001:0005d306       _sf_debug_set_chart_data_props 1005e306 f   sf_runtime:sf_runtime.dll
+ 0001:0005d30c       _sf_debug_set_chart_event_thresholds 1005e30c f   sf_runtime:sf_runtime.dll
+ 0001:0005d312       _sf_debug_set_chart_disable_implicit_casting 1005e312 f   sf_runtime:sf_runtime.dll
+ 0001:0005d318       _sf_debug_initialize_chart 1005e318 f   sf_runtime:sf_runtime.dll
+ 0001:0005d31e       _sf_debug_set_script_translation 1005e31e f   sf_runtime:sf_runtime.dll
+ 0001:0005d324       _sf_debug_get_script_id    1005e324 f   sf_runtime:sf_runtime.dll
+ 0001:0005d32a       _sf_get_time               1005e32a f   sf_runtime:sf_runtime.dll
+ 0001:0005d330       _sf_call_output_fcn_enable 1005e330 f   sf_runtime:sf_runtime.dll
+ 0001:0005d336       _sf_call_output_fcn_disable 1005e336 f   sf_runtime:sf_runtime.dll
+ 0001:0005d33c       _sf_debug_check_for_state_inconsistency 1005e33c f   sf_runtime:sf_runtime.dll
+ 0001:0005d342       _sf_debug_symbol_scope_pop 1005e342 f   sf_runtime:sf_runtime.dll
+ 0001:0005d348       _sf_debug_data_range_wrapper 1005e348 f   sf_runtime:sf_runtime.dll
+ 0001:0005d34e       _sf_debug_symbol_scope_push 1005e34e f   sf_runtime:sf_runtime.dll
+ 0001:0005d354       _sf_mex_sub                1005e354 f   sf_runtime:sf_runtime.dll
+ 0001:0005d35a       _cv_eml_eval               1005e35a f   sf_runtime:sf_runtime.dll
+ 0001:0005d360       _cv_eval_point             1005e360 f   sf_runtime:sf_runtime.dll
+ 0001:0005d366       _sf_mex_call_debug         1005e366 f   sf_runtime:sf_runtime.dll
+ 0001:0005d36c       _sf_mex_printf             1005e36c f   sf_runtime:sf_runtime.dll
+ 0001:0005d372       _sf_debug_unset_instance_data_value_ptr 1005e372 f   sf_runtime:sf_runtime.dll
+ 0001:0005d378       _sf_call_output_fcn_call   1005e378 f   sf_runtime:sf_runtime.dll
+ 0001:0005d37e       _sf_debug_symbol_scope_add_importable 1005e37e f   sf_runtime:sf_runtime.dll
+ 0001:0005d384       _sf_debug_symbol_scope_add_eml_importable 1005e384 f   sf_runtime:sf_runtime.dll
+ 0001:0005d38a       _sf_debug_symbol_scope_push_eml 1005e38a f   sf_runtime:sf_runtime.dll
+ 0001:0005d390       _cv_script_eval            1005e390 f   sf_runtime:sf_runtime.dll
+ 0001:0005d396       _sf_debug_symbol_scope_add_eml 1005e396 f   sf_runtime:sf_runtime.dll
+ 0001:0005d39c       _eml_debug_line_call       1005e39c f   sf_runtime:sf_runtime.dll
+ 0001:0005d3a2       _sf_debug_temporal_threshold 1005e3a2 f   sf_runtime:sf_runtime.dll
+ 0001:0005d3a8       _sf_debug_eml_data_array_bounds_error_check 1005e3a8 f   sf_runtime:sf_runtime.dll
+ 0001:0005d3ae       _sf_debug_read_before_write_check 1005e3ae f   sf_runtime:sf_runtime.dll
+ 0001:0005d3b4       _sf_debug_integer_check    1005e3b4 f   sf_runtime:sf_runtime.dll
+ 0001:0005d3ba       _sf_clear_rtw_identifier   1005e3ba f   sf_runtime:sf_runtime.dll
+ 0001:0005d3c0       _sf_debug_terminate        1005e3c0 f   sf_runtime:sf_runtime.dll
+ 0001:0005d3c6       _sf_debug_create_debug_instance_struct 1005e3c6 f   sf_runtime:sf_runtime.dll
+ 0001:0005d3cc       _sf_debug_api              1005e3cc f   sf_runtime:sf_runtime.dll
+ 0001:0005d3d2       _callMdlMethodAndReportError 1005e3d2 f   sf_runtime:sf_runtime.dll
+ 0001:0005d3d8       _call_sf_machine_global_method_dispatcher 1005e3d8 f   sf_runtime:sf_runtime.dll
+ 0001:0005d3de       _sf_clear_error_manager_info 1005e3de f   sf_runtime:sf_runtime.dll
+ 0001:0005d3e4       _sf_mex_error_direct_call  1005e3e4 f   sf_runtime:sf_runtime.dll
+ 0001:0005d3ea       _mxGetScalar               1005e3ea f   libmx:libmx.dll
+ 0001:0005d3f0       _mxGetPr                   1005e3f0 f   libmx:libmx.dll
+ 0001:0005d3f6       _mxCreateDoubleMatrix_730  1005e3f6 f   libmx:libmx.dll
+ 0001:0005d3fc       _mxGetString_730           1005e3fc f   libmx:libmx.dll
+ 0001:0005d402       _mxIsChar                  1005e402 f   libmx:libmx.dll
+ 0001:0005d408       _mxDestroyArray            1005e408 f   libmx:libmx.dll
+ 0001:0005d40e       _mxDuplicateArray          1005e40e f   libmx:libmx.dll
+ 0001:0005d414       _mxCreateDoubleScalar      1005e414 f   libmx:libmx.dll
+ 0001:0005d41a       _mxSetField_730            1005e41a f   libmx:libmx.dll
+ 0001:0005d420       _mxCreateString            1005e420 f   libmx:libmx.dll
+ 0001:0005d426       _mxCreateStructMatrix_730  1005e426 f   libmx:libmx.dll
+ 0001:0005d42c       _mxCreateCellMatrix_730    1005e42c f   libmx:libmx.dll
+ 0001:0005d432       _mxIsEmpty                 1005e432 f   libmx:libmx.dll
+ 0001:0005d438       _mxGetClassID              1005e438 f   libmx:libmx.dll
+ 0001:0005d43e       _mxIsNumeric               1005e43e f   libmx:libmx.dll
+ 0001:0005d444       _mxIsComplex               1005e444 f   libmx:libmx.dll
+ 0001:0005d44a       _mxGetN                    1005e44a f   libmx:libmx.dll
+ 0001:0005d450       _mxGetM                    1005e450 f   libmx:libmx.dll
+ 0001:0005d456       _mxCalloc                  1005e456 f   libmx:libmx.dll
+ 0001:0005d45c       _mexMakeArrayPersistent    1005e45c f   libmex:libmex.dll
+ 0001:0005d462       _mexUnlock                 1005e462 f   libmex:libmex.dll
+ 0001:0005d468       _mexIsLocked               1005e468 f   libmex:libmex.dll
+ 0001:0005d46e       _mexWarnMsgTxt             1005e46e f   libmex:libmex.dll
+ 0001:0005d474       _mexCallMATLAB             1005e474 f   libmex:libmex.dll
+ 0001:0005d47a       _mexErrMsgTxt              1005e47a f   libmex:libmex.dll
+ 0001:0005d480       _mexLock                   1005e480 f   libmex:libmex.dll
+ 0001:0005d486       _utMalloc                  1005e486 f   libut:libut.dll
+ 0001:0005d48c       _utFree                    1005e48c f   libut:libut.dll
+ 0001:0005d492       _muDoubleScalarFloor       1005e492 f   libmwmathutil:libmwmathutil.dll
+ 0001:0005d498       _muDoubleScalarRound       1005e498 f   libmwmathutil:libmwmathutil.dll
+ 0001:0005d49e       _strcmp                    1005e49e f   MSVCRT:MSVCR100.dll
+ 0001:0005d4b0       @__security_check_cookie@4 1005e4b0 f   MSVCRT:secchk.obj
+ 0001:0005d4c0       _strlen                    1005e4c0 f   MSVCRT:MSVCR100.dll
+ 0001:0005d4c6       _memset                    1005e4c6 f   MSVCRT:MSVCR100.dll
+ 0001:0005d4d0       __alloca_probe             1005e4d0     MSVCRT:chkstk.obj
+ 0001:0005d4d0       __chkstk                   1005e4d0 f   MSVCRT:chkstk.obj
+ 0001:0005d500       __ftol2_sse                1005e500 f   MSVCRT:ftol2.obj
+ 0001:0005d509       __ftol2_pentium4           1005e509 f   MSVCRT:ftol2.obj
+ 0001:0005d51c       __ftol2_sse_excpt          1005e51c f   MSVCRT:ftol2.obj
+ 0001:0005d536       __ftol2                    1005e536 f   MSVCRT:ftol2.obj
+ 0001:0005d5ac       _free                      1005e5ac f   MSVCRT:MSVCR100.dll
+ 0001:0005d5b2       _sprintf                   1005e5b2 f   MSVCRT:MSVCR100.dll
+ 0001:0005d5b8       _malloc                    1005e5b8 f   MSVCRT:MSVCR100.dll
+ 0001:0005d5be       _strcat                    1005e5be f   MSVCRT:MSVCR100.dll
+ 0001:0005d5c4       _memcpy                    1005e5c4 f   MSVCRT:MSVCR100.dll
+ 0001:0005d5ca       _NtCurrentTeb              1005e5ca f i MSVCRT:crtdll.obj
+ 0001:0005d61f       __CRT_INIT@12              1005e61f f   MSVCRT:crtdll.obj
+ 0001:0005d93f       __DllMainCRTStartup@12     1005e93f f   MSVCRT:crtdll.obj
+ 0001:0005d962       ___report_gsfailure        1005e962 f   MSVCRT:gs_report.obj
+ 0001:0005da68       ___sse2_available_init     1005ea68 f   MSVCRT:cpu_disp.obj
+ 0001:0005da78       ___clean_type_info_names   1005ea78 f   MSVCRT:tncleanup.obj
+ 0001:0005da84       __onexit                   1005ea84 f   MSVCRT:atonexit.obj
+ 0001:0005db25       _atexit                    1005eb25 f   MSVCRT:atonexit.obj
+ 0001:0005db3c       __RTC_Initialize           1005eb3c f   MSVCRT:_initsect_.obj
+ 0001:0005db62       __RTC_Terminate            1005eb62 f   MSVCRT:_initsect_.obj
+ 0001:0005db88       __malloc_crt               1005eb88 f   MSVCRT:MSVCR100.dll
+ 0001:0005db8e       __encoded_null             1005eb8e f   MSVCRT:MSVCR100.dll
+ 0001:0005dba0       __ValidateImageBase        1005eba0 f   MSVCRT:pesect.obj
+ 0001:0005dbe0       __FindPESection            1005ebe0 f   MSVCRT:pesect.obj
+ 0001:0005dc30       __IsNonwritableInCurrentImage 1005ec30 f   MSVCRT:pesect.obj
+ 0001:0005dcec       __initterm                 1005ecec f   MSVCRT:MSVCR100.dll
+ 0001:0005dcf2       __initterm_e               1005ecf2 f   MSVCRT:MSVCR100.dll
+ 0001:0005dcf8       __amsg_exit                1005ecf8 f   MSVCRT:MSVCR100.dll
+ 0001:0005dcfe       ___CppXcptFilter           1005ecfe f   MSVCRT:MSVCR100.dll
+ 0001:0005dd04       _DllMain@12                1005ed04 f   MSVCRT:dllmain.obj
+ 0001:0005dd30       __SEH_prolog4              1005ed30 f   MSVCRT:sehprolg4.obj
+ 0001:0005dd75       __SEH_epilog4              1005ed75 f   MSVCRT:sehprolg4.obj
+ 0001:0005dd89       __except_handler4          1005ed89 f   MSVCRT:chandler4gs.obj
+ 0001:0005ddae       ___security_init_cookie    1005edae f   MSVCRT:gs_support.obj
+ 0001:0005de4a       __crt_debugger_hook        1005ee4a f   MSVCRT:MSVCR100.dll
+ 0001:0005de50       ___clean_type_info_names_internal 1005ee50 f   MSVCRT:MSVCR100.dll
+ 0001:0005de56       __unlock                   1005ee56 f   MSVCRT:MSVCR100.dll
+ 0001:0005de5c       ___dllonexit               1005ee5c f   MSVCRT:MSVCR100.dll
+ 0001:0005de62       __lock                     1005ee62 f   MSVCRT:MSVCR100.dll
+ 0001:0005de68       __except_handler4_common   1005ee68 f   MSVCRT:MSVCR100.dll
+ 0001:0005de6e       _EncodePointer@4           1005ee6e f   kernel32:KERNEL32.dll
+ 0001:0005de74       _DecodePointer@4           1005ee74 f   kernel32:KERNEL32.dll
+ 0001:0005de7a       _InterlockedExchange@8     1005ee7a f   kernel32:KERNEL32.dll
+ 0001:0005de80       _Sleep@4                   1005ee80 f   kernel32:KERNEL32.dll
+ 0001:0005de86       _InterlockedCompareExchange@12 1005ee86 f   kernel32:KERNEL32.dll
+ 0001:0005de8c       _TerminateProcess@8        1005ee8c f   kernel32:KERNEL32.dll
+ 0001:0005de92       _GetCurrentProcess@0       1005ee92 f   kernel32:KERNEL32.dll
+ 0001:0005de98       _UnhandledExceptionFilter@4 1005ee98 f   kernel32:KERNEL32.dll
+ 0001:0005de9e       _SetUnhandledExceptionFilter@4 1005ee9e f   kernel32:KERNEL32.dll
+ 0001:0005dea4       _IsDebuggerPresent@0       1005eea4 f   kernel32:KERNEL32.dll
+ 0001:0005deaa       _IsProcessorFeaturePresent@4 1005eeaa f   kernel32:KERNEL32.dll
+ 0001:0005deb0       _DisableThreadLibraryCalls@4 1005eeb0 f   kernel32:KERNEL32.dll
+ 0001:0005deb6       _QueryPerformanceCounter@4 1005eeb6 f   kernel32:KERNEL32.dll
+ 0001:0005debc       _GetTickCount@0            1005eebc f   kernel32:KERNEL32.dll
+ 0001:0005dec2       _GetCurrentThreadId@0      1005eec2 f   kernel32:KERNEL32.dll
+ 0001:0005dec8       _GetCurrentProcessId@0     1005eec8 f   kernel32:KERNEL32.dll
+ 0001:0005dece       _GetSystemTimeAsFileTime@4 1005eece f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp__GetCurrentProcessId@0 1005f000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentThreadId@0 1005f004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetTickCount@0      1005f008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__QueryPerformanceCounter@4 1005f00c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__DisableThreadLibraryCalls@4 1005f010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__IsProcessorFeaturePresent@4 1005f014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__IsDebuggerPresent@0 1005f018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__SetUnhandledExceptionFilter@4 1005f01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__UnhandledExceptionFilter@4 1005f020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetCurrentProcess@0 1005f024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__TerminateProcess@8  1005f028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__InterlockedCompareExchange@12 1005f02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__Sleep@4             1005f030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__InterlockedExchange@8 1005f034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__DecodePointer@4     1005f038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__EncodePointer@4     1005f03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetSystemTimeAsFileTime@4 1005f040     kernel32:KERNEL32.dll
+ 0002:00000044       \177KERNEL32_NULL_THUNK_DATA 1005f044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp___except_handler4_common 1005f048     MSVCRT:MSVCR100.dll
+ 0002:0000004c       __imp___onexit             1005f04c     MSVCRT:MSVCR100.dll
+ 0002:00000050       __imp___lock               1005f050     MSVCRT:MSVCR100.dll
+ 0002:00000054       __imp____dllonexit         1005f054     MSVCRT:MSVCR100.dll
+ 0002:00000058       __imp___unlock             1005f058     MSVCRT:MSVCR100.dll
+ 0002:0000005c       __imp____clean_type_info_names_internal 1005f05c     MSVCRT:MSVCR100.dll
+ 0002:00000060       __imp___crt_debugger_hook  1005f060     MSVCRT:MSVCR100.dll
+ 0002:00000064       __imp____CppXcptFilter     1005f064     MSVCRT:MSVCR100.dll
+ 0002:00000068       __imp___amsg_exit          1005f068     MSVCRT:MSVCR100.dll
+ 0002:0000006c       __imp___initterm_e         1005f06c     MSVCRT:MSVCR100.dll
+ 0002:00000070       __imp___initterm           1005f070     MSVCRT:MSVCR100.dll
+ 0002:00000074       __imp___encoded_null       1005f074     MSVCRT:MSVCR100.dll
+ 0002:00000078       __imp___malloc_crt         1005f078     MSVCRT:MSVCR100.dll
+ 0002:0000007c       __imp__memcpy              1005f07c     MSVCRT:MSVCR100.dll
+ 0002:00000080       __imp__strcat              1005f080     MSVCRT:MSVCR100.dll
+ 0002:00000084       __imp__malloc              1005f084     MSVCRT:MSVCR100.dll
+ 0002:00000088       __imp__sprintf             1005f088     MSVCRT:MSVCR100.dll
+ 0002:0000008c       __imp__free                1005f08c     MSVCRT:MSVCR100.dll
+ 0002:00000090       __imp__memset              1005f090     MSVCRT:MSVCR100.dll
+ 0002:00000094       __imp__strlen              1005f094     MSVCRT:MSVCR100.dll
+ 0002:00000098       __imp__strcmp              1005f098     MSVCRT:MSVCR100.dll
+ 0002:0000009c       \177MSVCR100_NULL_THUNK_DATA 1005f09c     MSVCRT:MSVCR100.dll
+ 0002:000000a0       __imp__mexErrMsgTxt        1005f0a0     libmex:libmex.dll
+ 0002:000000a4       __imp__mexUnlock           1005f0a4     libmex:libmex.dll
+ 0002:000000a8       __imp__mexIsLocked         1005f0a8     libmex:libmex.dll
+ 0002:000000ac       __imp__mexLock             1005f0ac     libmex:libmex.dll
+ 0002:000000b0       __imp__mexMakeArrayPersistent 1005f0b0     libmex:libmex.dll
+ 0002:000000b4       __imp__mexCallMATLAB       1005f0b4     libmex:libmex.dll
+ 0002:000000b8       __imp__mexWarnMsgTxt       1005f0b8     libmex:libmex.dll
+ 0002:000000bc       \177libmex_NULL_THUNK_DATA 1005f0bc     libmex:libmex.dll
+ 0002:000000c0       __imp__muDoubleScalarRound 1005f0c0     libmwmathutil:libmwmathutil.dll
+ 0002:000000c4       __imp__muDoubleScalarFloor 1005f0c4     libmwmathutil:libmwmathutil.dll
+ 0002:000000c8       \177libmwmathutil_NULL_THUNK_DATA 1005f0c8     libmwmathutil:libmwmathutil.dll
+ 0002:000000cc       __imp__mxCalloc            1005f0cc     libmx:libmx.dll
+ 0002:000000d0       __imp__mxGetM              1005f0d0     libmx:libmx.dll
+ 0002:000000d4       __imp__mxGetN              1005f0d4     libmx:libmx.dll
+ 0002:000000d8       __imp__mxIsComplex         1005f0d8     libmx:libmx.dll
+ 0002:000000dc       __imp__mxIsNumeric         1005f0dc     libmx:libmx.dll
+ 0002:000000e0       __imp__mxGetClassID        1005f0e0     libmx:libmx.dll
+ 0002:000000e4       __imp__mxIsEmpty           1005f0e4     libmx:libmx.dll
+ 0002:000000e8       __imp__mxCreateCellMatrix_730 1005f0e8     libmx:libmx.dll
+ 0002:000000ec       __imp__mxCreateStructMatrix_730 1005f0ec     libmx:libmx.dll
+ 0002:000000f0       __imp__mxCreateString      1005f0f0     libmx:libmx.dll
+ 0002:000000f4       __imp__mxSetField_730      1005f0f4     libmx:libmx.dll
+ 0002:000000f8       __imp__mxCreateDoubleScalar 1005f0f8     libmx:libmx.dll
+ 0002:000000fc       __imp__mxDuplicateArray    1005f0fc     libmx:libmx.dll
+ 0002:00000100       __imp__mxDestroyArray      1005f100     libmx:libmx.dll
+ 0002:00000104       __imp__mxIsChar            1005f104     libmx:libmx.dll
+ 0002:00000108       __imp__mxGetString_730     1005f108     libmx:libmx.dll
+ 0002:0000010c       __imp__mxCreateDoubleMatrix_730 1005f10c     libmx:libmx.dll
+ 0002:00000110       __imp__mxGetPr             1005f110     libmx:libmx.dll
+ 0002:00000114       __imp__mxGetScalar         1005f114     libmx:libmx.dll
+ 0002:00000118       \177libmx_NULL_THUNK_DATA  1005f118     libmx:libmx.dll
+ 0002:0000011c       __imp__utMalloc            1005f11c     libut:libut.dll
+ 0002:00000120       __imp__utFree              1005f120     libut:libut.dll
+ 0002:00000124       \177libut_NULL_THUNK_DATA  1005f124     libut:libut.dll
+ 0002:00000128       __imp__sf_debug_symbol_scope_push_eml 1005f128     sf_runtime:sf_runtime.dll
+ 0002:0000012c       __imp__cv_script_eval      1005f12c     sf_runtime:sf_runtime.dll
+ 0002:00000130       __imp__sf_debug_symbol_scope_add_eml 1005f130     sf_runtime:sf_runtime.dll
+ 0002:00000134       __imp__eml_debug_line_call 1005f134     sf_runtime:sf_runtime.dll
+ 0002:00000138       __imp__sf_debug_temporal_threshold 1005f138     sf_runtime:sf_runtime.dll
+ 0002:0000013c       __imp__sf_debug_eml_data_array_bounds_error_check 1005f13c     sf_runtime:sf_runtime.dll
+ 0002:00000140       __imp__sf_debug_read_before_write_check 1005f140     sf_runtime:sf_runtime.dll
+ 0002:00000144       __imp__sf_debug_integer_check 1005f144     sf_runtime:sf_runtime.dll
+ 0002:00000148       __imp__sf_debug_unset_instance_data_value_ptr 1005f148     sf_runtime:sf_runtime.dll
+ 0002:0000014c       __imp__sf_debug_terminate  1005f14c     sf_runtime:sf_runtime.dll
+ 0002:00000150       __imp__sf_debug_create_debug_instance_struct 1005f150     sf_runtime:sf_runtime.dll
+ 0002:00000154       __imp__sf_debug_api        1005f154     sf_runtime:sf_runtime.dll
+ 0002:00000158       __imp__callMdlMethodAndReportError 1005f158     sf_runtime:sf_runtime.dll
+ 0002:0000015c       __imp__call_sf_machine_global_method_dispatcher 1005f15c     sf_runtime:sf_runtime.dll
+ 0002:00000160       __imp__sf_clear_error_manager_info 1005f160     sf_runtime:sf_runtime.dll
+ 0002:00000164       __imp__sf_mex_error_direct_call 1005f164     sf_runtime:sf_runtime.dll
+ 0002:00000168       __imp__sf_debug_animate    1005f168     sf_runtime:sf_runtime.dll
+ 0002:0000016c       __imp__sf_mex_printf       1005f16c     sf_runtime:sf_runtime.dll
+ 0002:00000170       __imp__sf_mex_call_debug   1005f170     sf_runtime:sf_runtime.dll
+ 0002:00000174       __imp__cv_eval_point       1005f174     sf_runtime:sf_runtime.dll
+ 0002:00000178       __imp__cv_eml_eval         1005f178     sf_runtime:sf_runtime.dll
+ 0002:0000017c       __imp__sf_debug_symbol_scope_add_eml_importable 1005f17c     sf_runtime:sf_runtime.dll
+ 0002:00000180       __imp__sf_debug_symbol_scope_push 1005f180     sf_runtime:sf_runtime.dll
+ 0002:00000184       __imp__sf_debug_data_range_wrapper 1005f184     sf_runtime:sf_runtime.dll
+ 0002:00000188       __imp__sf_debug_symbol_scope_pop 1005f188     sf_runtime:sf_runtime.dll
+ 0002:0000018c       __imp__sf_debug_check_for_state_inconsistency 1005f18c     sf_runtime:sf_runtime.dll
+ 0002:00000190       __imp__sf_call_output_fcn_disable 1005f190     sf_runtime:sf_runtime.dll
+ 0002:00000194       __imp__sf_call_output_fcn_enable 1005f194     sf_runtime:sf_runtime.dll
+ 0002:00000198       __imp__sf_get_time         1005f198     sf_runtime:sf_runtime.dll
+ 0002:0000019c       __imp__sf_debug_get_script_id 1005f19c     sf_runtime:sf_runtime.dll
+ 0002:000001a0       __imp__sf_debug_set_script_translation 1005f1a0     sf_runtime:sf_runtime.dll
+ 0002:000001a4       __imp__sf_debug_initialize_chart 1005f1a4     sf_runtime:sf_runtime.dll
+ 0002:000001a8       __imp__sf_debug_set_chart_disable_implicit_casting 1005f1a8     sf_runtime:sf_runtime.dll
+ 0002:000001ac       __imp__sf_debug_set_chart_event_thresholds 1005f1ac     sf_runtime:sf_runtime.dll
+ 0002:000001b0       __imp__sf_debug_set_chart_data_props 1005f1b0     sf_runtime:sf_runtime.dll
+ 0002:000001b4       __imp__sf_debug_set_chart_event_scope 1005f1b4     sf_runtime:sf_runtime.dll
+ 0002:000001b8       __imp__sf_debug_set_chart_state_info 1005f1b8     sf_runtime:sf_runtime.dll
+ 0002:000001bc       __imp__sf_debug_set_chart_substate_count 1005f1bc     sf_runtime:sf_runtime.dll
+ 0002:000001c0       __imp__sf_debug_set_chart_decomposition 1005f1c0     sf_runtime:sf_runtime.dll
+ 0002:000001c4       __imp__sf_debug_set_chart_substate_index 1005f1c4     sf_runtime:sf_runtime.dll
+ 0002:000001c8       __imp__sf_debug_set_chart_state_substate_count 1005f1c8     sf_runtime:sf_runtime.dll
+ 0002:000001cc       __imp__sf_debug_set_chart_state_substate_index 1005f1cc     sf_runtime:sf_runtime.dll
+ 0002:000001d0       __imp__sf_debug_cv_init_chart 1005f1d0     sf_runtime:sf_runtime.dll
+ 0002:000001d4       __imp__sf_debug_cv_init_state 1005f1d4     sf_runtime:sf_runtime.dll
+ 0002:000001d8       __imp__sf_debug_symbol_scope_add_importable 1005f1d8     sf_runtime:sf_runtime.dll
+ 0002:000001dc       __imp__sf_mex_sub          1005f1dc     sf_runtime:sf_runtime.dll
+ 0002:000001e0       __imp__sf_call_output_fcn_call 1005f1e0     sf_runtime:sf_runtime.dll
+ 0002:000001e4       __imp__sf_debug_cv_init_trans 1005f1e4     sf_runtime:sf_runtime.dll
+ 0002:000001e8       __imp__cv_eml_init_script  1005f1e8     sf_runtime:sf_runtime.dll
+ 0002:000001ec       __imp__cv_eml_init_fcn     1005f1ec     sf_runtime:sf_runtime.dll
+ 0002:000001f0       __imp__cv_eml_init_if      1005f1f0     sf_runtime:sf_runtime.dll
+ 0002:000001f4       __imp__cv_script_init_script 1005f1f4     sf_runtime:sf_runtime.dll
+ 0002:000001f8       __imp__cv_script_init_fcn  1005f1f8     sf_runtime:sf_runtime.dll
+ 0002:000001fc       __imp__cv_eml_init_mcdc    1005f1fc     sf_runtime:sf_runtime.dll
+ 0002:00000200       __imp__sf_debug_set_chart_data_compiled_props 1005f200     sf_runtime:sf_runtime.dll
+ 0002:00000204       __imp__sf_debug_set_instance_data_value_ptr 1005f204     sf_runtime:sf_runtime.dll
+ 0002:00000208       __imp__sf_debug_reset_current_state_configuration 1005f208     sf_runtime:sf_runtime.dll
+ 0002:0000020c       __imp__sim_mode_is_rtw_gen 1005f20c     sf_runtime:sf_runtime.dll
+ 0002:00000210       __imp__sim_mode_is_external 1005f210     sf_runtime:sf_runtime.dll
+ 0002:00000214       __imp__sf_is_chart_inlinable 1005f214     sf_runtime:sf_runtime.dll
+ 0002:00000218       __imp__sf_rtw_info_uint_prop 1005f218     sf_runtime:sf_runtime.dll
+ 0002:0000021c       __imp__sf_update_buildInfo 1005f21c     sf_runtime:sf_runtime.dll
+ 0002:00000220       __imp__sf_mark_output_events_with_multiple_callers 1005f220     sf_runtime:sf_runtime.dll
+ 0002:00000224       __imp__sf_mark_chart_expressionable_inputs 1005f224     sf_runtime:sf_runtime.dll
+ 0002:00000228       __imp__sf_mark_chart_reusable_outputs 1005f228     sf_runtime:sf_runtime.dll
+ 0002:0000022c       __imp__sf_set_rtw_dwork_info 1005f22c     sf_runtime:sf_runtime.dll
+ 0002:00000230       __imp__sf_mex_import       1005f230     sf_runtime:sf_runtime.dll
+ 0002:00000234       __imp__sf_debug_get_animation 1005f234     sf_runtime:sf_runtime.dll
+ 0002:00000238       __imp__sf_debug_set_animation 1005f238     sf_runtime:sf_runtime.dll
+ 0002:0000023c       __imp__sf_debug_set_honor_breakpoints 1005f23c     sf_runtime:sf_runtime.dll
+ 0002:00000240       __imp__sf_debug_call       1005f240     sf_runtime:sf_runtime.dll
+ 0002:00000244       __imp__sf_mex_dup          1005f244     sf_runtime:sf_runtime.dll
+ 0002:00000248       __imp__sf_mex_getcell      1005f248     sf_runtime:sf_runtime.dll
+ 0002:0000024c       __imp__sf_mex_decode_encoded_mx_struct_array 1005f24c     sf_runtime:sf_runtime.dll
+ 0002:00000250       __imp__sf_mex_setcell      1005f250     sf_runtime:sf_runtime.dll
+ 0002:00000254       __imp__sf_mex_call_matlab  1005f254     sf_runtime:sf_runtime.dll
+ 0002:00000258       __imp__sf_mex_error_message 1005f258     sf_runtime:sf_runtime.dll
+ 0002:0000025c       __imp__sf_mex_create       1005f25c     sf_runtime:sf_runtime.dll
+ 0002:00000260       __imp__sf_mex_addfield     1005f260     sf_runtime:sf_runtime.dll
+ 0002:00000264       __imp__sf_mex_createcellmatrix 1005f264     sf_runtime:sf_runtime.dll
+ 0002:00000268       __imp__sf_mex_duplicatearraysafe 1005f268     sf_runtime:sf_runtime.dll
+ 0002:0000026c       __imp__sf_mex_destroy      1005f26c     sf_runtime:sf_runtime.dll
+ 0002:00000270       __imp__sf_mex_createstruct 1005f270     sf_runtime:sf_runtime.dll
+ 0002:00000274       __imp__sf_mex_assign       1005f274     sf_runtime:sf_runtime.dll
+ 0002:00000278       __imp__sf_mex_emlrtNameCapturePostProcessR2012a 1005f278     sf_runtime:sf_runtime.dll
+ 0002:0000027c       __imp__sf_load_rtw_optimization_info 1005f27c     sf_runtime:sf_runtime.dll
+ 0002:00000280       __imp__sf_debug_initialize_machine 1005f280     sf_runtime:sf_runtime.dll
+ 0002:00000284       __imp__sf_debug_set_machine_event_thresholds 1005f284     sf_runtime:sf_runtime.dll
+ 0002:00000288       __imp__sf_clear_rtw_identifier 1005f288     sf_runtime:sf_runtime.dll
+ 0002:0000028c       __imp__sf_debug_set_machine_data_thresholds 1005f28c     sf_runtime:sf_runtime.dll
+ 0002:00000290       \177sf_runtime_NULL_THUNK_DATA 1005f290     sf_runtime:sf_runtime.dll
+ 0002:00000294       ___xc_a                    1005f294     MSVCRT:cinitexe.obj
+ 0002:00000298       ___xc_z                    1005f298     MSVCRT:cinitexe.obj
+ 0002:0000029c       ___xi_a                    1005f29c     MSVCRT:cinitexe.obj
+ 0002:000002a8       ___xi_z                    1005f2a8     MSVCRT:cinitexe.obj
+ 0002:000002b0       __real@41d3a1e789000000    1005f2b0     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:000002b8       __real@41d6b825a9400000    1005f2b8     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:000002c0       __real@41d33fc0bb400000    1005f2c0     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:000002c8       __real@41d0e585f5000000    1005f2c8     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:000002d0       __real@41b0fb04df000000    1005f2d0     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:000002d8       __real@41da14ed17400000    1005f2d8     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:000002e0       __real@41d47f2e8cc00000    1005f2e0     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:000002e8       __real@41eb0e6e75400000    1005f2e8     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:000002f0       __real@41ed2d63cc200000    1005f2f0     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:000002f8       __real@41ed4a8a57200000    1005f2f8     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:00000300       __real@41dfbba45c400000    1005f300     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:00000308       __real@41e8bd9dd2e00000    1005f308     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:00000310       __real@0000000000000000    1005f310     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:00000318       __real@41d14771a5000000    1005f318     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:00000320       __real@41e72ed8b5c00000    1005f320     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:00000328       __real@41e43b91c3600000    1005f328     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:00000330       __real@41de7b7ac5c00000    1005f330     testRPSsmile_Glove_Idle_sfun.obj
+ 0002:00000338       __real@41ebb8e89f000000    1005f338     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000340       __real@41e76a88c4e00000    1005f340     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000348       __real@41b788f553000000    1005f348     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000350       __real@41d33a5036000000    1005f350     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000358       __real@4024000000000000    1005f358     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000360       __real@3ff0000000000000    1005f360     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000368       __real@4008000000000000    1005f368     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000370       __real@4000000000000000    1005f370     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000378       __real@4018000000000000    1005f378     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000380       __real@4020000000000000    1005f380     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000388       __real@4057800000000000    1005f388     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000390       __real@4070000000000000    1005f390     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000398       __real@4014000000000000    1005f398     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003a0       __real@4010000000000000    1005f3a0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003a8       __real@4031000000000000    1005f3a8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003b0       __real@4030000000000000    1005f3b0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003b8       __real@4032000000000000    1005f3b8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003c0       __real@402e000000000000    1005f3c0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003c8       __real@402c000000000000    1005f3c8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003d0       __real@402a000000000000    1005f3d0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003d8       __real@4028000000000000    1005f3d8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003e0       __real@4026000000000000    1005f3e0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003e8       __real@4022000000000000    1005f3e8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003f0       __real@401c000000000000    1005f3f0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000003f8       __real@4056800000000000    1005f3f8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000400       __real@4056000000000000    1005f400     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000408       __real@4055800000000000    1005f408     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000410       __real@4057c00000000000    1005f410     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000418       __real@3defffffffffffff    1005f418     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000420       __real@3e00000000200000    1005f420     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000428       __real@40b5710000000000    1005f428     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000430       __real@4056c00000000000    1005f430     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000438       __real@4055c00000000000    1005f438     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000440       __real@4057400000000000    1005f440     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000448       __real@4058400000000000    1005f448     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000450       __real@4057000000000000    1005f450     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000458       __real@4054400000000000    1005f458     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000460       __real@4064200000000000    1005f460     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000468       __real@4063a00000000000    1005f468     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000470       __real@4056400000000000    1005f470     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000478       __real@4053800000000000    1005f478     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000480       __real@4051000000000000    1005f480     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000488       __real@4062600000000000    1005f488     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000490       __real@4064800000000000    1005f490     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000498       __real@406be00000000000    1005f498     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004a0       __real@406c200000000000    1005f4a0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004a8       __real@4040800000000000    1005f4a8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004b0       __real@4040000000000000    1005f4b0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004b8       __real@403f000000000000    1005f4b8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004c0       __real@403e000000000000    1005f4c0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004c8       __real@403d000000000000    1005f4c8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004d0       __real@403c000000000000    1005f4d0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004d8       __real@403b000000000000    1005f4d8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004e0       __real@403a000000000000    1005f4e0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004e8       __real@4039000000000000    1005f4e8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004f0       __real@4038000000000000    1005f4f0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000004f8       __real@4037000000000000    1005f4f8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000500       __real@4036000000000000    1005f500     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000508       __real@4035000000000000    1005f508     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000510       __real@4034000000000000    1005f510     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000518       __real@4033000000000000    1005f518     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000520       __real@405d800000000000    1005f520     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000528       __real@405dc00000000000    1005f528     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000530       __real@405d000000000000    1005f530     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000538       __real@405e000000000000    1005f538     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000540       __real@405e400000000000    1005f540     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000548       __real@405e800000000000    1005f548     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000550       __real@405ec00000000000    1005f550     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000558       __real@4061400000000000    1005f558     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000560       __real@4061600000000000    1005f560     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000568       __real@4061000000000000    1005f568     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000570       __real@4061800000000000    1005f570     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000578       __real@4061a00000000000    1005f578     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000580       __real@4061c00000000000    1005f580     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000588       __real@4061e00000000000    1005f588     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000590       __real@4060e00000000000    1005f590     c1_testRPSsmile_Glove_Idle.obj
+ 0002:00000598       __real@4060800000000000    1005f598     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005a0       __real@4061200000000000    1005f5a0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005a8       __real@4060c00000000000    1005f5a8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005b0       __real@4060400000000000    1005f5b0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005b8       __real@41f0000000000000    1005f5b8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005c0       __real@3ca0000000000000    1005f5c0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005c8       __real@4190000000000000    1005f5c8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005d0       __real@406c800000000000    1005f5d0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005d8       __real@4078d00000000000    1005f5d8     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005e0       __real@4083880000000000    1005f5e0     c1_testRPSsmile_Glove_Idle.obj
+ 0002:000005e8       __real@41c4577414000000    1005f5e8     c2_testRPSsmile_Glove_Idle.obj
+ 0002:000005f0       __real@41ef31f272200000    1005f5f0     c2_testRPSsmile_Glove_Idle.obj
+ 0002:000005f8       __real@41e1231d45000000    1005f5f8     c2_testRPSsmile_Glove_Idle.obj
+ 0002:00000600       __real@41ee40237e000000    1005f600     c2_testRPSsmile_Glove_Idle.obj
+ 0002:00000608       __real@41e1718ddc600000    1005f608     c3_testRPSsmile_Glove_Idle.obj
+ 0002:00000610       __real@41e3672189400000    1005f610     c3_testRPSsmile_Glove_Idle.obj
+ 0002:00000618       __real@41d6704ccd800000    1005f618     c3_testRPSsmile_Glove_Idle.obj
+ 0002:00000620       __real@41e8f197c6600000    1005f620     c3_testRPSsmile_Glove_Idle.obj
+ 0002:00000628       _DYNAMIC_DIMENSION_DEF     1005f628     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0002:00000638       __ssBadLevel2InputAccessMsg 1005f638     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0002:000007c0       __ssBadLevel2DirectFeedMsg 1005f7c0     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0002:00000900       __ssBadLevel2DirectFeedSolutionMsg 1005f900     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0002:00000970       __ssBadLevel2ZeroDirectFeedMsg 1005f970     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0002:00000ab0       __ssBadLevel2ZeroDirectFeedMsg2 1005fab0     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0002:00000b98       __real@bff0000000000000    1005fb98     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0002:00000ba0       __real@4153d65940000000    1005fba0     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0002:00000ba8       __pDefaultRawDllMain       1005fba8     MSVCRT:crtdll.obj
+ 0002:00000ba8       __pRawDllMain              1005fba8     MSVCRT:crtdll.obj
+ 0002:00000bb4       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 1005fbb4     MSVCRT:tncleanup.obj
+ 0002:00000bb8       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 1005fbb8     MSVCRT:tncleanup.obj
+ 0002:00000bbc       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 1005fbbc     MSVCRT:tncleanup.obj
+ 0002:00000bc0       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 1005fbc0     MSVCRT:tncleanup.obj
+ 0002:00000bc4       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 1005fbc4     MSVCRT:tncleanup.obj
+ 0002:00000bc8       __load_config_used         1005fbc8     MSVCRT:loadcfg.obj
+ 0002:00000c10       ___safe_se_handler_table   1005fc10     <linker-defined>
+ 0002:00000c14       ___rtc_iaa                 1005fc14     MSVCRT:_initsect_.obj
+ 0002:00000c18       ___rtc_izz                 1005fc18     MSVCRT:_initsect_.obj
+ 0002:00000c1c       ___rtc_taa                 1005fc1c     MSVCRT:_initsect_.obj
+ 0002:00000c20       ___rtc_tzz                 1005fc20     MSVCRT:_initsect_.obj
+ 0002:00000c8c       __IMPORT_DESCRIPTOR_sf_runtime 1005fc8c     sf_runtime:sf_runtime.dll
+ 0002:00000ca0       __IMPORT_DESCRIPTOR_libmx  1005fca0     libmx:libmx.dll
+ 0002:00000cb4       __IMPORT_DESCRIPTOR_libmex 1005fcb4     libmex:libmex.dll
+ 0002:00000cc8       __IMPORT_DESCRIPTOR_libut  1005fcc8     libut:libut.dll
+ 0002:00000cdc       __IMPORT_DESCRIPTOR_libmwmathutil 1005fcdc     libmwmathutil:libmwmathutil.dll
+ 0002:00000cf0       __IMPORT_DESCRIPTOR_MSVCR100 1005fcf0     MSVCRT:MSVCR100.dll
+ 0002:00000d04       __IMPORT_DESCRIPTOR_KERNEL32 1005fd04     kernel32:KERNEL32.dll
+ 0002:00000d18       __NULL_IMPORT_DESCRIPTOR   1005fd18     sf_runtime:sf_runtime.dll
+ 0003:000198bc       _DYNAMIC_DIMENSION         1007a8bc     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0003:0001a448       ___security_cookie         1007b448     MSVCRT:gs_cookie.obj
+ 0003:0001a44c       ___security_cookie_complement 1007b44c     MSVCRT:gs_cookie.obj
+ 0003:0001a450       ___native_dllmain_reason   1007b450     MSVCRT:natstart.obj
+ 0003:0001a454       ___native_vcclrit_reason   1007b454     MSVCRT:natstart.obj
+ 0003:0001a5b0       _sfGlobalDebugInstanceStruct 1007b5b0     testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0003:0001a8e4       ?__type_info_root_node@@3U__type_info_node@@A 1007b8e4     MSVCRT:tncleanup.obj
+ 0003:0001a8ec       __testRPSsmile_Glove_IdleMachineNumber_ 1007b8ec     <common>
+ 0003:0001a8f0       ___native_startup_state    1007b8f0     <common>
+ 0003:0001a8f4       ___native_startup_lock     1007b8f4     <common>
+ 0003:0001a8f8       ___onexitend               1007b8f8     <common>
+ 0003:0001a8fc       ___onexitbegin             1007b8fc     <common>
+ 0003:0001a900       ___sse2_available          1007b900     <common>
+ 0003:0001a904       ___dyn_tls_init_callback   1007b904     <common>
+
+ entry point at        0001:0005d93f
+
+ Static symbols
+
+ 0001:00000be0       _c1_info_helper            10001be0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00005760       _c1_emlrt_marshallOut      10006760 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000057c0       _c1_b_emlrt_marshallOut    100067c0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00007aa0       _get_sim_state_c1_testRPSsmile_Glove_Idle 10008aa0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00008fb0       _sf_get_sim_state_info_c1_testRPSsmile_Glove_Idle 10009fb0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00009140       _set_sim_state_c1_testRPSsmile_Glove_Idle 1000a140 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00009af0       _c1_update_debugger_state_c1_testRPSsmile_Glove_Idle 1000aaf0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b140       _c1_b_emlrt_marshallIn     1000c140 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b190       _c1_c_emlrt_marshallIn     1000c190 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b1e0       _c1_h_emlrt_marshallIn     1000c1e0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b230       _c1_i_emlrt_marshallIn     1000c230 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b280       _c1_j_emlrt_marshallIn     1000c280 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b2d0       _c1_k_emlrt_marshallIn     1000c2d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b350       _c1_l_emlrt_marshallIn     1000c350 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b3a0       _c1_m_emlrt_marshallIn     1000c3a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b420       _c1_n_emlrt_marshallIn     1000c420 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b470       _c1_o_emlrt_marshallIn     1000c470 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b540       _c1_p_emlrt_marshallIn     1000c540 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b590       _c1_q_emlrt_marshallIn     1000c590 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b630       _c1_r_emlrt_marshallIn     1000c630 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b680       _c1_s_emlrt_marshallIn     1000c680 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b6d0       _c1_t_emlrt_marshallIn     1000c6d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b730       _c1_u_emlrt_marshallIn     1000c730 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b7d0       _mdlProcessParameters_c1_testRPSsmile_Glove_Idle 1000c7d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b880       _initialize_params_c1_testRPSsmile_Glove_Idle 1000c880 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000b890       _mdlSetWorkWidths_c1_testRPSsmile_Glove_Idle 1000c890 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000bc50       _sf_get_instance_specialization 1000cc50 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000bc60       _mdlStart_c1_testRPSsmile_Glove_Idle 1000cc60 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000be00       _init_dsm_address_info     1000ce00 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0000be10       _chart_debug_initialization 1000ce10 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000152d0       _init_script_number_translation 100162d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00015310       _c1_sf_marshallOut         10016310 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00015430       _c1_sf_marshallIn          10016430 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00015510       _c1_emlrt_marshallIn       10016510 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000155a0       _c1_b_sf_marshallOut       100165a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00015620       _c1_b_sf_marshallIn        10016620 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000156a0       _sf_opaque_initialize_c1_testRPSsmile_Glove_Idle 100166a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000156d0       _initialize_c1_testRPSsmile_Glove_Idle 100166d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00015950       _sf_opaque_enable_c1_testRPSsmile_Glove_Idle 10016950 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00015970       _enable_c1_testRPSsmile_Glove_Idle 10016970 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000159c0       _sf_opaque_disable_c1_testRPSsmile_Glove_Idle 100169c0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000159e0       _disable_c1_testRPSsmile_Glove_Idle 100169e0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00015a30       _sf_opaque_gateway_c1_testRPSsmile_Glove_Idle 10016a30 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00015a50       _sf_gateway_c1_testRPSsmile_Glove_Idle 10016a50 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00016370       _c1_set_sim_state_side_effects_c1_testRPSsmile_Glove_Idle 10017370 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00016ae0       _c1_chartstep_c1_testRPSsmile_Glove_Idle 10017ae0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00019260       _c1_stateGame              1001a260 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0001baa0       _c1_stateStart             1001caa0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0001bdd0       _c1_enter_atomic_stateReady 1001cdd0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0001c030       _c1_stateReady             1001d030 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0001c5d0       _c1_enter_atomic_statePoseReady 1001d5d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0001ce80       _c1_statePoseReady         1001de80 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0001d460       _c1_stateRandom            1001e460 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0001e480       _c1_statePoseSmile         1001f480 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0001eba0       _c1_stateRandomHand        1001fba0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00020dc0       _c1_enter_atomic_stateWristRotate 10021dc0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00021230       _c1_stateWristRotate       10022230 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000214d0       _c1_statePoseRock          100224d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00021a90       _c1_statePoseFingersCLose  10022a90 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00023610       _c1_enter_atomic_statePosePaper 10024610 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00025090       _c1_stateReadUserHand      10026090 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00026140       _c1_statePoseScissors      10027140 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00026700       _c1_stateShowHands         10027700 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00026a90       _c1_statePoseReturnFinger  10027a90 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000270a0       _c1_enter_atomic_statePoseReturnWrist 100280a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00027530       _c1_stateUserWin           10028530 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00027860       _c1_enter_atomic_stateRandom1 10028860 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000279d0       _c1_stateRandom1           100289d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00028560       _c1_statePoseSmileWin      10029560 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00028950       _c1_stateShowResult        10029950 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00028c80       _c1_stateIdleGaze          10029c80 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00029d60       _c1_enter_atomic_stateInitial 1002ad60 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0002a160       _c1_stateInitial           1002b160 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0002b940       _c1_enter_atomic_stateBoredPose 1002c940 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0002fe60       _c1_encStr2Arr             10030e60 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000303a0       _c1_b_encStr2Arr           100313a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000308c0       _c1_c_encStr2Arr           100318c0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00030df0       _c1_d_encStr2Arr           10031df0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00031340       _c1_e_encStr2Arr           10032340 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00031870       _c1_rand                   10032870 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00031890       _c1_eml_rand               10032890 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00031c20       _c1_eml_rand_mt19937ar     10032c20 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00031c80       _c1_randi                  10032c80 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00031db0       _c1_b_randi                10032db0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00031e00       _c1_c_randi                10032e00 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00031e50       _c1_d_randi                10032e50 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00031ea0       _c1_pb_encStr2Arr          10032ea0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000323c0       _c1_qb_encStr2Arr          100333c0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00032900       _c1_rb_encStr2Arr          10033900 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00032e40       _c1_sb_encStr2Arr          10033e40 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00033360       _c1_tb_encStr2Arr          10034360 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000338b0       _c1_ub_encStr2Arr          100348b0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00033dd0       _c1_vb_encStr2Arr          10034dd0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00034310       _c1_wb_encStr2Arr          10035310 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00034850       _c1_xb_encStr2Arr          10035850 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00034d90       _c1_yb_encStr2Arr          10035d90 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000352e0       _c1_ac_encStr2Arr          100362e0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00035820       _c1_c_sf_marshallOut       10036820 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000358a0       _c1_c_sf_marshallIn        100368a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00035920       _c1_d_emlrt_marshallIn     10036920 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00035970       _c1_d_sf_marshallOut       10036970 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00035aa0       _c1_d_sf_marshallIn        10036aa0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00035b80       _c1_e_emlrt_marshallIn     10036b80 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00035c20       _c1_e_sf_marshallOut       10036c20 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00035d00       _c1_f_sf_marshallOut       10036d00 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00035e20       _c1_g_sf_marshallOut       10036e20 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00035f20       _c1_h_sf_marshallOut       10036f20 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036030       _c1_i_sf_marshallOut       10037030 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036130       _c1_j_sf_marshallOut       10037130 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036240       _c1_k_sf_marshallOut       10037240 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036320       _c1_l_sf_marshallOut       10037320 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036440       _c1_m_sf_marshallOut       10037440 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036540       _c1_n_sf_marshallOut       10037540 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036660       _c1_s_sf_marshallOut       10037660 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036760       _c1_t_sf_marshallOut       10037760 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036880       _c1_lb_sf_marshallOut      10037880 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036990       _c1_mb_sf_marshallOut      10037990 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036ab0       _c1_bd_sf_marshallOut      10037ab0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036bb0       _c1_cd_sf_marshallOut      10037bb0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036cd0       _c1_dd_sf_marshallOut      10037cd0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036dd0       _c1_ed_sf_marshallOut      10037dd0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036ef0       _c1_fd_sf_marshallOut      10037ef0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00036fd0       _c1_gd_sf_marshallOut      10037fd0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000370f0       _c1_sendBML                100380f0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000373e0       _c1_handPoseSB             100383e0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000392e0       _c1_f_encStr2Arr           1003a2e0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00039830       _c1_g_encStr2Arr           1003a830 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00039d70       _c1_h_encStr2Arr           1003ad70 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003a2b0       _c1_i_encStr2Arr           1003b2b0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003a7e0       _c1_j_encStr2Arr           1003b7e0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003ad10       _c1_o_sf_marshallOut       1003bd10 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003ae20       _c1_p_sf_marshallOut       1003be20 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003af40       _c1_q_sf_marshallOut       1003bf40 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003b050       _c1_r_sf_marshallOut       1003c050 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003b160       _c1_u_sf_marshallOut       1003c160 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003b260       _c1_v_sf_marshallOut       1003c260 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003b380       _c1_w_sf_marshallOut       1003c380 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003b460       _c1_x_sf_marshallOut       1003c460 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003b580       _c1_y_sf_marshallOut       1003c580 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003b680       _c1_ab_sf_marshallOut      1003c680 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003b7a0       _c1_idlePose               1003c7a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003dde0       _c1_k_encStr2Arr           1003ede0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003e310       _c1_l_encStr2Arr           1003f310 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003e830       _c1_m_encStr2Arr           1003f830 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003eda0       _c1_n_encStr2Arr           1003fda0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003f2d0       _c1_o_encStr2Arr           100402d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003f7f0       _c1_p_encStr2Arr           100407f0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0003fd40       _c1_q_encStr2Arr           10040d40 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00040280       _c1_bb_sf_marshallOut      10041280 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000403a0       _c1_cb_sf_marshallOut      100413a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000404c0       _c1_db_sf_marshallOut      100414c0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000405d0       _c1_eb_sf_marshallOut      100415d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000406f0       _c1_fb_sf_marshallOut      100416f0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000407f0       _c1_gb_sf_marshallOut      100417f0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00040910       _c1_hb_sf_marshallOut      10041910 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00040a20       _c1_ib_sf_marshallOut      10041a20 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00040b40       _c1_jb_sf_marshallOut      10041b40 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00040c60       _c1_kb_sf_marshallOut      10041c60 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00040d80       _c1_boredGaze              10041d80 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000487b0       _c1_r_encStr2Arr           100497b0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00048ce0       _c1_s_encStr2Arr           10049ce0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00049210       _c1_t_encStr2Arr           1004a210 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00049750       _c1_u_encStr2Arr           1004a750 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00049c90       _c1_v_encStr2Arr           1004ac90 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004a1b0       _c1_w_encStr2Arr           1004b1b0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004a6f0       _c1_x_encStr2Arr           1004b6f0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004ac30       _c1_y_encStr2Arr           1004bc30 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004b150       _c1_ab_encStr2Arr          1004c150 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004b670       _c1_bb_encStr2Arr          1004c670 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004bb90       _c1_cb_encStr2Arr          1004cb90 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004c0b0       _c1_db_encStr2Arr          1004d0b0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004c5d0       _c1_eb_encStr2Arr          1004d5d0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004cb00       _c1_fb_encStr2Arr          1004db00 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004d040       _c1_gb_encStr2Arr          1004e040 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004d570       _c1_hb_encStr2Arr          1004e570 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004daa0       _c1_ib_encStr2Arr          1004eaa0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004dfd0       _c1_jb_encStr2Arr          1004efd0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004e4f0       _c1_kb_encStr2Arr          1004f4f0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004ea20       _c1_lb_encStr2Arr          1004fa20 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004ef60       _c1_mb_encStr2Arr          1004ff60 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004f4a0       _c1_nb_encStr2Arr          100504a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004f9e0       _c1_ob_encStr2Arr          100509e0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:0004ff20       _c1_nb_sf_marshallOut      10050f20 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050030       _c1_ob_sf_marshallOut      10051030 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050140       _c1_pb_sf_marshallOut      10051140 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050250       _c1_qb_sf_marshallOut      10051250 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050370       _c1_rb_sf_marshallOut      10051370 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050480       _c1_sb_sf_marshallOut      10051480 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050590       _c1_tb_sf_marshallOut      10051590 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000506a0       _c1_ub_sf_marshallOut      100516a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000507c0       _c1_vb_sf_marshallOut      100517c0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000508e0       _c1_wb_sf_marshallOut      100518e0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000509f0       _c1_xb_sf_marshallOut      100519f0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050b10       _c1_yb_sf_marshallOut      10051b10 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050c30       _c1_ac_sf_marshallOut      10051c30 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050d50       _c1_bc_sf_marshallOut      10051d50 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050e70       _c1_cc_sf_marshallOut      10051e70 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00050f90       _c1_dc_sf_marshallOut      10051f90 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000510a0       _c1_ec_sf_marshallOut      100520a0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000511c0       _c1_fc_sf_marshallOut      100521c0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000512e0       _c1_gc_sf_marshallOut      100522e0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000513f0       _c1_hc_sf_marshallOut      100523f0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051510       _c1_ic_sf_marshallOut      10052510 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051620       _c1_jc_sf_marshallOut      10052620 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051730       _c1_kc_sf_marshallOut      10052730 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051850       _c1_lc_sf_marshallOut      10052850 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051970       _c1_mc_sf_marshallOut      10052970 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051a90       _c1_nc_sf_marshallOut      10052a90 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051bb0       _c1_oc_sf_marshallOut      10052bb0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051cd0       _c1_pc_sf_marshallOut      10052cd0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051dd0       _c1_qc_sf_marshallOut      10052dd0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00051ef0       _c1_rc_sf_marshallOut      10052ef0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052000       _c1_sc_sf_marshallOut      10053000 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052110       _c1_tc_sf_marshallOut      10053110 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052230       _c1_uc_sf_marshallOut      10053230 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052350       _c1_vc_sf_marshallOut      10053350 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052470       _c1_wc_sf_marshallOut      10053470 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052580       _c1_xc_sf_marshallOut      10053580 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052690       _c1_yc_sf_marshallOut      10053690 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000527b0       _c1_ad_sf_marshallOut      100537b0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000528b0       _c1_updateDataWrittenToVector 100538b0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052900       _c1_errorIfDataNotWrittenToFcn 10053900 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052980       _c1_b_twister_state_vector 10053980 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00052b60       _c1_c_eml_rand_mt19937ar   10053b60 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00053560       _c1_eml_error              10054560 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00053620       _sf_opaque_get_sim_state_c1_testRPSsmile_Glove_Idle 10054620 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00053640       _sf_opaque_set_sim_state_c1_testRPSsmile_Glove_Idle 10054640 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00053660       _sf_opaque_terminate_c1_testRPSsmile_Glove_Idle 10054660 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000536f0       _finalize_c1_testRPSsmile_Glove_Idle 100546f0 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00053710       _sf_opaque_init_subchart_simstructs 10054710 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00053730       _initSimStructsc1_testRPSsmile_Glove_Idle 10054730 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:00053740       _mdlRTW_c1_testRPSsmile_Glove_Idle 10054740 f   c1_testRPSsmile_Glove_Idle.obj
+ 0001:000537d0       _c2_info_helper            100547d0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000539c0       _c2_emlrt_marshallOut      100549c0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00053a20       _c2_b_emlrt_marshallOut    10054a20 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000542e0       _get_sim_state_c2_testRPSsmile_Glove_Idle 100552e0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000543a0       _sf_get_sim_state_info_c2_testRPSsmile_Glove_Idle 100553a0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054520       _set_sim_state_c2_testRPSsmile_Glove_Idle 10055520 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000545a0       _c2_update_debugger_state_c2_testRPSsmile_Glove_Idle 100555a0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000545b0       _c2_c_emlrt_marshallIn     100555b0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054600       _c2_d_emlrt_marshallIn     10055600 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000546b0       _mdlProcessParameters_c2_testRPSsmile_Glove_Idle 100556b0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054760       _initialize_params_c2_testRPSsmile_Glove_Idle 10055760 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054770       _mdlSetWorkWidths_c2_testRPSsmile_Glove_Idle 10055770 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054b90       _sf_get_instance_specialization 10055b90 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054ba0       _mdlStart_c2_testRPSsmile_Glove_Idle 10055ba0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054d40       _init_dsm_address_info     10055d40 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00054d50       _chart_debug_initialization 10055d50 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000554b0       _init_script_number_translation 100564b0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000554c0       _c2_sf_marshallOut         100564c0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00055540       _sf_opaque_initialize_c2_testRPSsmile_Glove_Idle 10056540 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00055570       _initialize_c2_testRPSsmile_Glove_Idle 10056570 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000555a0       _sf_opaque_enable_c2_testRPSsmile_Glove_Idle 100565a0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000555c0       _enable_c2_testRPSsmile_Glove_Idle 100565c0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000555e0       _sf_opaque_disable_c2_testRPSsmile_Glove_Idle 100565e0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00055600       _disable_c2_testRPSsmile_Glove_Idle 10056600 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00055620       _sf_opaque_gateway_c2_testRPSsmile_Glove_Idle 10056620 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00055640       _sf_gateway_c2_testRPSsmile_Glove_Idle 10056640 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000564e0       _c2_sf_marshallIn          100574e0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00056560       _c2_emlrt_marshallIn       10057560 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000565b0       _sf_opaque_get_sim_state_c2_testRPSsmile_Glove_Idle 100575b0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000565d0       _sf_opaque_set_sim_state_c2_testRPSsmile_Glove_Idle 100575d0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000565f0       _sf_opaque_terminate_c2_testRPSsmile_Glove_Idle 100575f0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00056680       _finalize_c2_testRPSsmile_Glove_Idle 10057680 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00056690       _sf_opaque_init_subchart_simstructs 10057690 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000566b0       _initSimStructsc2_testRPSsmile_Glove_Idle 100576b0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:000566c0       _mdlRTW_c2_testRPSsmile_Glove_Idle 100576c0 f   c2_testRPSsmile_Glove_Idle.obj
+ 0001:00056bd0       _get_sim_state_c3_testRPSsmile_Glove_Idle 10057bd0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056cf0       _sf_get_sim_state_info_c3_testRPSsmile_Glove_Idle 10057cf0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056e70       _set_sim_state_c3_testRPSsmile_Glove_Idle 10057e70 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056f30       _c3_update_debugger_state_c3_testRPSsmile_Glove_Idle 10057f30 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056f40       _c3_emlrt_marshallIn       10057f40 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056f90       _c3_b_emlrt_marshallIn     10057f90 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00056fe0       _c3_d_emlrt_marshallIn     10057fe0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057030       _c3_e_emlrt_marshallIn     10058030 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000570e0       _mdlProcessParameters_c3_testRPSsmile_Glove_Idle 100580e0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057190       _initialize_params_c3_testRPSsmile_Glove_Idle 10058190 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000571a0       _mdlSetWorkWidths_c3_testRPSsmile_Glove_Idle 100581a0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057520       _sf_get_instance_specialization 10058520 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057530       _mdlStart_c3_testRPSsmile_Glove_Idle 10058530 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000576d0       _init_dsm_address_info     100586d0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000576e0       _chart_debug_initialization 100586e0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057bf0       _init_script_number_translation 10058bf0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057c00       _c3_sf_marshallOut         10058c00 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057c80       _c3_sf_marshallIn          10058c80 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057d00       _sf_opaque_initialize_c3_testRPSsmile_Glove_Idle 10058d00 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057d30       _initialize_c3_testRPSsmile_Glove_Idle 10058d30 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057d60       _sf_opaque_enable_c3_testRPSsmile_Glove_Idle 10058d60 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057d80       _enable_c3_testRPSsmile_Glove_Idle 10058d80 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057da0       _sf_opaque_disable_c3_testRPSsmile_Glove_Idle 10058da0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057dc0       _disable_c3_testRPSsmile_Glove_Idle 10058dc0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057de0       _sf_opaque_gateway_c3_testRPSsmile_Glove_Idle 10058de0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00057e00       _sf_gateway_c3_testRPSsmile_Glove_Idle 10058e00 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000584c0       _sf_opaque_get_sim_state_c3_testRPSsmile_Glove_Idle 100594c0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000584e0       _sf_opaque_set_sim_state_c3_testRPSsmile_Glove_Idle 100594e0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00058500       _sf_opaque_terminate_c3_testRPSsmile_Glove_Idle 10059500 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00058590       _finalize_c3_testRPSsmile_Glove_Idle 10059590 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000585a0       _sf_opaque_init_subchart_simstructs 100595a0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000585c0       _initSimStructsc3_testRPSsmile_Glove_Idle 100595c0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:000585d0       _mdlRTW_c3_testRPSsmile_Glove_Idle 100595d0 f   c3_testRPSsmile_Glove_Idle.obj
+ 0001:00058d10       _getChartInfoFromSimStruct 10059d10 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:00059e10       __ssFatalError             1005ae10 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c170       _ProcessMexSfunctionCmdLineCall 1005d170 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c290       _sf_debug_api_wrapper      1005d290 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c2c0       _mdlStart                  1005d2c0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c2e0       _mdl_start_processing      1005d2e0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c350       _mdlTerminate              1005d350 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c370       _mdl_terminate_processing  1005d370 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c3e0       _mdlInitializeSampleTimes  1005d3e0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c400       _mdlZeroCrossings          1005d400 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c420       _mdl_zeroCrossings_processing 1005d420 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c450       _mdlDerivatives            1005d450 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c470       _mdl_derivatives_processing 1005d470 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c4b0       _mdlInitializeConditions   1005d4b0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c4d0       _mdl_initialize_conditions_processing 1005d4d0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c510       _mdlEnable                 1005d510 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c530       _mdl_enable_processing     1005d530 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c560       _mdlDisable                1005d560 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c580       _mdl_disable_processing    1005d580 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c5b0       _mdlOutputs                1005d5b0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c5d0       _mdl_outputs_processing    1005d5d0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c6a0       _mdl_outputs_continuous_legacy 1005d6a0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c770       _mdlGetTimeOfNextVarHit    1005d770 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005c7b0       __ProcessMexSfunctionCmdLineCall 1005d7b0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005cdd0       _mdlSetWorkWidths          1005ddd0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005cdf0       _mdlProcessParameters      1005ddf0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005ce10       _mdlInitializeSizes        1005de10 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005ce30       _mdlExtModeExec            1005de30 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005ce50       _mdl_ext_mode_exec_processing 1005de50 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005ce90       _mdlRTW                    1005de90 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005cec0       __CreateSimStruct          1005dec0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005cff0       __RegNumInputPortsCB       1005dff0 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005d050       __RegNumOutputPortsCB      1005e050 f   testRPSsmile_Glove_Idle_sfun_registry.obj
+ 0001:0005d5d1       _pre_c_init                1005e5d1 f   MSVCRT:crtdll.obj
+ 0001:0005d829       ___DllMainCRTStartup       1005e829 f   MSVCRT:crtdll.obj

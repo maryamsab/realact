@@ -1,0 +1,114 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Demo_KinectWaveWalkInvade_sfun.obj"\
+	"c1_Demo_KinectWaveWalkInvade.obj"\
+	"c2_Demo_KinectWaveWalkInvade.obj"\
+	"c4_Demo_KinectWaveWalkInvade.obj"\
+	"c5_Demo_KinectWaveWalkInvade.obj"\
+	"c6_Demo_KinectWaveWalkInvade.obj"\
+	"c8_Demo_KinectWaveWalkInvade.obj"\
+	"c9_Demo_KinectWaveWalkInvade.obj"\
+	"c10_Demo_KinectWaveWalkInvade.obj"\
+	"c11_Demo_KinectWaveWalkInvade.obj"\
+	"c12_Demo_KinectWaveWalkInvade.obj"\
+	"c13_Demo_KinectWaveWalkInvade.obj"\
+	"c14_Demo_KinectWaveWalkInvade.obj"\
+	"c15_Demo_KinectWaveWalkInvade.obj"\
+	"c16_Demo_KinectWaveWalkInvade.obj"\
+	"c17_Demo_KinectWaveWalkInvade.obj"\
+	"c20_Demo_KinectWaveWalkInvade.obj"\
+	"c21_Demo_KinectWaveWalkInvade.obj"\
+	"c37_Demo_KinectWaveWalkInvade.obj"\
+	"c38_Demo_KinectWaveWalkInvade.obj"\
+	"c39_Demo_KinectWaveWalkInvade.obj"\
+	"c40_Demo_KinectWaveWalkInvade.obj"\
+	"c41_Demo_KinectWaveWalkInvade.obj"\
+	"c42_Demo_KinectWaveWalkInvade.obj"\
+	"c43_Demo_KinectWaveWalkInvade.obj"\
+	"c44_Demo_KinectWaveWalkInvade.obj"\
+	"c45_Demo_KinectWaveWalkInvade.obj"\
+	"Demo_KinectWaveWalkInvade_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\Users\root180\Documents\affective-project\6-11-2015-Matlab\slprj\_sfprj\Demo_KinectWaveWalkInvade\lib_affectiveChar_behavior\sfun\src\lib_affectiveChar_behavior_sfun.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\6-11-2015-Matlab\slprj\_sfprj\Demo_KinectWaveWalkInvade\_self\sfun\src" 
+ 
+
+Demo_KinectWaveWalkInvade_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Demo_KinectWaveWalkInvade_sfun.mexw32 @Demo_KinectWaveWalkInvade_sfun.lmko
+Demo_KinectWaveWalkInvade_sfun.obj :	"Demo_KinectWaveWalkInvade_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_KinectWaveWalkInvade_sfun.c"
+c1_Demo_KinectWaveWalkInvade.obj :	"c1_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_Demo_KinectWaveWalkInvade.c"
+c2_Demo_KinectWaveWalkInvade.obj :	"c2_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_Demo_KinectWaveWalkInvade.c"
+c4_Demo_KinectWaveWalkInvade.obj :	"c4_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_Demo_KinectWaveWalkInvade.c"
+c5_Demo_KinectWaveWalkInvade.obj :	"c5_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_Demo_KinectWaveWalkInvade.c"
+c6_Demo_KinectWaveWalkInvade.obj :	"c6_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c6_Demo_KinectWaveWalkInvade.c"
+c8_Demo_KinectWaveWalkInvade.obj :	"c8_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_Demo_KinectWaveWalkInvade.c"
+c9_Demo_KinectWaveWalkInvade.obj :	"c9_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_Demo_KinectWaveWalkInvade.c"
+c10_Demo_KinectWaveWalkInvade.obj :	"c10_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_Demo_KinectWaveWalkInvade.c"
+c11_Demo_KinectWaveWalkInvade.obj :	"c11_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_Demo_KinectWaveWalkInvade.c"
+c12_Demo_KinectWaveWalkInvade.obj :	"c12_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_Demo_KinectWaveWalkInvade.c"
+c13_Demo_KinectWaveWalkInvade.obj :	"c13_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_Demo_KinectWaveWalkInvade.c"
+c14_Demo_KinectWaveWalkInvade.obj :	"c14_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_Demo_KinectWaveWalkInvade.c"
+c15_Demo_KinectWaveWalkInvade.obj :	"c15_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_Demo_KinectWaveWalkInvade.c"
+c16_Demo_KinectWaveWalkInvade.obj :	"c16_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_Demo_KinectWaveWalkInvade.c"
+c17_Demo_KinectWaveWalkInvade.obj :	"c17_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_Demo_KinectWaveWalkInvade.c"
+c20_Demo_KinectWaveWalkInvade.obj :	"c20_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_Demo_KinectWaveWalkInvade.c"
+c21_Demo_KinectWaveWalkInvade.obj :	"c21_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_Demo_KinectWaveWalkInvade.c"
+c37_Demo_KinectWaveWalkInvade.obj :	"c37_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c37_Demo_KinectWaveWalkInvade.c"
+c38_Demo_KinectWaveWalkInvade.obj :	"c38_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c38_Demo_KinectWaveWalkInvade.c"
+c39_Demo_KinectWaveWalkInvade.obj :	"c39_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c39_Demo_KinectWaveWalkInvade.c"
+c40_Demo_KinectWaveWalkInvade.obj :	"c40_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c40_Demo_KinectWaveWalkInvade.c"
+c41_Demo_KinectWaveWalkInvade.obj :	"c41_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c41_Demo_KinectWaveWalkInvade.c"
+c42_Demo_KinectWaveWalkInvade.obj :	"c42_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c42_Demo_KinectWaveWalkInvade.c"
+c43_Demo_KinectWaveWalkInvade.obj :	"c43_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c43_Demo_KinectWaveWalkInvade.c"
+c44_Demo_KinectWaveWalkInvade.obj :	"c44_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c44_Demo_KinectWaveWalkInvade.c"
+c45_Demo_KinectWaveWalkInvade.obj :	"c45_Demo_KinectWaveWalkInvade.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c45_Demo_KinectWaveWalkInvade.c"
+Demo_KinectWaveWalkInvade_sfun_registry.obj :	"Demo_KinectWaveWalkInvade_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_KinectWaveWalkInvade_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

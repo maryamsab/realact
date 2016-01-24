@@ -1,0 +1,80 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Demo_GazeFWaveIdleRand_sfun.obj"\
+	"c1_Demo_GazeFWaveIdleRand.obj"\
+	"c2_Demo_GazeFWaveIdleRand.obj"\
+	"c4_Demo_GazeFWaveIdleRand.obj"\
+	"c5_Demo_GazeFWaveIdleRand.obj"\
+	"c6_Demo_GazeFWaveIdleRand.obj"\
+	"c8_Demo_GazeFWaveIdleRand.obj"\
+	"c9_Demo_GazeFWaveIdleRand.obj"\
+	"c10_Demo_GazeFWaveIdleRand.obj"\
+	"c11_Demo_GazeFWaveIdleRand.obj"\
+	"c15_Demo_GazeFWaveIdleRand.obj"\
+	"c16_Demo_GazeFWaveIdleRand.obj"\
+	"c17_Demo_GazeFWaveIdleRand.obj"\
+	"c19_Demo_GazeFWaveIdleRand.obj"\
+	"c20_Demo_GazeFWaveIdleRand.obj"\
+	"c21_Demo_GazeFWaveIdleRand.obj"\
+	"Demo_GazeFWaveIdleRand_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\7-10-2015-Matlab-Demo\slprj\_sfprj\Demo_GazeFWaveIdleRand\_self\sfun\src" 
+ 
+
+Demo_GazeFWaveIdleRand_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Demo_GazeFWaveIdleRand_sfun.mexw32 @Demo_GazeFWaveIdleRand_sfun.lmko
+Demo_GazeFWaveIdleRand_sfun.obj :	"Demo_GazeFWaveIdleRand_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_GazeFWaveIdleRand_sfun.c"
+c1_Demo_GazeFWaveIdleRand.obj :	"c1_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_Demo_GazeFWaveIdleRand.c"
+c2_Demo_GazeFWaveIdleRand.obj :	"c2_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_Demo_GazeFWaveIdleRand.c"
+c4_Demo_GazeFWaveIdleRand.obj :	"c4_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_Demo_GazeFWaveIdleRand.c"
+c5_Demo_GazeFWaveIdleRand.obj :	"c5_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_Demo_GazeFWaveIdleRand.c"
+c6_Demo_GazeFWaveIdleRand.obj :	"c6_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c6_Demo_GazeFWaveIdleRand.c"
+c8_Demo_GazeFWaveIdleRand.obj :	"c8_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_Demo_GazeFWaveIdleRand.c"
+c9_Demo_GazeFWaveIdleRand.obj :	"c9_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_Demo_GazeFWaveIdleRand.c"
+c10_Demo_GazeFWaveIdleRand.obj :	"c10_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_Demo_GazeFWaveIdleRand.c"
+c11_Demo_GazeFWaveIdleRand.obj :	"c11_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_Demo_GazeFWaveIdleRand.c"
+c15_Demo_GazeFWaveIdleRand.obj :	"c15_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_Demo_GazeFWaveIdleRand.c"
+c16_Demo_GazeFWaveIdleRand.obj :	"c16_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_Demo_GazeFWaveIdleRand.c"
+c17_Demo_GazeFWaveIdleRand.obj :	"c17_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_Demo_GazeFWaveIdleRand.c"
+c19_Demo_GazeFWaveIdleRand.obj :	"c19_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c19_Demo_GazeFWaveIdleRand.c"
+c20_Demo_GazeFWaveIdleRand.obj :	"c20_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_Demo_GazeFWaveIdleRand.c"
+c21_Demo_GazeFWaveIdleRand.obj :	"c21_Demo_GazeFWaveIdleRand.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_Demo_GazeFWaveIdleRand.c"
+Demo_GazeFWaveIdleRand_sfun_registry.obj :	"Demo_GazeFWaveIdleRand_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_GazeFWaveIdleRand_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

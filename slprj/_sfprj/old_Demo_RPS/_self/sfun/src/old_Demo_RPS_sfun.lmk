@@ -1,0 +1,95 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"old_Demo_RPS_sfun.obj"\
+	"c1_old_Demo_RPS.obj"\
+	"c2_old_Demo_RPS.obj"\
+	"c4_old_Demo_RPS.obj"\
+	"c5_old_Demo_RPS.obj"\
+	"c8_old_Demo_RPS.obj"\
+	"c9_old_Demo_RPS.obj"\
+	"c10_old_Demo_RPS.obj"\
+	"c11_old_Demo_RPS.obj"\
+	"c12_old_Demo_RPS.obj"\
+	"c13_old_Demo_RPS.obj"\
+	"c14_old_Demo_RPS.obj"\
+	"c15_old_Demo_RPS.obj"\
+	"c16_old_Demo_RPS.obj"\
+	"c17_old_Demo_RPS.obj"\
+	"c20_old_Demo_RPS.obj"\
+	"c21_old_Demo_RPS.obj"\
+	"c37_old_Demo_RPS.obj"\
+	"c38_old_Demo_RPS.obj"\
+	"c39_old_Demo_RPS.obj"\
+	"c41_old_Demo_RPS.obj"\
+	"old_Demo_RPS_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\6-11-2015-Matlab\slprj\_sfprj\old_Demo_RPS\_self\sfun\src" 
+ 
+
+old_Demo_RPS_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o old_Demo_RPS_sfun.mexw32 @old_Demo_RPS_sfun.lmko
+old_Demo_RPS_sfun.obj :	"old_Demo_RPS_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "old_Demo_RPS_sfun.c"
+c1_old_Demo_RPS.obj :	"c1_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_old_Demo_RPS.c"
+c2_old_Demo_RPS.obj :	"c2_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_old_Demo_RPS.c"
+c4_old_Demo_RPS.obj :	"c4_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_old_Demo_RPS.c"
+c5_old_Demo_RPS.obj :	"c5_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_old_Demo_RPS.c"
+c8_old_Demo_RPS.obj :	"c8_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_old_Demo_RPS.c"
+c9_old_Demo_RPS.obj :	"c9_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_old_Demo_RPS.c"
+c10_old_Demo_RPS.obj :	"c10_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_old_Demo_RPS.c"
+c11_old_Demo_RPS.obj :	"c11_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_old_Demo_RPS.c"
+c12_old_Demo_RPS.obj :	"c12_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_old_Demo_RPS.c"
+c13_old_Demo_RPS.obj :	"c13_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_old_Demo_RPS.c"
+c14_old_Demo_RPS.obj :	"c14_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_old_Demo_RPS.c"
+c15_old_Demo_RPS.obj :	"c15_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_old_Demo_RPS.c"
+c16_old_Demo_RPS.obj :	"c16_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_old_Demo_RPS.c"
+c17_old_Demo_RPS.obj :	"c17_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_old_Demo_RPS.c"
+c20_old_Demo_RPS.obj :	"c20_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_old_Demo_RPS.c"
+c21_old_Demo_RPS.obj :	"c21_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_old_Demo_RPS.c"
+c37_old_Demo_RPS.obj :	"c37_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c37_old_Demo_RPS.c"
+c38_old_Demo_RPS.obj :	"c38_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c38_old_Demo_RPS.c"
+c39_old_Demo_RPS.obj :	"c39_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c39_old_Demo_RPS.c"
+c41_old_Demo_RPS.obj :	"c41_old_Demo_RPS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c41_old_Demo_RPS.c"
+old_Demo_RPS_sfun_registry.obj :	"old_Demo_RPS_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "old_Demo_RPS_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

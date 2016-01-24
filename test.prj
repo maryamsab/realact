@@ -1,0 +1,122 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="263509671" file="C:\Users\Maryam\Documents\maryam-research\code\Matlab-M+M\test.prj" location="C:\Users\Maryam\Documents\maryam-research\code\Matlab-M+M" name="test" preferred-package-location="C:\Users\Maryam\Documents\maryam-research\code\Matlab-M+M\test\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>test</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\test\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\test\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\test\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\test\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\test\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\ARP_02_RPSsmile_Glove_sfun.mexw32</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\ACE.lib</file>
+      <file>${PROJECT_ROOT}\walk_quat.csv</file>
+      <file>${PROJECT_ROOT}\walk_quatz.csv</file>
+      <file>${PROJECT_ROOT}\walk_quatzz.csv</file>
+      <file>${PROJECT_ROOT}\winmm.lib</file>
+      <file>${PROJECT_ROOT}\won.mp3</file>
+      <file>${PROJECT_ROOT}\yarp.jar</file>
+      <file>${PROJECT_ROOT}\YARP_dev.lib</file>
+      <file>${PROJECT_ROOT}\YARP_init.lib</file>
+      <file>${PROJECT_ROOT}\YARP_OS.lib</file>
+      <file>${PROJECT_ROOT}\YARP_sig.lib</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\test\for_testing" name="test.exe" optional="false">C:\Users\Maryam\Documents\maryam-research\code\Matlab-M+M\test\for_testing\test.exe</file>
+      <file location="${PROJECT_ROOT}\test\for_testing" name="splash.png" optional="false">C:\Users\Maryam\Documents\maryam-research\code\Matlab-M+M\test\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\test\for_testing" name="readme.txt" optional="true">C:\Users\Maryam\Documents\maryam-research\code\Matlab-M+M\test\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>win32</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

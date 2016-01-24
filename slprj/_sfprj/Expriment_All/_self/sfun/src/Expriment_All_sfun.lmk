@@ -1,0 +1,138 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Expriment_All_sfun.obj"\
+	"c1_Expriment_All.obj"\
+	"c2_Expriment_All.obj"\
+	"c4_Expriment_All.obj"\
+	"c5_Expriment_All.obj"\
+	"c8_Expriment_All.obj"\
+	"c9_Expriment_All.obj"\
+	"c10_Expriment_All.obj"\
+	"c11_Expriment_All.obj"\
+	"c12_Expriment_All.obj"\
+	"c13_Expriment_All.obj"\
+	"c14_Expriment_All.obj"\
+	"c15_Expriment_All.obj"\
+	"c16_Expriment_All.obj"\
+	"c17_Expriment_All.obj"\
+	"c20_Expriment_All.obj"\
+	"c21_Expriment_All.obj"\
+	"c35_Expriment_All.obj"\
+	"c37_Expriment_All.obj"\
+	"c38_Expriment_All.obj"\
+	"c39_Expriment_All.obj"\
+	"c40_Expriment_All.obj"\
+	"c41_Expriment_All.obj"\
+	"c42_Expriment_All.obj"\
+	"c43_Expriment_All.obj"\
+	"c44_Expriment_All.obj"\
+	"c45_Expriment_All.obj"\
+	"c51_Expriment_All.obj"\
+	"c52_Expriment_All.obj"\
+	"c53_Expriment_All.obj"\
+	"c54_Expriment_All.obj"\
+	"c55_Expriment_All.obj"\
+	"c56_Expriment_All.obj"\
+	"c57_Expriment_All.obj"\
+	"c58_Expriment_All.obj"\
+	"Expriment_All_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\Users\root180\Documents\affective-project\15-1-2016-Matlab\slprj\_sfprj\Expriment_All\lib_affectiveChar_behavior\sfun\src\lib_affectiveChar_behavior_sfun.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\15-1-2016-Matlab\slprj\_sfprj\Expriment_All\_self\sfun\src" 
+ 
+
+Expriment_All_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Expriment_All_sfun.mexw32 @Expriment_All_sfun.lmko
+Expriment_All_sfun.obj :	"Expriment_All_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Expriment_All_sfun.c"
+c1_Expriment_All.obj :	"c1_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_Expriment_All.c"
+c2_Expriment_All.obj :	"c2_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_Expriment_All.c"
+c4_Expriment_All.obj :	"c4_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_Expriment_All.c"
+c5_Expriment_All.obj :	"c5_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_Expriment_All.c"
+c8_Expriment_All.obj :	"c8_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_Expriment_All.c"
+c9_Expriment_All.obj :	"c9_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_Expriment_All.c"
+c10_Expriment_All.obj :	"c10_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_Expriment_All.c"
+c11_Expriment_All.obj :	"c11_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_Expriment_All.c"
+c12_Expriment_All.obj :	"c12_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_Expriment_All.c"
+c13_Expriment_All.obj :	"c13_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_Expriment_All.c"
+c14_Expriment_All.obj :	"c14_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_Expriment_All.c"
+c15_Expriment_All.obj :	"c15_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_Expriment_All.c"
+c16_Expriment_All.obj :	"c16_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_Expriment_All.c"
+c17_Expriment_All.obj :	"c17_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_Expriment_All.c"
+c20_Expriment_All.obj :	"c20_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_Expriment_All.c"
+c21_Expriment_All.obj :	"c21_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_Expriment_All.c"
+c35_Expriment_All.obj :	"c35_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c35_Expriment_All.c"
+c37_Expriment_All.obj :	"c37_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c37_Expriment_All.c"
+c38_Expriment_All.obj :	"c38_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c38_Expriment_All.c"
+c39_Expriment_All.obj :	"c39_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c39_Expriment_All.c"
+c40_Expriment_All.obj :	"c40_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c40_Expriment_All.c"
+c41_Expriment_All.obj :	"c41_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c41_Expriment_All.c"
+c42_Expriment_All.obj :	"c42_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c42_Expriment_All.c"
+c43_Expriment_All.obj :	"c43_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c43_Expriment_All.c"
+c44_Expriment_All.obj :	"c44_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c44_Expriment_All.c"
+c45_Expriment_All.obj :	"c45_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c45_Expriment_All.c"
+c51_Expriment_All.obj :	"c51_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c51_Expriment_All.c"
+c52_Expriment_All.obj :	"c52_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c52_Expriment_All.c"
+c53_Expriment_All.obj :	"c53_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c53_Expriment_All.c"
+c54_Expriment_All.obj :	"c54_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c54_Expriment_All.c"
+c55_Expriment_All.obj :	"c55_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c55_Expriment_All.c"
+c56_Expriment_All.obj :	"c56_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c56_Expriment_All.c"
+c57_Expriment_All.obj :	"c57_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c57_Expriment_All.c"
+c58_Expriment_All.obj :	"c58_Expriment_All.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c58_Expriment_All.c"
+Expriment_All_sfun_registry.obj :	"Expriment_All_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Expriment_All_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

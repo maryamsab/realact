@@ -1,0 +1,95 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"dEMO_EP_IdleRandMerg2_sfun.obj"\
+	"c1_dEMO_EP_IdleRandMerg2.obj"\
+	"c2_dEMO_EP_IdleRandMerg2.obj"\
+	"c4_dEMO_EP_IdleRandMerg2.obj"\
+	"c5_dEMO_EP_IdleRandMerg2.obj"\
+	"c8_dEMO_EP_IdleRandMerg2.obj"\
+	"c9_dEMO_EP_IdleRandMerg2.obj"\
+	"c10_dEMO_EP_IdleRandMerg2.obj"\
+	"c11_dEMO_EP_IdleRandMerg2.obj"\
+	"c12_dEMO_EP_IdleRandMerg2.obj"\
+	"c13_dEMO_EP_IdleRandMerg2.obj"\
+	"c14_dEMO_EP_IdleRandMerg2.obj"\
+	"c15_dEMO_EP_IdleRandMerg2.obj"\
+	"c16_dEMO_EP_IdleRandMerg2.obj"\
+	"c17_dEMO_EP_IdleRandMerg2.obj"\
+	"c20_dEMO_EP_IdleRandMerg2.obj"\
+	"c21_dEMO_EP_IdleRandMerg2.obj"\
+	"c37_dEMO_EP_IdleRandMerg2.obj"\
+	"c38_dEMO_EP_IdleRandMerg2.obj"\
+	"c39_dEMO_EP_IdleRandMerg2.obj"\
+	"c41_dEMO_EP_IdleRandMerg2.obj"\
+	"dEMO_EP_IdleRandMerg2_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\27-10-2015-Matlab\slprj\_sfprj\dEMO_EP_IdleRandMerg2\_self\sfun\src" 
+ 
+
+dEMO_EP_IdleRandMerg2_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o dEMO_EP_IdleRandMerg2_sfun.mexw32 @dEMO_EP_IdleRandMerg2_sfun.lmko
+dEMO_EP_IdleRandMerg2_sfun.obj :	"dEMO_EP_IdleRandMerg2_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "dEMO_EP_IdleRandMerg2_sfun.c"
+c1_dEMO_EP_IdleRandMerg2.obj :	"c1_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_dEMO_EP_IdleRandMerg2.c"
+c2_dEMO_EP_IdleRandMerg2.obj :	"c2_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_dEMO_EP_IdleRandMerg2.c"
+c4_dEMO_EP_IdleRandMerg2.obj :	"c4_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_dEMO_EP_IdleRandMerg2.c"
+c5_dEMO_EP_IdleRandMerg2.obj :	"c5_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_dEMO_EP_IdleRandMerg2.c"
+c8_dEMO_EP_IdleRandMerg2.obj :	"c8_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_dEMO_EP_IdleRandMerg2.c"
+c9_dEMO_EP_IdleRandMerg2.obj :	"c9_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_dEMO_EP_IdleRandMerg2.c"
+c10_dEMO_EP_IdleRandMerg2.obj :	"c10_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_dEMO_EP_IdleRandMerg2.c"
+c11_dEMO_EP_IdleRandMerg2.obj :	"c11_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_dEMO_EP_IdleRandMerg2.c"
+c12_dEMO_EP_IdleRandMerg2.obj :	"c12_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_dEMO_EP_IdleRandMerg2.c"
+c13_dEMO_EP_IdleRandMerg2.obj :	"c13_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_dEMO_EP_IdleRandMerg2.c"
+c14_dEMO_EP_IdleRandMerg2.obj :	"c14_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_dEMO_EP_IdleRandMerg2.c"
+c15_dEMO_EP_IdleRandMerg2.obj :	"c15_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_dEMO_EP_IdleRandMerg2.c"
+c16_dEMO_EP_IdleRandMerg2.obj :	"c16_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_dEMO_EP_IdleRandMerg2.c"
+c17_dEMO_EP_IdleRandMerg2.obj :	"c17_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_dEMO_EP_IdleRandMerg2.c"
+c20_dEMO_EP_IdleRandMerg2.obj :	"c20_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_dEMO_EP_IdleRandMerg2.c"
+c21_dEMO_EP_IdleRandMerg2.obj :	"c21_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_dEMO_EP_IdleRandMerg2.c"
+c37_dEMO_EP_IdleRandMerg2.obj :	"c37_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c37_dEMO_EP_IdleRandMerg2.c"
+c38_dEMO_EP_IdleRandMerg2.obj :	"c38_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c38_dEMO_EP_IdleRandMerg2.c"
+c39_dEMO_EP_IdleRandMerg2.obj :	"c39_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c39_dEMO_EP_IdleRandMerg2.c"
+c41_dEMO_EP_IdleRandMerg2.obj :	"c41_dEMO_EP_IdleRandMerg2.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c41_dEMO_EP_IdleRandMerg2.c"
+dEMO_EP_IdleRandMerg2_sfun_registry.obj :	"dEMO_EP_IdleRandMerg2_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "dEMO_EP_IdleRandMerg2_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

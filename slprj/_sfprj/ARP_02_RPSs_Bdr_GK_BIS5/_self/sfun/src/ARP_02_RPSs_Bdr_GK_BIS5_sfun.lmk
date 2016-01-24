@@ -1,0 +1,86 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"ARP_02_RPSs_Bdr_GK_BIS5_sfun.obj"\
+	"c1_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c2_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c4_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c5_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c6_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c8_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c9_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c11_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c12_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c13_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c14_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c15_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c16_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c19_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c20_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c21_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"c24_ARP_02_RPSs_Bdr_GK_BIS5.obj"\
+	"ARP_02_RPSs_Bdr_GK_BIS5_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\11-8-2015-Matlab-prior-M+M\slprj\_sfprj\ARP_02_RPSs_Bdr_GK_BIS5\_self\sfun\src" 
+ 
+
+ARP_02_RPSs_Bdr_GK_BIS5_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o ARP_02_RPSs_Bdr_GK_BIS5_sfun.mexw32 @ARP_02_RPSs_Bdr_GK_BIS5_sfun.lmko
+ARP_02_RPSs_Bdr_GK_BIS5_sfun.obj :	"ARP_02_RPSs_Bdr_GK_BIS5_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "ARP_02_RPSs_Bdr_GK_BIS5_sfun.c"
+c1_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c1_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c2_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c2_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c4_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c4_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c5_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c5_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c6_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c6_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c6_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c8_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c8_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c9_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c9_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c11_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c11_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c12_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c12_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c13_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c13_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c14_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c14_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c15_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c15_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c16_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c16_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c19_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c19_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c19_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c20_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c20_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c21_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c21_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_ARP_02_RPSs_Bdr_GK_BIS5.c"
+c24_ARP_02_RPSs_Bdr_GK_BIS5.obj :	"c24_ARP_02_RPSs_Bdr_GK_BIS5.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c24_ARP_02_RPSs_Bdr_GK_BIS5.c"
+ARP_02_RPSs_Bdr_GK_BIS5_sfun_registry.obj :	"ARP_02_RPSs_Bdr_GK_BIS5_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "ARP_02_RPSs_Bdr_GK_BIS5_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

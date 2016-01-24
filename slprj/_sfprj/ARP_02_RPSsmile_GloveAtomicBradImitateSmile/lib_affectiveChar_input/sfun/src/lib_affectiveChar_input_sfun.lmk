@@ -1,0 +1,31 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"lib_affectiveChar_input_sfun.obj"\
+	"c6_lib_affectiveChar_input.obj"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\4-6-2015-Matlab-M+M\slprj\_sfprj\ARP_02_RPSsmile_GloveAtomicBradImitateSmile\lib_affectiveChar_input\sfun\src" 
+ 
+
+lib_affectiveChar_input_sfun.lib : $(MAKEFILE) $(OBJECTS)
+	$(LIBCMD) $(LIBFLAGS) /OUT:lib_affectiveChar_input_sfun.lib *.obj
+lib_affectiveChar_input_sfun.obj :	"lib_affectiveChar_input_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "lib_affectiveChar_input_sfun.c"
+c6_lib_affectiveChar_input.obj :	"c6_lib_affectiveChar_input.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c6_lib_affectiveChar_input.c"

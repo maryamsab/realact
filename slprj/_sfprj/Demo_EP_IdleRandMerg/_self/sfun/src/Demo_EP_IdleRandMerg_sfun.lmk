@@ -1,0 +1,126 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Demo_EP_IdleRandMerg_sfun.obj"\
+	"c1_Demo_EP_IdleRandMerg.obj"\
+	"c2_Demo_EP_IdleRandMerg.obj"\
+	"c4_Demo_EP_IdleRandMerg.obj"\
+	"c5_Demo_EP_IdleRandMerg.obj"\
+	"c8_Demo_EP_IdleRandMerg.obj"\
+	"c9_Demo_EP_IdleRandMerg.obj"\
+	"c10_Demo_EP_IdleRandMerg.obj"\
+	"c11_Demo_EP_IdleRandMerg.obj"\
+	"c12_Demo_EP_IdleRandMerg.obj"\
+	"c13_Demo_EP_IdleRandMerg.obj"\
+	"c14_Demo_EP_IdleRandMerg.obj"\
+	"c15_Demo_EP_IdleRandMerg.obj"\
+	"c16_Demo_EP_IdleRandMerg.obj"\
+	"c17_Demo_EP_IdleRandMerg.obj"\
+	"c20_Demo_EP_IdleRandMerg.obj"\
+	"c21_Demo_EP_IdleRandMerg.obj"\
+	"c35_Demo_EP_IdleRandMerg.obj"\
+	"c37_Demo_EP_IdleRandMerg.obj"\
+	"c38_Demo_EP_IdleRandMerg.obj"\
+	"c39_Demo_EP_IdleRandMerg.obj"\
+	"c40_Demo_EP_IdleRandMerg.obj"\
+	"c41_Demo_EP_IdleRandMerg.obj"\
+	"c42_Demo_EP_IdleRandMerg.obj"\
+	"c43_Demo_EP_IdleRandMerg.obj"\
+	"c44_Demo_EP_IdleRandMerg.obj"\
+	"c45_Demo_EP_IdleRandMerg.obj"\
+	"c46_Demo_EP_IdleRandMerg.obj"\
+	"c47_Demo_EP_IdleRandMerg.obj"\
+	"c48_Demo_EP_IdleRandMerg.obj"\
+	"c49_Demo_EP_IdleRandMerg.obj"\
+	"Demo_EP_IdleRandMerg_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\Users\root180\Documents\affective-project\11-12-2015-Matlab\slprj\_sfprj\Demo_EP_IdleRandMerg\lib_affectiveChar_behavior\sfun\src\lib_affectiveChar_behavior_sfun.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\11-12-2015-Matlab\slprj\_sfprj\Demo_EP_IdleRandMerg\_self\sfun\src" 
+ 
+
+Demo_EP_IdleRandMerg_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Demo_EP_IdleRandMerg_sfun.mexw32 @Demo_EP_IdleRandMerg_sfun.lmko
+Demo_EP_IdleRandMerg_sfun.obj :	"Demo_EP_IdleRandMerg_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_EP_IdleRandMerg_sfun.c"
+c1_Demo_EP_IdleRandMerg.obj :	"c1_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_Demo_EP_IdleRandMerg.c"
+c2_Demo_EP_IdleRandMerg.obj :	"c2_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_Demo_EP_IdleRandMerg.c"
+c4_Demo_EP_IdleRandMerg.obj :	"c4_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_Demo_EP_IdleRandMerg.c"
+c5_Demo_EP_IdleRandMerg.obj :	"c5_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_Demo_EP_IdleRandMerg.c"
+c8_Demo_EP_IdleRandMerg.obj :	"c8_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_Demo_EP_IdleRandMerg.c"
+c9_Demo_EP_IdleRandMerg.obj :	"c9_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_Demo_EP_IdleRandMerg.c"
+c10_Demo_EP_IdleRandMerg.obj :	"c10_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_Demo_EP_IdleRandMerg.c"
+c11_Demo_EP_IdleRandMerg.obj :	"c11_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_Demo_EP_IdleRandMerg.c"
+c12_Demo_EP_IdleRandMerg.obj :	"c12_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_Demo_EP_IdleRandMerg.c"
+c13_Demo_EP_IdleRandMerg.obj :	"c13_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_Demo_EP_IdleRandMerg.c"
+c14_Demo_EP_IdleRandMerg.obj :	"c14_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_Demo_EP_IdleRandMerg.c"
+c15_Demo_EP_IdleRandMerg.obj :	"c15_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_Demo_EP_IdleRandMerg.c"
+c16_Demo_EP_IdleRandMerg.obj :	"c16_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_Demo_EP_IdleRandMerg.c"
+c17_Demo_EP_IdleRandMerg.obj :	"c17_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_Demo_EP_IdleRandMerg.c"
+c20_Demo_EP_IdleRandMerg.obj :	"c20_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_Demo_EP_IdleRandMerg.c"
+c21_Demo_EP_IdleRandMerg.obj :	"c21_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_Demo_EP_IdleRandMerg.c"
+c35_Demo_EP_IdleRandMerg.obj :	"c35_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c35_Demo_EP_IdleRandMerg.c"
+c37_Demo_EP_IdleRandMerg.obj :	"c37_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c37_Demo_EP_IdleRandMerg.c"
+c38_Demo_EP_IdleRandMerg.obj :	"c38_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c38_Demo_EP_IdleRandMerg.c"
+c39_Demo_EP_IdleRandMerg.obj :	"c39_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c39_Demo_EP_IdleRandMerg.c"
+c40_Demo_EP_IdleRandMerg.obj :	"c40_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c40_Demo_EP_IdleRandMerg.c"
+c41_Demo_EP_IdleRandMerg.obj :	"c41_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c41_Demo_EP_IdleRandMerg.c"
+c42_Demo_EP_IdleRandMerg.obj :	"c42_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c42_Demo_EP_IdleRandMerg.c"
+c43_Demo_EP_IdleRandMerg.obj :	"c43_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c43_Demo_EP_IdleRandMerg.c"
+c44_Demo_EP_IdleRandMerg.obj :	"c44_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c44_Demo_EP_IdleRandMerg.c"
+c45_Demo_EP_IdleRandMerg.obj :	"c45_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c45_Demo_EP_IdleRandMerg.c"
+c46_Demo_EP_IdleRandMerg.obj :	"c46_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c46_Demo_EP_IdleRandMerg.c"
+c47_Demo_EP_IdleRandMerg.obj :	"c47_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c47_Demo_EP_IdleRandMerg.c"
+c48_Demo_EP_IdleRandMerg.obj :	"c48_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c48_Demo_EP_IdleRandMerg.c"
+c49_Demo_EP_IdleRandMerg.obj :	"c49_Demo_EP_IdleRandMerg.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c49_Demo_EP_IdleRandMerg.c"
+Demo_EP_IdleRandMerg_sfun_registry.obj :	"Demo_EP_IdleRandMerg_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_EP_IdleRandMerg_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

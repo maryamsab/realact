@@ -1,0 +1,134 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Expriment_Emotion_sfun.obj"\
+	"c1_Expriment_Emotion.obj"\
+	"c2_Expriment_Emotion.obj"\
+	"c4_Expriment_Emotion.obj"\
+	"c5_Expriment_Emotion.obj"\
+	"c8_Expriment_Emotion.obj"\
+	"c9_Expriment_Emotion.obj"\
+	"c10_Expriment_Emotion.obj"\
+	"c11_Expriment_Emotion.obj"\
+	"c12_Expriment_Emotion.obj"\
+	"c13_Expriment_Emotion.obj"\
+	"c14_Expriment_Emotion.obj"\
+	"c15_Expriment_Emotion.obj"\
+	"c16_Expriment_Emotion.obj"\
+	"c17_Expriment_Emotion.obj"\
+	"c20_Expriment_Emotion.obj"\
+	"c21_Expriment_Emotion.obj"\
+	"c35_Expriment_Emotion.obj"\
+	"c37_Expriment_Emotion.obj"\
+	"c38_Expriment_Emotion.obj"\
+	"c39_Expriment_Emotion.obj"\
+	"c40_Expriment_Emotion.obj"\
+	"c41_Expriment_Emotion.obj"\
+	"c42_Expriment_Emotion.obj"\
+	"c43_Expriment_Emotion.obj"\
+	"c44_Expriment_Emotion.obj"\
+	"c45_Expriment_Emotion.obj"\
+	"c50_Expriment_Emotion.obj"\
+	"c51_Expriment_Emotion.obj"\
+	"c52_Expriment_Emotion.obj"\
+	"c53_Expriment_Emotion.obj"\
+	"c54_Expriment_Emotion.obj"\
+	"c55_Expriment_Emotion.obj"\
+	"c56_Expriment_Emotion.obj"\
+	"Expriment_Emotion_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\28-12-2015-Matlab\slprj\_sfprj\Expriment_Emotion\_self\sfun\src" 
+ 
+
+Expriment_Emotion_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Expriment_Emotion_sfun.mexw32 @Expriment_Emotion_sfun.lmko
+Expriment_Emotion_sfun.obj :	"Expriment_Emotion_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Expriment_Emotion_sfun.c"
+c1_Expriment_Emotion.obj :	"c1_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_Expriment_Emotion.c"
+c2_Expriment_Emotion.obj :	"c2_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_Expriment_Emotion.c"
+c4_Expriment_Emotion.obj :	"c4_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_Expriment_Emotion.c"
+c5_Expriment_Emotion.obj :	"c5_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_Expriment_Emotion.c"
+c8_Expriment_Emotion.obj :	"c8_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_Expriment_Emotion.c"
+c9_Expriment_Emotion.obj :	"c9_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_Expriment_Emotion.c"
+c10_Expriment_Emotion.obj :	"c10_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_Expriment_Emotion.c"
+c11_Expriment_Emotion.obj :	"c11_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_Expriment_Emotion.c"
+c12_Expriment_Emotion.obj :	"c12_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_Expriment_Emotion.c"
+c13_Expriment_Emotion.obj :	"c13_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_Expriment_Emotion.c"
+c14_Expriment_Emotion.obj :	"c14_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_Expriment_Emotion.c"
+c15_Expriment_Emotion.obj :	"c15_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_Expriment_Emotion.c"
+c16_Expriment_Emotion.obj :	"c16_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_Expriment_Emotion.c"
+c17_Expriment_Emotion.obj :	"c17_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_Expriment_Emotion.c"
+c20_Expriment_Emotion.obj :	"c20_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_Expriment_Emotion.c"
+c21_Expriment_Emotion.obj :	"c21_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_Expriment_Emotion.c"
+c35_Expriment_Emotion.obj :	"c35_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c35_Expriment_Emotion.c"
+c37_Expriment_Emotion.obj :	"c37_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c37_Expriment_Emotion.c"
+c38_Expriment_Emotion.obj :	"c38_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c38_Expriment_Emotion.c"
+c39_Expriment_Emotion.obj :	"c39_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c39_Expriment_Emotion.c"
+c40_Expriment_Emotion.obj :	"c40_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c40_Expriment_Emotion.c"
+c41_Expriment_Emotion.obj :	"c41_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c41_Expriment_Emotion.c"
+c42_Expriment_Emotion.obj :	"c42_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c42_Expriment_Emotion.c"
+c43_Expriment_Emotion.obj :	"c43_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c43_Expriment_Emotion.c"
+c44_Expriment_Emotion.obj :	"c44_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c44_Expriment_Emotion.c"
+c45_Expriment_Emotion.obj :	"c45_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c45_Expriment_Emotion.c"
+c50_Expriment_Emotion.obj :	"c50_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c50_Expriment_Emotion.c"
+c51_Expriment_Emotion.obj :	"c51_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c51_Expriment_Emotion.c"
+c52_Expriment_Emotion.obj :	"c52_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c52_Expriment_Emotion.c"
+c53_Expriment_Emotion.obj :	"c53_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c53_Expriment_Emotion.c"
+c54_Expriment_Emotion.obj :	"c54_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c54_Expriment_Emotion.c"
+c55_Expriment_Emotion.obj :	"c55_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c55_Expriment_Emotion.c"
+c56_Expriment_Emotion.obj :	"c56_Expriment_Emotion.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c56_Expriment_Emotion.c"
+Expriment_Emotion_sfun_registry.obj :	"Expriment_Emotion_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Expriment_Emotion_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

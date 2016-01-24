@@ -1,0 +1,41 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"ex_custom_code_global_constants_vars_fcns_sfun.obj"\
+	"c1_ex_custom_code_global_constants_vars_fcns.obj"\
+	"ex_custom_code_global_constants_vars_fcns_sfun_registry.obj"\
+	"ex_custom_code_global_constants_vars_fcns_src.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\17-10-2015-Matlab-Demo\slprj\_sfprj\ex_custom_code_global_constants_vars_fcns\_self\sfun\src"  -I"c:\Users\root180\documents\affective-project\17-10-2015-matlab-demo\slprj\_sfprj\ex_custom_code_global_constants_vars_fcns\_self\sfun\src"  -I"c:\Users\root180\documents\affective-project\17-10-2015-matlab-demo"  -I"C:\MATLAB\R2014a32\help\toolbox\stateflow\examples\."  -I"C:\MATLAB\R2014a32\help\toolbox\stateflow\examples" 
+ 
+
+ex_custom_code_global_constants_vars_fcns_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o ex_custom_code_global_constants_vars_fcns_sfun.mexw32 @ex_custom_code_global_constants_vars_fcns_sfun.lmko
+ex_custom_code_global_constants_vars_fcns_sfun.obj :	"ex_custom_code_global_constants_vars_fcns_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "ex_custom_code_global_constants_vars_fcns_sfun.c"
+c1_ex_custom_code_global_constants_vars_fcns.obj :	"c1_ex_custom_code_global_constants_vars_fcns.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_ex_custom_code_global_constants_vars_fcns.c"
+ex_custom_code_global_constants_vars_fcns_sfun_registry.obj :	"ex_custom_code_global_constants_vars_fcns_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "ex_custom_code_global_constants_vars_fcns_sfun_registry.c"
+ex_custom_code_global_constants_vars_fcns_src.obj :	"c:\matlab\r2014a32\help\toolbox\stateflow\examples\ex_custom_code_global_constants_vars_fcns_src.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c:\matlab\r2014a32\help\toolbox\stateflow\examples\ex_custom_code_global_constants_vars_fcns_src.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

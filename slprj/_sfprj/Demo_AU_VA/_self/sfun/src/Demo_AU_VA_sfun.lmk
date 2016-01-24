@@ -1,0 +1,44 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Demo_AU_VA_sfun.obj"\
+	"c3_Demo_AU_VA.obj"\
+	"c5_Demo_AU_VA.obj"\
+	"c50_Demo_AU_VA.obj"\
+	"Demo_AU_VA_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\2-1-2016-Matlab\slprj\_sfprj\Demo_AU_VA\_self\sfun\src" 
+ 
+
+Demo_AU_VA_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Demo_AU_VA_sfun.mexw32 @Demo_AU_VA_sfun.lmko
+Demo_AU_VA_sfun.obj :	"Demo_AU_VA_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_AU_VA_sfun.c"
+c3_Demo_AU_VA.obj :	"c3_Demo_AU_VA.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c3_Demo_AU_VA.c"
+c5_Demo_AU_VA.obj :	"c5_Demo_AU_VA.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_Demo_AU_VA.c"
+c50_Demo_AU_VA.obj :	"c50_Demo_AU_VA.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c50_Demo_AU_VA.c"
+Demo_AU_VA_sfun_registry.obj :	"Demo_AU_VA_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_AU_VA_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

@@ -1,0 +1,661 @@
+ testKinectRPS_sfun
+
+ Timestamp is 5478356d (Fri Nov 28 00:42:21 2014)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00017444H .text                   CODE
+ 0002:00000000 00000288H .idata$5                DATA
+ 0002:00000288 00000004H .CRT$XCA                DATA
+ 0002:0000028c 00000004H .CRT$XCZ                DATA
+ 0002:00000290 00000004H .CRT$XIA                DATA
+ 0002:00000294 00000004H .CRT$XIAA               DATA
+ 0002:00000298 00000004H .CRT$XIC                DATA
+ 0002:0000029c 00000004H .CRT$XIZ                DATA
+ 0002:000002a0 00000718H .rdata                  DATA
+ 0002:000009c0 00000004H .rdata$sxdata           DATA
+ 0002:000009c4 00000004H .rtc$IAA                DATA
+ 0002:000009c8 00000004H .rtc$IZZ                DATA
+ 0002:000009cc 00000004H .rtc$TAA                DATA
+ 0002:000009d0 00000004H .rtc$TZZ                DATA
+ 0002:000009d8 00000064H .xdata$x                DATA
+ 0002:00000a3c 0000008cH .idata$2                DATA
+ 0002:00000ac8 00000014H .idata$3                DATA
+ 0002:00000adc 00000288H .idata$4                DATA
+ 0002:00000d64 00000e8cH .idata$6                DATA
+ 0002:00001bf0 00000058H .edata                  DATA
+ 0003:00000000 000064b0H .data                   DATA
+ 0003:000064b0 00000460H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _testKinectRPS_initializer 10001000 f   testKinectRPS_sfun.obj
+ 0001:00000010       _testKinectRPS_terminator  10001010 f   testKinectRPS_sfun.obj
+ 0001:00000020       _sf_testKinectRPS_method_dispatcher 10001020 f   testKinectRPS_sfun.obj
+ 0001:00000050       _sf_testKinectRPS_process_check_sum_call 10001050 f   testKinectRPS_sfun.obj
+ 0001:00000400       _sf_testKinectRPS_autoinheritance_info 10001400 f   testKinectRPS_sfun.obj
+ 0001:00000520       _sf_testKinectRPS_get_eml_resolved_functions_info 10001520 f   testKinectRPS_sfun.obj
+ 0001:00000610       _sf_testKinectRPS_third_party_uses_info 10001610 f   testKinectRPS_sfun.obj
+ 0001:00000740       _sf_testKinectRPS_updateBuildInfo_args_info 10001740 f   testKinectRPS_sfun.obj
+ 0001:00000870       _testKinectRPS_debug_initialize 10001870 f   testKinectRPS_sfun.obj
+ 0001:000008d0       _testKinectRPS_register_exported_symbols 100018d0 f   testKinectRPS_sfun.obj
+ 0001:000008e0       _load_testKinectRPS_optimization_info 100018e0 f   testKinectRPS_sfun.obj
+ 0001:00000920       _unload_testKinectRPS_optimization_info 10001920 f   testKinectRPS_sfun.obj
+ 0001:00000950       _sf_c1_testKinectRPS_get_eml_resolved_functions_info 10001950 f   c1_testKinectRPS.obj
+ 0001:000055e0       _sf_c1_testKinectRPS_get_check_sum 100065e0 f   c1_testKinectRPS.obj
+ 0001:00005640       _sf_c1_testKinectRPS_get_autoinheritance_info 10006640 f   c1_testKinectRPS.obj
+ 0001:00005db0       _sf_c1_testKinectRPS_third_party_uses_info 10006db0 f   c1_testKinectRPS.obj
+ 0001:00005dd0       _sf_c1_testKinectRPS_updateBuildInfo_args_info 10006dd0 f   c1_testKinectRPS.obj
+ 0001:00005df0       _sf_internal_get_sim_state_c1_testKinectRPS 10006df0 f   c1_testKinectRPS.obj
+ 0001:000066d0       _sf_internal_set_sim_state_c1_testKinectRPS 100076d0 f   c1_testKinectRPS.obj
+ 0001:000078f0       _c1_testKinectRPS_method_dispatcher 100088f0 f   c1_testKinectRPS.obj
+ 0001:00011b80       _sf_process_check_sum_call 10012b80 f   testKinectRPS_sfun_registry.obj
+ 0001:00011bb0       _sf_process_autoinheritance_call 10012bb0 f   testKinectRPS_sfun_registry.obj
+ 0001:00011cf0       _sf_process_get_third_party_uses_info_call 10012cf0 f   testKinectRPS_sfun_registry.obj
+ 0001:00011e30       _sf_process_get_updateBuildInfo_args_info_call 10012e30 f   testKinectRPS_sfun_registry.obj
+ 0001:00011f70       _sf_process_get_eml_resolved_functions_info_call 10012f70 f   testKinectRPS_sfun_registry.obj
+ 0001:00012090       _sf_mex_unlock_call        10013090 f   testKinectRPS_sfun_registry.obj
+ 0001:00012120       _sf_machine_global_initializer_called 10013120 f   testKinectRPS_sfun_registry.obj
+ 0001:00012140       _sf_machine_global_method_dispatcher 10013140 f   testKinectRPS_sfun_registry.obj
+ 0001:00012180       _sf_machine_global_terminator 10013180 f   testKinectRPS_sfun_registry.obj
+ 0001:000121c0       _sf_register_machine_exported_symbols 100131c0 f   testKinectRPS_sfun_registry.obj
+ 0001:000121e0       _callCustomFcn             100131e0 f   testKinectRPS_sfun_registry.obj
+ 0001:000121f0       _sf_machine_global_initializer 100131f0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012260       _mdlGetSimState            10013260 f   testKinectRPS_sfun_registry.obj
+ 0001:000122c0       _mdlSetSimState            100132c0 f   testKinectRPS_sfun_registry.obj
+ 0001:000122f0       __ssSetStateAbsTol         100132f0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012390       __ssGetAbsTol              10013390 f   testKinectRPS_sfun_registry.obj
+ 0001:000123e0       __ssSetInputPortMatrixDimensions 100133e0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012490       __ssSetOutputPortMatrixDimensions 10013490 f   testKinectRPS_sfun_registry.obj
+ 0001:00012540       __ssSetInputPortVectorDimension 10013540 f   testKinectRPS_sfun_registry.obj
+ 0001:000125c0       __ssSetOutputPortVectorDimension 100135c0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012640       _ssIsRunTimeParamTunable   10013640 f   testKinectRPS_sfun_registry.obj
+ 0001:000126a0       _ssGetSFuncBlockHandle     100136a0 f   testKinectRPS_sfun_registry.obj
+ 0001:000126f0       __ssGetCurrentInputPortWidth 100136f0 f   testKinectRPS_sfun_registry.obj
+ 0001:000127c0       __ssGetCurrentOutputPortWidth 100137c0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012890       __ssGetCallSystemNumFcnCallDestinations 10013890 f   testKinectRPS_sfun_registry.obj
+ 0001:000128f0       _ssWarning                 100138f0 f   testKinectRPS_sfun_registry.obj
+ 0001:000129d0       _ssGetIsZeroCrossControlDisabled 100139d0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012a30       _ssSetIsInputPortUsedForContZcSignal 10013a30 f   testKinectRPS_sfun_registry.obj
+ 0001:00012a80       _ssSetZcSignalIsZcElementDisc 10013a80 f   testKinectRPS_sfun_registry.obj
+ 0001:00012b00       _ssSetZcSignalName         10013b00 f   testKinectRPS_sfun_registry.obj
+ 0001:00012b50       _ssSetZcSignalWidth        10013b50 f   testKinectRPS_sfun_registry.obj
+ 0001:00012ba0       _ssSetZcSignalZcEventType  10013ba0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012bf0       _ssSetZcSignalType         10013bf0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012c40       _ssSetZcSignalZcTol        10013c40 f   testKinectRPS_sfun_registry.obj
+ 0001:00012c90       _ssSetZcSignalNeedsEventNotification 10013c90 f   testKinectRPS_sfun_registry.obj
+ 0001:00012ce0       _ssCreateAndAddZcSignalInfo 10013ce0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012d40       _ssCloneAndAddZcSignalInfo 10013d40 f   testKinectRPS_sfun_registry.obj
+ 0001:00012da0       _ssGetNumZcSignals         10013da0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012e00       _ssGetZcSignalVector       10013e00 f   testKinectRPS_sfun_registry.obj
+ 0001:00012e60       _ssGetZcSignalZcEvents     10013e60 f   testKinectRPS_sfun_registry.obj
+ 0001:00012ec0       _ssGetZcSignalName         10013ec0 f   testKinectRPS_sfun_registry.obj
+ 0001:00012f20       _ssGetZcSignalWidth        10013f20 f   testKinectRPS_sfun_registry.obj
+ 0001:00012f80       _ssGetZcSignalZcEventType  10013f80 f   testKinectRPS_sfun_registry.obj
+ 0001:00012fe0       _ssGetZcSignalType         10013fe0 f   testKinectRPS_sfun_registry.obj
+ 0001:00013040       _ssGetZcSignalZcTol        10014040 f   testKinectRPS_sfun_registry.obj
+ 0001:000130a0       _ssGetZcSignalNeedsEventNotification 100140a0 f   testKinectRPS_sfun_registry.obj
+ 0001:00013100       _ssGetZcSignalIsZcElementDisc 10014100 f   testKinectRPS_sfun_registry.obj
+ 0001:00013180       _ssGetIsInputPortElementContinuous 10014180 f   testKinectRPS_sfun_registry.obj
+ 0001:00013200       __ssGetInputPortSignalPtrsFcn 10014200 f   testKinectRPS_sfun_registry.obj
+ 0001:00013400       __ssGetInputPortSignalFcn  10014400 f   testKinectRPS_sfun_registry.obj
+ 0001:00013590       __ssSetInputPortDirectFeedThroughFcn 10014590 f   testKinectRPS_sfun_registry.obj
+ 0001:000136c0       __ssSetInputPortReusableFcn 100146c0 f   testKinectRPS_sfun_registry.obj
+ 0001:00013750       __ssSetOutputPortReusableFcn 10014750 f   testKinectRPS_sfun_registry.obj
+ 0001:000137e0       _ssGetDTypeIdFromMxArray   100147e0 f   testKinectRPS_sfun_registry.obj
+ 0001:000138d0       _ssWriteRTWStr             100148d0 f   testKinectRPS_sfun_registry.obj
+ 0001:00013910       _ssWriteRTWMxVectParam     10014910 f   testKinectRPS_sfun_registry.obj
+ 0001:00013950       _ssWriteRTWMx2dMatParam    10014950 f   testKinectRPS_sfun_registry.obj
+ 0001:00013990       _ssWriteRTWNameValuePair   10014990 f   testKinectRPS_sfun_registry.obj
+ 0001:00013d00       _ssWriteRTWParameters      10014d00 f   testKinectRPS_sfun_registry.obj
+ 0001:000140a0       _ssWriteRTWParamSettings   100150a0 f   testKinectRPS_sfun_registry.obj
+ 0001:00014550       _ssWriteRTWWorkVect        10015550 f   testKinectRPS_sfun_registry.obj
+ 0001:000148e0       _mexFunction               100158e0 f   testKinectRPS_sfun_registry.obj
+ 0001:00016630       _ProcessMexSfunctionEveryCall 10017630 f   testKinectRPS_sfun_registry.obj
+ 0001:0001674e       _sf_debug_set_machine_data_thresholds 1001774e f   sf_runtime:sf_runtime.dll
+ 0001:00016754       _sf_debug_set_machine_event_thresholds 10017754 f   sf_runtime:sf_runtime.dll
+ 0001:0001675a       _sf_debug_initialize_machine 1001775a f   sf_runtime:sf_runtime.dll
+ 0001:00016760       _sf_load_rtw_optimization_info 10017760 f   sf_runtime:sf_runtime.dll
+ 0001:00016766       _sf_mex_emlrtNameCapturePostProcessR2012a 10017766 f   sf_runtime:sf_runtime.dll
+ 0001:0001676c       _sf_mex_assign             1001776c f   sf_runtime:sf_runtime.dll
+ 0001:00016772       _sf_mex_createstruct       10017772 f   sf_runtime:sf_runtime.dll
+ 0001:00016778       _sf_mex_destroy            10017778 f   sf_runtime:sf_runtime.dll
+ 0001:0001677e       _sf_mex_duplicatearraysafe 1001777e f   sf_runtime:sf_runtime.dll
+ 0001:00016784       _sf_mex_createcellmatrix   10017784 f   sf_runtime:sf_runtime.dll
+ 0001:0001678a       _sf_mex_addfield           1001778a f   sf_runtime:sf_runtime.dll
+ 0001:00016790       _sf_mex_create             10017790 f   sf_runtime:sf_runtime.dll
+ 0001:00016796       _sf_mex_error_message      10017796 f   sf_runtime:sf_runtime.dll
+ 0001:0001679c       _sf_mex_call_matlab        1001779c f   sf_runtime:sf_runtime.dll
+ 0001:000167a2       _sf_mex_setcell            100177a2 f   sf_runtime:sf_runtime.dll
+ 0001:000167a8       _sf_mex_decode_encoded_mx_struct_array 100177a8 f   sf_runtime:sf_runtime.dll
+ 0001:000167ae       _sf_mex_getcell            100177ae f   sf_runtime:sf_runtime.dll
+ 0001:000167b4       _sf_mex_dup                100177b4 f   sf_runtime:sf_runtime.dll
+ 0001:000167ba       _sf_debug_animate          100177ba f   sf_runtime:sf_runtime.dll
+ 0001:000167c0       _sf_debug_call             100177c0 f   sf_runtime:sf_runtime.dll
+ 0001:000167c6       _sf_debug_set_honor_breakpoints 100177c6 f   sf_runtime:sf_runtime.dll
+ 0001:000167cc       _sf_debug_set_animation    100177cc f   sf_runtime:sf_runtime.dll
+ 0001:000167d2       _sf_debug_get_animation    100177d2 f   sf_runtime:sf_runtime.dll
+ 0001:000167d8       _sf_mex_import             100177d8 f   sf_runtime:sf_runtime.dll
+ 0001:000167de       _sf_set_rtw_dwork_info     100177de f   sf_runtime:sf_runtime.dll
+ 0001:000167e4       _sf_mark_chart_reusable_outputs 100177e4 f   sf_runtime:sf_runtime.dll
+ 0001:000167ea       _sf_mark_chart_expressionable_inputs 100177ea f   sf_runtime:sf_runtime.dll
+ 0001:000167f0       _sf_mark_output_events_with_multiple_callers 100177f0 f   sf_runtime:sf_runtime.dll
+ 0001:000167f6       _sf_update_buildInfo       100177f6 f   sf_runtime:sf_runtime.dll
+ 0001:000167fc       _sf_rtw_info_uint_prop     100177fc f   sf_runtime:sf_runtime.dll
+ 0001:00016802       _sf_is_chart_inlinable     10017802 f   sf_runtime:sf_runtime.dll
+ 0001:00016808       _sim_mode_is_external      10017808 f   sf_runtime:sf_runtime.dll
+ 0001:0001680e       _sim_mode_is_rtw_gen       1001780e f   sf_runtime:sf_runtime.dll
+ 0001:00016814       _sf_debug_reset_current_state_configuration 10017814 f   sf_runtime:sf_runtime.dll
+ 0001:0001681a       _sf_debug_set_instance_data_value_ptr 1001781a f   sf_runtime:sf_runtime.dll
+ 0001:00016820       _sf_debug_set_chart_data_compiled_props 10017820 f   sf_runtime:sf_runtime.dll
+ 0001:00016826       _cv_eml_init_mcdc          10017826 f   sf_runtime:sf_runtime.dll
+ 0001:0001682c       _cv_script_init_fcn        1001782c f   sf_runtime:sf_runtime.dll
+ 0001:00016832       _cv_script_init_script     10017832 f   sf_runtime:sf_runtime.dll
+ 0001:00016838       _cv_eml_init_if            10017838 f   sf_runtime:sf_runtime.dll
+ 0001:0001683e       _cv_eml_init_fcn           1001783e f   sf_runtime:sf_runtime.dll
+ 0001:00016844       _cv_eml_init_script        10017844 f   sf_runtime:sf_runtime.dll
+ 0001:0001684a       _sf_debug_cv_init_trans    1001784a f   sf_runtime:sf_runtime.dll
+ 0001:00016850       _sf_debug_cv_init_state    10017850 f   sf_runtime:sf_runtime.dll
+ 0001:00016856       _sf_debug_cv_init_chart    10017856 f   sf_runtime:sf_runtime.dll
+ 0001:0001685c       _sf_debug_set_chart_state_substate_count 1001785c f   sf_runtime:sf_runtime.dll
+ 0001:00016862       _sf_debug_set_chart_substate_index 10017862 f   sf_runtime:sf_runtime.dll
+ 0001:00016868       _sf_debug_set_chart_decomposition 10017868 f   sf_runtime:sf_runtime.dll
+ 0001:0001686e       _sf_debug_set_chart_substate_count 1001786e f   sf_runtime:sf_runtime.dll
+ 0001:00016874       _sf_debug_set_chart_state_info 10017874 f   sf_runtime:sf_runtime.dll
+ 0001:0001687a       _sf_debug_set_chart_data_props 1001787a f   sf_runtime:sf_runtime.dll
+ 0001:00016880       _sf_debug_set_chart_event_thresholds 10017880 f   sf_runtime:sf_runtime.dll
+ 0001:00016886       _sf_debug_set_chart_disable_implicit_casting 10017886 f   sf_runtime:sf_runtime.dll
+ 0001:0001688c       _sf_debug_initialize_chart 1001788c f   sf_runtime:sf_runtime.dll
+ 0001:00016892       _sf_debug_set_script_translation 10017892 f   sf_runtime:sf_runtime.dll
+ 0001:00016898       _sf_debug_get_script_id    10017898 f   sf_runtime:sf_runtime.dll
+ 0001:0001689e       _sf_get_time               1001789e f   sf_runtime:sf_runtime.dll
+ 0001:000168a4       _sf_call_output_fcn_enable 100178a4 f   sf_runtime:sf_runtime.dll
+ 0001:000168aa       _sf_call_output_fcn_disable 100178aa f   sf_runtime:sf_runtime.dll
+ 0001:000168b0       _sf_debug_check_for_state_inconsistency 100178b0 f   sf_runtime:sf_runtime.dll
+ 0001:000168b6       _sf_debug_symbol_scope_pop 100178b6 f   sf_runtime:sf_runtime.dll
+ 0001:000168bc       _sf_debug_data_range_wrapper 100178bc f   sf_runtime:sf_runtime.dll
+ 0001:000168c2       _sf_debug_symbol_scope_push 100178c2 f   sf_runtime:sf_runtime.dll
+ 0001:000168c8       _sf_mex_sub                100178c8 f   sf_runtime:sf_runtime.dll
+ 0001:000168ce       _cv_eml_eval               100178ce f   sf_runtime:sf_runtime.dll
+ 0001:000168d4       _cv_eval_point             100178d4 f   sf_runtime:sf_runtime.dll
+ 0001:000168da       _sf_debug_symbol_scope_add_eml_importable 100178da f   sf_runtime:sf_runtime.dll
+ 0001:000168e0       _sf_debug_symbol_scope_push_eml 100178e0 f   sf_runtime:sf_runtime.dll
+ 0001:000168e6       _sf_debug_unset_instance_data_value_ptr 100178e6 f   sf_runtime:sf_runtime.dll
+ 0001:000168ec       _sf_call_output_fcn_call   100178ec f   sf_runtime:sf_runtime.dll
+ 0001:000168f2       _sf_debug_symbol_scope_add_importable 100178f2 f   sf_runtime:sf_runtime.dll
+ 0001:000168f8       _cv_script_eval            100178f8 f   sf_runtime:sf_runtime.dll
+ 0001:000168fe       _sf_debug_symbol_scope_add_eml 100178fe f   sf_runtime:sf_runtime.dll
+ 0001:00016904       _sf_mex_call_debug         10017904 f   sf_runtime:sf_runtime.dll
+ 0001:0001690a       _sf_mex_printf             1001790a f   sf_runtime:sf_runtime.dll
+ 0001:00016910       _eml_debug_line_call       10017910 f   sf_runtime:sf_runtime.dll
+ 0001:00016916       _sf_debug_eml_data_array_bounds_error_check 10017916 f   sf_runtime:sf_runtime.dll
+ 0001:0001691c       _sf_debug_read_before_write_check 1001791c f   sf_runtime:sf_runtime.dll
+ 0001:00016922       _sf_debug_integer_check    10017922 f   sf_runtime:sf_runtime.dll
+ 0001:00016928       _sf_clear_rtw_identifier   10017928 f   sf_runtime:sf_runtime.dll
+ 0001:0001692e       _sf_debug_terminate        1001792e f   sf_runtime:sf_runtime.dll
+ 0001:00016934       _sf_debug_create_debug_instance_struct 10017934 f   sf_runtime:sf_runtime.dll
+ 0001:0001693a       _sf_debug_api              1001793a f   sf_runtime:sf_runtime.dll
+ 0001:00016940       _callMdlMethodAndReportError 10017940 f   sf_runtime:sf_runtime.dll
+ 0001:00016946       _call_sf_machine_global_method_dispatcher 10017946 f   sf_runtime:sf_runtime.dll
+ 0001:0001694c       _sf_clear_error_manager_info 1001794c f   sf_runtime:sf_runtime.dll
+ 0001:00016952       _sf_mex_error_direct_call  10017952 f   sf_runtime:sf_runtime.dll
+ 0001:00016958       _mxGetScalar               10017958 f   libmx:libmx.dll
+ 0001:0001695e       _mxGetPr                   1001795e f   libmx:libmx.dll
+ 0001:00016964       _mxCreateDoubleMatrix_730  10017964 f   libmx:libmx.dll
+ 0001:0001696a       _mxGetString_730           1001796a f   libmx:libmx.dll
+ 0001:00016970       _mxIsChar                  10017970 f   libmx:libmx.dll
+ 0001:00016976       _mxDestroyArray            10017976 f   libmx:libmx.dll
+ 0001:0001697c       _mxDuplicateArray          1001797c f   libmx:libmx.dll
+ 0001:00016982       _mxCreateDoubleScalar      10017982 f   libmx:libmx.dll
+ 0001:00016988       _mxSetField_730            10017988 f   libmx:libmx.dll
+ 0001:0001698e       _mxCreateString            1001798e f   libmx:libmx.dll
+ 0001:00016994       _mxCreateStructMatrix_730  10017994 f   libmx:libmx.dll
+ 0001:0001699a       _mxCreateCellMatrix_730    1001799a f   libmx:libmx.dll
+ 0001:000169a0       _mxIsEmpty                 100179a0 f   libmx:libmx.dll
+ 0001:000169a6       _mxGetClassID              100179a6 f   libmx:libmx.dll
+ 0001:000169ac       _mxIsNumeric               100179ac f   libmx:libmx.dll
+ 0001:000169b2       _mxIsComplex               100179b2 f   libmx:libmx.dll
+ 0001:000169b8       _mxGetN                    100179b8 f   libmx:libmx.dll
+ 0001:000169be       _mxGetM                    100179be f   libmx:libmx.dll
+ 0001:000169c4       _mxCalloc                  100179c4 f   libmx:libmx.dll
+ 0001:000169ca       _mexMakeArrayPersistent    100179ca f   libmex:libmex.dll
+ 0001:000169d0       _mexUnlock                 100179d0 f   libmex:libmex.dll
+ 0001:000169d6       _mexIsLocked               100179d6 f   libmex:libmex.dll
+ 0001:000169dc       _mexWarnMsgTxt             100179dc f   libmex:libmex.dll
+ 0001:000169e2       _mexCallMATLAB             100179e2 f   libmex:libmex.dll
+ 0001:000169e8       _mexErrMsgTxt              100179e8 f   libmex:libmex.dll
+ 0001:000169ee       _mexLock                   100179ee f   libmex:libmex.dll
+ 0001:000169f4       _utMalloc                  100179f4 f   libut:libut.dll
+ 0001:000169fa       _utFree                    100179fa f   libut:libut.dll
+ 0001:00016a00       _muDoubleScalarFloor       10017a00 f   libmwmathutil:libmwmathutil.dll
+ 0001:00016a06       _muDoubleScalarRound       10017a06 f   libmwmathutil:libmwmathutil.dll
+ 0001:00016a0c       _strcmp                    10017a0c f   MSVCRT:MSVCR100.dll
+ 0001:00016a20       @__security_check_cookie@4 10017a20 f   MSVCRT:secchk.obj
+ 0001:00016a30       _strlen                    10017a30 f   MSVCRT:MSVCR100.dll
+ 0001:00016a36       _memset                    10017a36 f   MSVCRT:MSVCR100.dll
+ 0001:00016a40       __chkstk                   10017a40 f   MSVCRT:chkstk.obj
+ 0001:00016a40       __alloca_probe             10017a40     MSVCRT:chkstk.obj
+ 0001:00016a70       __ftol2_sse                10017a70 f   MSVCRT:ftol2.obj
+ 0001:00016a79       __ftol2_pentium4           10017a79 f   MSVCRT:ftol2.obj
+ 0001:00016a8c       __ftol2_sse_excpt          10017a8c f   MSVCRT:ftol2.obj
+ 0001:00016aa6       __ftol2                    10017aa6 f   MSVCRT:ftol2.obj
+ 0001:00016b1c       _free                      10017b1c f   MSVCRT:MSVCR100.dll
+ 0001:00016b22       _sprintf                   10017b22 f   MSVCRT:MSVCR100.dll
+ 0001:00016b28       _malloc                    10017b28 f   MSVCRT:MSVCR100.dll
+ 0001:00016b2e       _strcat                    10017b2e f   MSVCRT:MSVCR100.dll
+ 0001:00016b34       _memcpy                    10017b34 f   MSVCRT:MSVCR100.dll
+ 0001:00016b3a       _NtCurrentTeb              10017b3a f i MSVCRT:crtdll.obj
+ 0001:00016b8f       __CRT_INIT@12              10017b8f f   MSVCRT:crtdll.obj
+ 0001:00016eaf       __DllMainCRTStartup@12     10017eaf f   MSVCRT:crtdll.obj
+ 0001:00016ed2       ___report_gsfailure        10017ed2 f   MSVCRT:gs_report.obj
+ 0001:00016fd8       ___sse2_available_init     10017fd8 f   MSVCRT:cpu_disp.obj
+ 0001:00016fe8       ___clean_type_info_names   10017fe8 f   MSVCRT:tncleanup.obj
+ 0001:00016ff4       __onexit                   10017ff4 f   MSVCRT:atonexit.obj
+ 0001:00017095       _atexit                    10018095 f   MSVCRT:atonexit.obj
+ 0001:000170ac       __RTC_Initialize           100180ac f   MSVCRT:_initsect_.obj
+ 0001:000170d2       __RTC_Terminate            100180d2 f   MSVCRT:_initsect_.obj
+ 0001:000170f8       __malloc_crt               100180f8 f   MSVCRT:MSVCR100.dll
+ 0001:000170fe       __encoded_null             100180fe f   MSVCRT:MSVCR100.dll
+ 0001:00017110       __ValidateImageBase        10018110 f   MSVCRT:pesect.obj
+ 0001:00017150       __FindPESection            10018150 f   MSVCRT:pesect.obj
+ 0001:000171a0       __IsNonwritableInCurrentImage 100181a0 f   MSVCRT:pesect.obj
+ 0001:0001725c       __initterm                 1001825c f   MSVCRT:MSVCR100.dll
+ 0001:00017262       __initterm_e               10018262 f   MSVCRT:MSVCR100.dll
+ 0001:00017268       __amsg_exit                10018268 f   MSVCRT:MSVCR100.dll
+ 0001:0001726e       ___CppXcptFilter           1001826e f   MSVCRT:MSVCR100.dll
+ 0001:00017274       _DllMain@12                10018274 f   MSVCRT:dllmain.obj
+ 0001:000172a0       __SEH_prolog4              100182a0 f   MSVCRT:sehprolg4.obj
+ 0001:000172e5       __SEH_epilog4              100182e5 f   MSVCRT:sehprolg4.obj
+ 0001:000172f9       __except_handler4          100182f9 f   MSVCRT:chandler4gs.obj
+ 0001:0001731e       ___security_init_cookie    1001831e f   MSVCRT:gs_support.obj
+ 0001:000173ba       __crt_debugger_hook        100183ba f   MSVCRT:MSVCR100.dll
+ 0001:000173c0       ___clean_type_info_names_internal 100183c0 f   MSVCRT:MSVCR100.dll
+ 0001:000173c6       __unlock                   100183c6 f   MSVCRT:MSVCR100.dll
+ 0001:000173cc       ___dllonexit               100183cc f   MSVCRT:MSVCR100.dll
+ 0001:000173d2       __lock                     100183d2 f   MSVCRT:MSVCR100.dll
+ 0001:000173d8       __except_handler4_common   100183d8 f   MSVCRT:MSVCR100.dll
+ 0001:000173de       _EncodePointer@4           100183de f   kernel32:KERNEL32.dll
+ 0001:000173e4       _DecodePointer@4           100183e4 f   kernel32:KERNEL32.dll
+ 0001:000173ea       _InterlockedExchange@8     100183ea f   kernel32:KERNEL32.dll
+ 0001:000173f0       _Sleep@4                   100183f0 f   kernel32:KERNEL32.dll
+ 0001:000173f6       _InterlockedCompareExchange@12 100183f6 f   kernel32:KERNEL32.dll
+ 0001:000173fc       _TerminateProcess@8        100183fc f   kernel32:KERNEL32.dll
+ 0001:00017402       _GetCurrentProcess@0       10018402 f   kernel32:KERNEL32.dll
+ 0001:00017408       _UnhandledExceptionFilter@4 10018408 f   kernel32:KERNEL32.dll
+ 0001:0001740e       _SetUnhandledExceptionFilter@4 1001840e f   kernel32:KERNEL32.dll
+ 0001:00017414       _IsDebuggerPresent@0       10018414 f   kernel32:KERNEL32.dll
+ 0001:0001741a       _IsProcessorFeaturePresent@4 1001841a f   kernel32:KERNEL32.dll
+ 0001:00017420       _DisableThreadLibraryCalls@4 10018420 f   kernel32:KERNEL32.dll
+ 0001:00017426       _QueryPerformanceCounter@4 10018426 f   kernel32:KERNEL32.dll
+ 0001:0001742c       _GetTickCount@0            1001842c f   kernel32:KERNEL32.dll
+ 0001:00017432       _GetCurrentThreadId@0      10018432 f   kernel32:KERNEL32.dll
+ 0001:00017438       _GetCurrentProcessId@0     10018438 f   kernel32:KERNEL32.dll
+ 0001:0001743e       _GetSystemTimeAsFileTime@4 1001843e f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp__GetCurrentProcessId@0 10019000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentThreadId@0 10019004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetTickCount@0      10019008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__QueryPerformanceCounter@4 1001900c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__DisableThreadLibraryCalls@4 10019010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__IsProcessorFeaturePresent@4 10019014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__IsDebuggerPresent@0 10019018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__SetUnhandledExceptionFilter@4 1001901c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__UnhandledExceptionFilter@4 10019020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetCurrentProcess@0 10019024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__TerminateProcess@8  10019028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__InterlockedCompareExchange@12 1001902c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__Sleep@4             10019030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__InterlockedExchange@8 10019034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__DecodePointer@4     10019038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__EncodePointer@4     1001903c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetSystemTimeAsFileTime@4 10019040     kernel32:KERNEL32.dll
+ 0002:00000044       \177KERNEL32_NULL_THUNK_DATA 10019044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp___except_handler4_common 10019048     MSVCRT:MSVCR100.dll
+ 0002:0000004c       __imp___onexit             1001904c     MSVCRT:MSVCR100.dll
+ 0002:00000050       __imp___lock               10019050     MSVCRT:MSVCR100.dll
+ 0002:00000054       __imp____dllonexit         10019054     MSVCRT:MSVCR100.dll
+ 0002:00000058       __imp___unlock             10019058     MSVCRT:MSVCR100.dll
+ 0002:0000005c       __imp____clean_type_info_names_internal 1001905c     MSVCRT:MSVCR100.dll
+ 0002:00000060       __imp___crt_debugger_hook  10019060     MSVCRT:MSVCR100.dll
+ 0002:00000064       __imp____CppXcptFilter     10019064     MSVCRT:MSVCR100.dll
+ 0002:00000068       __imp___amsg_exit          10019068     MSVCRT:MSVCR100.dll
+ 0002:0000006c       __imp___initterm_e         1001906c     MSVCRT:MSVCR100.dll
+ 0002:00000070       __imp___initterm           10019070     MSVCRT:MSVCR100.dll
+ 0002:00000074       __imp___encoded_null       10019074     MSVCRT:MSVCR100.dll
+ 0002:00000078       __imp___malloc_crt         10019078     MSVCRT:MSVCR100.dll
+ 0002:0000007c       __imp__memcpy              1001907c     MSVCRT:MSVCR100.dll
+ 0002:00000080       __imp__strcat              10019080     MSVCRT:MSVCR100.dll
+ 0002:00000084       __imp__malloc              10019084     MSVCRT:MSVCR100.dll
+ 0002:00000088       __imp__sprintf             10019088     MSVCRT:MSVCR100.dll
+ 0002:0000008c       __imp__free                1001908c     MSVCRT:MSVCR100.dll
+ 0002:00000090       __imp__memset              10019090     MSVCRT:MSVCR100.dll
+ 0002:00000094       __imp__strlen              10019094     MSVCRT:MSVCR100.dll
+ 0002:00000098       __imp__strcmp              10019098     MSVCRT:MSVCR100.dll
+ 0002:0000009c       \177MSVCR100_NULL_THUNK_DATA 1001909c     MSVCRT:MSVCR100.dll
+ 0002:000000a0       __imp__mexErrMsgTxt        100190a0     libmex:libmex.dll
+ 0002:000000a4       __imp__mexUnlock           100190a4     libmex:libmex.dll
+ 0002:000000a8       __imp__mexIsLocked         100190a8     libmex:libmex.dll
+ 0002:000000ac       __imp__mexLock             100190ac     libmex:libmex.dll
+ 0002:000000b0       __imp__mexMakeArrayPersistent 100190b0     libmex:libmex.dll
+ 0002:000000b4       __imp__mexCallMATLAB       100190b4     libmex:libmex.dll
+ 0002:000000b8       __imp__mexWarnMsgTxt       100190b8     libmex:libmex.dll
+ 0002:000000bc       \177libmex_NULL_THUNK_DATA 100190bc     libmex:libmex.dll
+ 0002:000000c0       __imp__muDoubleScalarRound 100190c0     libmwmathutil:libmwmathutil.dll
+ 0002:000000c4       __imp__muDoubleScalarFloor 100190c4     libmwmathutil:libmwmathutil.dll
+ 0002:000000c8       \177libmwmathutil_NULL_THUNK_DATA 100190c8     libmwmathutil:libmwmathutil.dll
+ 0002:000000cc       __imp__mxCalloc            100190cc     libmx:libmx.dll
+ 0002:000000d0       __imp__mxGetM              100190d0     libmx:libmx.dll
+ 0002:000000d4       __imp__mxGetN              100190d4     libmx:libmx.dll
+ 0002:000000d8       __imp__mxIsComplex         100190d8     libmx:libmx.dll
+ 0002:000000dc       __imp__mxIsNumeric         100190dc     libmx:libmx.dll
+ 0002:000000e0       __imp__mxGetClassID        100190e0     libmx:libmx.dll
+ 0002:000000e4       __imp__mxIsEmpty           100190e4     libmx:libmx.dll
+ 0002:000000e8       __imp__mxCreateCellMatrix_730 100190e8     libmx:libmx.dll
+ 0002:000000ec       __imp__mxCreateStructMatrix_730 100190ec     libmx:libmx.dll
+ 0002:000000f0       __imp__mxCreateString      100190f0     libmx:libmx.dll
+ 0002:000000f4       __imp__mxSetField_730      100190f4     libmx:libmx.dll
+ 0002:000000f8       __imp__mxCreateDoubleScalar 100190f8     libmx:libmx.dll
+ 0002:000000fc       __imp__mxDuplicateArray    100190fc     libmx:libmx.dll
+ 0002:00000100       __imp__mxDestroyArray      10019100     libmx:libmx.dll
+ 0002:00000104       __imp__mxIsChar            10019104     libmx:libmx.dll
+ 0002:00000108       __imp__mxGetString_730     10019108     libmx:libmx.dll
+ 0002:0000010c       __imp__mxCreateDoubleMatrix_730 1001910c     libmx:libmx.dll
+ 0002:00000110       __imp__mxGetScalar         10019110     libmx:libmx.dll
+ 0002:00000114       __imp__mxGetPr             10019114     libmx:libmx.dll
+ 0002:00000118       \177libmx_NULL_THUNK_DATA  10019118     libmx:libmx.dll
+ 0002:0000011c       __imp__utMalloc            1001911c     libut:libut.dll
+ 0002:00000120       __imp__utFree              10019120     libut:libut.dll
+ 0002:00000124       \177libut_NULL_THUNK_DATA  10019124     libut:libut.dll
+ 0002:00000128       __imp__sf_mex_printf       10019128     sf_runtime:sf_runtime.dll
+ 0002:0000012c       __imp__eml_debug_line_call 1001912c     sf_runtime:sf_runtime.dll
+ 0002:00000130       __imp__sf_debug_eml_data_array_bounds_error_check 10019130     sf_runtime:sf_runtime.dll
+ 0002:00000134       __imp__sf_debug_read_before_write_check 10019134     sf_runtime:sf_runtime.dll
+ 0002:00000138       __imp__sf_debug_integer_check 10019138     sf_runtime:sf_runtime.dll
+ 0002:0000013c       __imp__sf_clear_rtw_identifier 1001913c     sf_runtime:sf_runtime.dll
+ 0002:00000140       __imp__sf_mex_dup          10019140     sf_runtime:sf_runtime.dll
+ 0002:00000144       __imp__sf_debug_symbol_scope_add_importable 10019144     sf_runtime:sf_runtime.dll
+ 0002:00000148       __imp__sf_debug_api        10019148     sf_runtime:sf_runtime.dll
+ 0002:0000014c       __imp__callMdlMethodAndReportError 1001914c     sf_runtime:sf_runtime.dll
+ 0002:00000150       __imp__call_sf_machine_global_method_dispatcher 10019150     sf_runtime:sf_runtime.dll
+ 0002:00000154       __imp__sf_clear_error_manager_info 10019154     sf_runtime:sf_runtime.dll
+ 0002:00000158       __imp__sf_mex_error_direct_call 10019158     sf_runtime:sf_runtime.dll
+ 0002:0000015c       __imp__sf_call_output_fcn_call 1001915c     sf_runtime:sf_runtime.dll
+ 0002:00000160       __imp__sf_debug_animate    10019160     sf_runtime:sf_runtime.dll
+ 0002:00000164       __imp__sf_debug_unset_instance_data_value_ptr 10019164     sf_runtime:sf_runtime.dll
+ 0002:00000168       __imp__sf_debug_symbol_scope_push_eml 10019168     sf_runtime:sf_runtime.dll
+ 0002:0000016c       __imp__sf_debug_symbol_scope_add_eml_importable 1001916c     sf_runtime:sf_runtime.dll
+ 0002:00000170       __imp__cv_eval_point       10019170     sf_runtime:sf_runtime.dll
+ 0002:00000174       __imp__sf_mex_call_debug   10019174     sf_runtime:sf_runtime.dll
+ 0002:00000178       __imp__sf_mex_sub          10019178     sf_runtime:sf_runtime.dll
+ 0002:0000017c       __imp__sf_debug_symbol_scope_push 1001917c     sf_runtime:sf_runtime.dll
+ 0002:00000180       __imp__sf_debug_data_range_wrapper 10019180     sf_runtime:sf_runtime.dll
+ 0002:00000184       __imp__sf_debug_symbol_scope_pop 10019184     sf_runtime:sf_runtime.dll
+ 0002:00000188       __imp__sf_debug_check_for_state_inconsistency 10019188     sf_runtime:sf_runtime.dll
+ 0002:0000018c       __imp__sf_call_output_fcn_disable 1001918c     sf_runtime:sf_runtime.dll
+ 0002:00000190       __imp__sf_call_output_fcn_enable 10019190     sf_runtime:sf_runtime.dll
+ 0002:00000194       __imp__sf_get_time         10019194     sf_runtime:sf_runtime.dll
+ 0002:00000198       __imp__sf_debug_get_script_id 10019198     sf_runtime:sf_runtime.dll
+ 0002:0000019c       __imp__sf_debug_set_script_translation 1001919c     sf_runtime:sf_runtime.dll
+ 0002:000001a0       __imp__sf_debug_initialize_chart 100191a0     sf_runtime:sf_runtime.dll
+ 0002:000001a4       __imp__sf_debug_set_chart_disable_implicit_casting 100191a4     sf_runtime:sf_runtime.dll
+ 0002:000001a8       __imp__sf_debug_set_chart_event_thresholds 100191a8     sf_runtime:sf_runtime.dll
+ 0002:000001ac       __imp__sf_debug_set_chart_data_props 100191ac     sf_runtime:sf_runtime.dll
+ 0002:000001b0       __imp__sf_debug_set_chart_state_info 100191b0     sf_runtime:sf_runtime.dll
+ 0002:000001b4       __imp__sf_debug_set_chart_substate_count 100191b4     sf_runtime:sf_runtime.dll
+ 0002:000001b8       __imp__sf_debug_set_chart_decomposition 100191b8     sf_runtime:sf_runtime.dll
+ 0002:000001bc       __imp__sf_debug_set_chart_substate_index 100191bc     sf_runtime:sf_runtime.dll
+ 0002:000001c0       __imp__sf_debug_set_chart_state_substate_count 100191c0     sf_runtime:sf_runtime.dll
+ 0002:000001c4       __imp__sf_debug_cv_init_chart 100191c4     sf_runtime:sf_runtime.dll
+ 0002:000001c8       __imp__sf_debug_cv_init_state 100191c8     sf_runtime:sf_runtime.dll
+ 0002:000001cc       __imp__sf_debug_symbol_scope_add_eml 100191cc     sf_runtime:sf_runtime.dll
+ 0002:000001d0       __imp__cv_eml_eval         100191d0     sf_runtime:sf_runtime.dll
+ 0002:000001d4       __imp__cv_script_eval      100191d4     sf_runtime:sf_runtime.dll
+ 0002:000001d8       __imp__sf_debug_cv_init_trans 100191d8     sf_runtime:sf_runtime.dll
+ 0002:000001dc       __imp__cv_eml_init_script  100191dc     sf_runtime:sf_runtime.dll
+ 0002:000001e0       __imp__cv_eml_init_fcn     100191e0     sf_runtime:sf_runtime.dll
+ 0002:000001e4       __imp__cv_eml_init_if      100191e4     sf_runtime:sf_runtime.dll
+ 0002:000001e8       __imp__cv_script_init_script 100191e8     sf_runtime:sf_runtime.dll
+ 0002:000001ec       __imp__cv_script_init_fcn  100191ec     sf_runtime:sf_runtime.dll
+ 0002:000001f0       __imp__cv_eml_init_mcdc    100191f0     sf_runtime:sf_runtime.dll
+ 0002:000001f4       __imp__sf_debug_set_chart_data_compiled_props 100191f4     sf_runtime:sf_runtime.dll
+ 0002:000001f8       __imp__sf_debug_set_instance_data_value_ptr 100191f8     sf_runtime:sf_runtime.dll
+ 0002:000001fc       __imp__sf_debug_reset_current_state_configuration 100191fc     sf_runtime:sf_runtime.dll
+ 0002:00000200       __imp__sim_mode_is_rtw_gen 10019200     sf_runtime:sf_runtime.dll
+ 0002:00000204       __imp__sim_mode_is_external 10019204     sf_runtime:sf_runtime.dll
+ 0002:00000208       __imp__sf_is_chart_inlinable 10019208     sf_runtime:sf_runtime.dll
+ 0002:0000020c       __imp__sf_rtw_info_uint_prop 1001920c     sf_runtime:sf_runtime.dll
+ 0002:00000210       __imp__sf_update_buildInfo 10019210     sf_runtime:sf_runtime.dll
+ 0002:00000214       __imp__sf_mark_output_events_with_multiple_callers 10019214     sf_runtime:sf_runtime.dll
+ 0002:00000218       __imp__sf_mark_chart_expressionable_inputs 10019218     sf_runtime:sf_runtime.dll
+ 0002:0000021c       __imp__sf_mark_chart_reusable_outputs 1001921c     sf_runtime:sf_runtime.dll
+ 0002:00000220       __imp__sf_set_rtw_dwork_info 10019220     sf_runtime:sf_runtime.dll
+ 0002:00000224       __imp__sf_mex_import       10019224     sf_runtime:sf_runtime.dll
+ 0002:00000228       __imp__sf_debug_get_animation 10019228     sf_runtime:sf_runtime.dll
+ 0002:0000022c       __imp__sf_debug_set_animation 1001922c     sf_runtime:sf_runtime.dll
+ 0002:00000230       __imp__sf_debug_set_honor_breakpoints 10019230     sf_runtime:sf_runtime.dll
+ 0002:00000234       __imp__sf_debug_call       10019234     sf_runtime:sf_runtime.dll
+ 0002:00000238       __imp__sf_debug_create_debug_instance_struct 10019238     sf_runtime:sf_runtime.dll
+ 0002:0000023c       __imp__sf_mex_getcell      1001923c     sf_runtime:sf_runtime.dll
+ 0002:00000240       __imp__sf_mex_decode_encoded_mx_struct_array 10019240     sf_runtime:sf_runtime.dll
+ 0002:00000244       __imp__sf_mex_setcell      10019244     sf_runtime:sf_runtime.dll
+ 0002:00000248       __imp__sf_mex_call_matlab  10019248     sf_runtime:sf_runtime.dll
+ 0002:0000024c       __imp__sf_mex_error_message 1001924c     sf_runtime:sf_runtime.dll
+ 0002:00000250       __imp__sf_mex_create       10019250     sf_runtime:sf_runtime.dll
+ 0002:00000254       __imp__sf_mex_addfield     10019254     sf_runtime:sf_runtime.dll
+ 0002:00000258       __imp__sf_mex_createcellmatrix 10019258     sf_runtime:sf_runtime.dll
+ 0002:0000025c       __imp__sf_mex_duplicatearraysafe 1001925c     sf_runtime:sf_runtime.dll
+ 0002:00000260       __imp__sf_mex_destroy      10019260     sf_runtime:sf_runtime.dll
+ 0002:00000264       __imp__sf_mex_createstruct 10019264     sf_runtime:sf_runtime.dll
+ 0002:00000268       __imp__sf_mex_assign       10019268     sf_runtime:sf_runtime.dll
+ 0002:0000026c       __imp__sf_mex_emlrtNameCapturePostProcessR2012a 1001926c     sf_runtime:sf_runtime.dll
+ 0002:00000270       __imp__sf_load_rtw_optimization_info 10019270     sf_runtime:sf_runtime.dll
+ 0002:00000274       __imp__sf_debug_initialize_machine 10019274     sf_runtime:sf_runtime.dll
+ 0002:00000278       __imp__sf_debug_set_machine_event_thresholds 10019278     sf_runtime:sf_runtime.dll
+ 0002:0000027c       __imp__sf_debug_terminate  1001927c     sf_runtime:sf_runtime.dll
+ 0002:00000280       __imp__sf_debug_set_machine_data_thresholds 10019280     sf_runtime:sf_runtime.dll
+ 0002:00000284       \177sf_runtime_NULL_THUNK_DATA 10019284     sf_runtime:sf_runtime.dll
+ 0002:00000288       ___xc_a                    10019288     MSVCRT:cinitexe.obj
+ 0002:0000028c       ___xc_z                    1001928c     MSVCRT:cinitexe.obj
+ 0002:00000290       ___xi_a                    10019290     MSVCRT:cinitexe.obj
+ 0002:0000029c       ___xi_z                    1001929c     MSVCRT:cinitexe.obj
+ 0002:000002a0       __real@41ef2e672f800000    100192a0     testKinectRPS_sfun.obj
+ 0002:000002a8       __real@41e11e4cc5c00000    100192a8     testKinectRPS_sfun.obj
+ 0002:000002b0       __real@41e0d48535000000    100192b0     testKinectRPS_sfun.obj
+ 0002:000002b8       __real@41e1819547600000    100192b8     testKinectRPS_sfun.obj
+ 0002:000002c0       __real@41d187d0c8400000    100192c0     testKinectRPS_sfun.obj
+ 0002:000002c8       __real@41cff744e8000000    100192c8     testKinectRPS_sfun.obj
+ 0002:000002d0       __real@41b7e1066f000000    100192d0     testKinectRPS_sfun.obj
+ 0002:000002d8       __real@41c845d7be800000    100192d8     testKinectRPS_sfun.obj
+ 0002:000002e0       __real@41ecbb5150800000    100192e0     testKinectRPS_sfun.obj
+ 0002:000002e8       __real@41e92eb6f4800000    100192e8     testKinectRPS_sfun.obj
+ 0002:000002f0       __real@41e1bbb4e5c00000    100192f0     testKinectRPS_sfun.obj
+ 0002:000002f8       __real@41c091949a800000    100192f8     testKinectRPS_sfun.obj
+ 0002:00000300       __real@0000000000000000    10019300     testKinectRPS_sfun.obj
+ 0002:00000308       __real@41d48c428ec00000    10019308     testKinectRPS_sfun.obj
+ 0002:00000310       __real@41e2c0c878600000    10019310     testKinectRPS_sfun.obj
+ 0002:00000318       __real@41e3557d86a00000    10019318     testKinectRPS_sfun.obj
+ 0002:00000320       __real@41deaa35e6000000    10019320     testKinectRPS_sfun.obj
+ 0002:00000328       __real@41e5c51e03000000    10019328     c1_testKinectRPS.obj
+ 0002:00000330       __real@41d0b159da800000    10019330     c1_testKinectRPS.obj
+ 0002:00000338       __real@41d85540f8c00000    10019338     c1_testKinectRPS.obj
+ 0002:00000340       __real@41d845db50c00000    10019340     c1_testKinectRPS.obj
+ 0002:00000348       __real@4024000000000000    10019348     c1_testKinectRPS.obj
+ 0002:00000350       __real@3ff0000000000000    10019350     c1_testKinectRPS.obj
+ 0002:00000358       __real@4008000000000000    10019358     c1_testKinectRPS.obj
+ 0002:00000360       __real@4000000000000000    10019360     c1_testKinectRPS.obj
+ 0002:00000368       __real@4057800000000000    10019368     c1_testKinectRPS.obj
+ 0002:00000370       __real@4070000000000000    10019370     c1_testKinectRPS.obj
+ 0002:00000378       __real@4055800000000000    10019378     c1_testKinectRPS.obj
+ 0002:00000380       __real@4056800000000000    10019380     c1_testKinectRPS.obj
+ 0002:00000388       __real@3defffffffffffff    10019388     c1_testKinectRPS.obj
+ 0002:00000390       __real@3e00000000200000    10019390     c1_testKinectRPS.obj
+ 0002:00000398       __real@40b5710000000000    10019398     c1_testKinectRPS.obj
+ 0002:000003a0       __real@41f0000000000000    100193a0     c1_testKinectRPS.obj
+ 0002:000003a8       __real@3ca0000000000000    100193a8     c1_testKinectRPS.obj
+ 0002:000003b0       __real@4190000000000000    100193b0     c1_testKinectRPS.obj
+ 0002:000003b8       __real@406c800000000000    100193b8     c1_testKinectRPS.obj
+ 0002:000003c0       __real@4078d00000000000    100193c0     c1_testKinectRPS.obj
+ 0002:000003c8       __real@4083880000000000    100193c8     c1_testKinectRPS.obj
+ 0002:000003d0       _DYNAMIC_DIMENSION_DEF     100193d0     testKinectRPS_sfun_registry.obj
+ 0002:000003e0       __ssBadLevel2InputAccessMsg 100193e0     testKinectRPS_sfun_registry.obj
+ 0002:00000568       __ssBadLevel2DirectFeedMsg 10019568     testKinectRPS_sfun_registry.obj
+ 0002:000006a8       __ssBadLevel2DirectFeedSolutionMsg 100196a8     testKinectRPS_sfun_registry.obj
+ 0002:00000718       __ssBadLevel2ZeroDirectFeedMsg 10019718     testKinectRPS_sfun_registry.obj
+ 0002:00000858       __ssBadLevel2ZeroDirectFeedMsg2 10019858     testKinectRPS_sfun_registry.obj
+ 0002:00000940       __real@bff0000000000000    10019940     testKinectRPS_sfun_registry.obj
+ 0002:00000948       __real@4153d65940000000    10019948     testKinectRPS_sfun_registry.obj
+ 0002:00000950       __pRawDllMain              10019950     MSVCRT:crtdll.obj
+ 0002:00000950       __pDefaultRawDllMain       10019950     MSVCRT:crtdll.obj
+ 0002:0000095c       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 1001995c     MSVCRT:tncleanup.obj
+ 0002:00000960       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 10019960     MSVCRT:tncleanup.obj
+ 0002:00000964       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 10019964     MSVCRT:tncleanup.obj
+ 0002:00000968       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 10019968     MSVCRT:tncleanup.obj
+ 0002:0000096c       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 1001996c     MSVCRT:tncleanup.obj
+ 0002:00000970       __load_config_used         10019970     MSVCRT:loadcfg.obj
+ 0002:000009c0       ___safe_se_handler_table   100199c0     <linker-defined>
+ 0002:000009c4       ___rtc_iaa                 100199c4     MSVCRT:_initsect_.obj
+ 0002:000009c8       ___rtc_izz                 100199c8     MSVCRT:_initsect_.obj
+ 0002:000009cc       ___rtc_taa                 100199cc     MSVCRT:_initsect_.obj
+ 0002:000009d0       ___rtc_tzz                 100199d0     MSVCRT:_initsect_.obj
+ 0002:00000a3c       __IMPORT_DESCRIPTOR_sf_runtime 10019a3c     sf_runtime:sf_runtime.dll
+ 0002:00000a50       __IMPORT_DESCRIPTOR_libmx  10019a50     libmx:libmx.dll
+ 0002:00000a64       __IMPORT_DESCRIPTOR_libmex 10019a64     libmex:libmex.dll
+ 0002:00000a78       __IMPORT_DESCRIPTOR_libut  10019a78     libut:libut.dll
+ 0002:00000a8c       __IMPORT_DESCRIPTOR_libmwmathutil 10019a8c     libmwmathutil:libmwmathutil.dll
+ 0002:00000aa0       __IMPORT_DESCRIPTOR_MSVCR100 10019aa0     MSVCRT:MSVCR100.dll
+ 0002:00000ab4       __IMPORT_DESCRIPTOR_KERNEL32 10019ab4     kernel32:KERNEL32.dll
+ 0002:00000ac8       __NULL_IMPORT_DESCRIPTOR   10019ac8     sf_runtime:sf_runtime.dll
+ 0003:00005904       _DYNAMIC_DIMENSION         10020904     testKinectRPS_sfun_registry.obj
+ 0003:00006490       ___security_cookie         10021490     MSVCRT:gs_cookie.obj
+ 0003:00006494       ___security_cookie_complement 10021494     MSVCRT:gs_cookie.obj
+ 0003:000064a0       ___native_dllmain_reason   100214a0     MSVCRT:natstart.obj
+ 0003:000064a4       ___native_vcclrit_reason   100214a4     MSVCRT:natstart.obj
+ 0003:000065b8       _sfGlobalDebugInstanceStruct 100215b8     testKinectRPS_sfun_registry.obj
+ 0003:000068ec       ?__type_info_root_node@@3U__type_info_node@@A 100218ec     MSVCRT:tncleanup.obj
+ 0003:000068f4       __testKinectRPSMachineNumber_ 100218f4     <common>
+ 0003:000068f8       ___native_startup_state    100218f8     <common>
+ 0003:000068fc       ___native_startup_lock     100218fc     <common>
+ 0003:00006900       ___onexitend               10021900     <common>
+ 0003:00006904       ___onexitbegin             10021904     <common>
+ 0003:00006908       ___sse2_available          10021908     <common>
+ 0003:0000690c       ___dyn_tls_init_callback   1002190c     <common>
+
+ entry point at        0001:00016eaf
+
+ Static symbols
+
+ 0001:000009b0       _c1_info_helper            100019b0 f   c1_testKinectRPS.obj
+ 0001:00005530       _c1_emlrt_marshallOut      10006530 f   c1_testKinectRPS.obj
+ 0001:00005590       _c1_b_emlrt_marshallOut    10006590 f   c1_testKinectRPS.obj
+ 0001:00005ed0       _get_sim_state_c1_testKinectRPS 10006ed0 f   c1_testKinectRPS.obj
+ 0001:00006630       _sf_get_sim_state_info_c1_testKinectRPS 10007630 f   c1_testKinectRPS.obj
+ 0001:000067b0       _set_sim_state_c1_testKinectRPS 100077b0 f   c1_testKinectRPS.obj
+ 0001:00006b30       _c1_update_debugger_state_c1_testKinectRPS 10007b30 f   c1_testKinectRPS.obj
+ 0001:00007370       _c1_b_emlrt_marshallIn     10008370 f   c1_testKinectRPS.obj
+ 0001:000073c0       _c1_c_emlrt_marshallIn     100083c0 f   c1_testKinectRPS.obj
+ 0001:00007410       _c1_g_emlrt_marshallIn     10008410 f   c1_testKinectRPS.obj
+ 0001:00007460       _c1_h_emlrt_marshallIn     10008460 f   c1_testKinectRPS.obj
+ 0001:000074b0       _c1_i_emlrt_marshallIn     100084b0 f   c1_testKinectRPS.obj
+ 0001:00007500       _c1_j_emlrt_marshallIn     10008500 f   c1_testKinectRPS.obj
+ 0001:00007580       _c1_k_emlrt_marshallIn     10008580 f   c1_testKinectRPS.obj
+ 0001:000075d0       _c1_l_emlrt_marshallIn     100085d0 f   c1_testKinectRPS.obj
+ 0001:00007650       _c1_m_emlrt_marshallIn     10008650 f   c1_testKinectRPS.obj
+ 0001:000076a0       _c1_n_emlrt_marshallIn     100086a0 f   c1_testKinectRPS.obj
+ 0001:00007760       _c1_o_emlrt_marshallIn     10008760 f   c1_testKinectRPS.obj
+ 0001:000077b0       _c1_p_emlrt_marshallIn     100087b0 f   c1_testKinectRPS.obj
+ 0001:00007850       _c1_q_emlrt_marshallIn     10008850 f   c1_testKinectRPS.obj
+ 0001:000078b0       _c1_r_emlrt_marshallIn     100088b0 f   c1_testKinectRPS.obj
+ 0001:00007950       _mdlProcessParameters_c1_testKinectRPS 10008950 f   c1_testKinectRPS.obj
+ 0001:00007a00       _initialize_params_c1_testKinectRPS 10008a00 f   c1_testKinectRPS.obj
+ 0001:00007a10       _mdlSetWorkWidths_c1_testKinectRPS 10008a10 f   c1_testKinectRPS.obj
+ 0001:00007d50       _sf_get_instance_specialization 10008d50 f   c1_testKinectRPS.obj
+ 0001:00007d60       _mdlStart_c1_testKinectRPS 10008d60 f   c1_testKinectRPS.obj
+ 0001:00007f00       _init_dsm_address_info     10008f00 f   c1_testKinectRPS.obj
+ 0001:00007f10       _chart_debug_initialization 10008f10 f   c1_testKinectRPS.obj
+ 0001:00009ca0       _init_script_number_translation 1000aca0 f   c1_testKinectRPS.obj
+ 0001:00009ce0       _c1_sf_marshallOut         1000ace0 f   c1_testKinectRPS.obj
+ 0001:00009e10       _c1_sf_marshallIn          1000ae10 f   c1_testKinectRPS.obj
+ 0001:00009ee0       _c1_emlrt_marshallIn       1000aee0 f   c1_testKinectRPS.obj
+ 0001:00009f90       _c1_b_sf_marshallOut       1000af90 f   c1_testKinectRPS.obj
+ 0001:0000a010       _c1_b_sf_marshallIn        1000b010 f   c1_testKinectRPS.obj
+ 0001:0000a090       _sf_opaque_initialize_c1_testKinectRPS 1000b090 f   c1_testKinectRPS.obj
+ 0001:0000a0c0       _initialize_c1_testKinectRPS 1000b0c0 f   c1_testKinectRPS.obj
+ 0001:0000a1e0       _sf_opaque_enable_c1_testKinectRPS 1000b1e0 f   c1_testKinectRPS.obj
+ 0001:0000a200       _enable_c1_testKinectRPS   1000b200 f   c1_testKinectRPS.obj
+ 0001:0000a230       _sf_opaque_disable_c1_testKinectRPS 1000b230 f   c1_testKinectRPS.obj
+ 0001:0000a250       _disable_c1_testKinectRPS  1000b250 f   c1_testKinectRPS.obj
+ 0001:0000a280       _sf_opaque_gateway_c1_testKinectRPS 1000b280 f   c1_testKinectRPS.obj
+ 0001:0000a2a0       _sf_gateway_c1_testKinectRPS 1000b2a0 f   c1_testKinectRPS.obj
+ 0001:0000a530       _c1_set_sim_state_side_effects_c1_testKinectRPS 1000b530 f   c1_testKinectRPS.obj
+ 0001:0000a7e0       _c1_chartstep_c1_testKinectRPS 1000b7e0 f   c1_testKinectRPS.obj
+ 0001:0000ceb0       _c1_stateCompare           1000deb0 f   c1_testKinectRPS.obj
+ 0001:0000dad0       _c1_stateShowGo            1000ead0 f   c1_testKinectRPS.obj
+ 0001:0000f490       _c1_encStr2Arr             10010490 f   c1_testKinectRPS.obj
+ 0001:0000f9d0       _c1_b_encStr2Arr           100109d0 f   c1_testKinectRPS.obj
+ 0001:0000ff00       _c1_rand                   10010f00 f   c1_testKinectRPS.obj
+ 0001:0000ff20       _c1_eml_rand               10010f20 f   c1_testKinectRPS.obj
+ 0001:000102a0       _c1_eml_rand_mt19937ar     100112a0 f   c1_testKinectRPS.obj
+ 0001:00010300       _c1_c_sf_marshallOut       10011300 f   c1_testKinectRPS.obj
+ 0001:00010380       _c1_c_sf_marshallIn        10011380 f   c1_testKinectRPS.obj
+ 0001:00010400       _c1_d_emlrt_marshallIn     10011400 f   c1_testKinectRPS.obj
+ 0001:00010450       _c1_d_sf_marshallOut       10011450 f   c1_testKinectRPS.obj
+ 0001:00010560       _c1_d_sf_marshallIn        10011560 f   c1_testKinectRPS.obj
+ 0001:00010630       _c1_e_emlrt_marshallIn     10011630 f   c1_testKinectRPS.obj
+ 0001:000106d0       _c1_e_sf_marshallOut       100116d0 f   c1_testKinectRPS.obj
+ 0001:000107d0       _c1_f_sf_marshallOut       100117d0 f   c1_testKinectRPS.obj
+ 0001:000108d0       _c1_g_sf_marshallOut       100118d0 f   c1_testKinectRPS.obj
+ 0001:000109b0       _c1_h_sf_marshallOut       100119b0 f   c1_testKinectRPS.obj
+ 0001:00010ac0       _c1_i_sf_marshallOut       10011ac0 f   c1_testKinectRPS.obj
+ 0001:00010ba0       _c1_j_sf_marshallOut       10011ba0 f   c1_testKinectRPS.obj
+ 0001:00010cb0       _c1_updateDataWrittenToVector 10011cb0 f   c1_testKinectRPS.obj
+ 0001:00010d00       _c1_errorIfDataNotWrittenToFcn 10011d00 f   c1_testKinectRPS.obj
+ 0001:00010d80       _c1_b_twister_state_vector 10011d80 f   c1_testKinectRPS.obj
+ 0001:00010f60       _c1_c_eml_rand_mt19937ar   10011f60 f   c1_testKinectRPS.obj
+ 0001:00011960       _c1_eml_error              10012960 f   c1_testKinectRPS.obj
+ 0001:00011a20       _sf_opaque_get_sim_state_c1_testKinectRPS 10012a20 f   c1_testKinectRPS.obj
+ 0001:00011a40       _sf_opaque_set_sim_state_c1_testKinectRPS 10012a40 f   c1_testKinectRPS.obj
+ 0001:00011a60       _sf_opaque_terminate_c1_testKinectRPS 10012a60 f   c1_testKinectRPS.obj
+ 0001:00011af0       _finalize_c1_testKinectRPS 10012af0 f   c1_testKinectRPS.obj
+ 0001:00011b10       _sf_opaque_init_subchart_simstructs 10012b10 f   c1_testKinectRPS.obj
+ 0001:00011b30       _initSimStructsc1_testKinectRPS 10012b30 f   c1_testKinectRPS.obj
+ 0001:00011b40       _mdlRTW_c1_testKinectRPS   10012b40 f   c1_testKinectRPS.obj
+ 0001:00012290       _getChartInfoFromSimStruct 10013290 f   testKinectRPS_sfun_registry.obj
+ 0001:00013390       __ssFatalError             10014390 f   testKinectRPS_sfun_registry.obj
+ 0001:000156f0       _ProcessMexSfunctionCmdLineCall 100166f0 f   testKinectRPS_sfun_registry.obj
+ 0001:00015810       _sf_debug_api_wrapper      10016810 f   testKinectRPS_sfun_registry.obj
+ 0001:00015840       _mdlStart                  10016840 f   testKinectRPS_sfun_registry.obj
+ 0001:00015860       _mdl_start_processing      10016860 f   testKinectRPS_sfun_registry.obj
+ 0001:000158d0       _mdlTerminate              100168d0 f   testKinectRPS_sfun_registry.obj
+ 0001:000158f0       _mdl_terminate_processing  100168f0 f   testKinectRPS_sfun_registry.obj
+ 0001:00015960       _mdlInitializeSampleTimes  10016960 f   testKinectRPS_sfun_registry.obj
+ 0001:00015980       _mdlZeroCrossings          10016980 f   testKinectRPS_sfun_registry.obj
+ 0001:000159a0       _mdl_zeroCrossings_processing 100169a0 f   testKinectRPS_sfun_registry.obj
+ 0001:000159d0       _mdlDerivatives            100169d0 f   testKinectRPS_sfun_registry.obj
+ 0001:000159f0       _mdl_derivatives_processing 100169f0 f   testKinectRPS_sfun_registry.obj
+ 0001:00015a30       _mdlInitializeConditions   10016a30 f   testKinectRPS_sfun_registry.obj
+ 0001:00015a50       _mdl_initialize_conditions_processing 10016a50 f   testKinectRPS_sfun_registry.obj
+ 0001:00015a90       _mdlEnable                 10016a90 f   testKinectRPS_sfun_registry.obj
+ 0001:00015ab0       _mdl_enable_processing     10016ab0 f   testKinectRPS_sfun_registry.obj
+ 0001:00015ae0       _mdlDisable                10016ae0 f   testKinectRPS_sfun_registry.obj
+ 0001:00015b00       _mdl_disable_processing    10016b00 f   testKinectRPS_sfun_registry.obj
+ 0001:00015b30       _mdlOutputs                10016b30 f   testKinectRPS_sfun_registry.obj
+ 0001:00015b50       _mdl_outputs_processing    10016b50 f   testKinectRPS_sfun_registry.obj
+ 0001:00015c20       _mdl_outputs_continuous_legacy 10016c20 f   testKinectRPS_sfun_registry.obj
+ 0001:00015cf0       _mdlGetTimeOfNextVarHit    10016cf0 f   testKinectRPS_sfun_registry.obj
+ 0001:00015d30       __ProcessMexSfunctionCmdLineCall 10016d30 f   testKinectRPS_sfun_registry.obj
+ 0001:00016350       _mdlSetWorkWidths          10017350 f   testKinectRPS_sfun_registry.obj
+ 0001:00016370       _mdlProcessParameters      10017370 f   testKinectRPS_sfun_registry.obj
+ 0001:00016390       _mdlInitializeSizes        10017390 f   testKinectRPS_sfun_registry.obj
+ 0001:000163b0       _mdlExtModeExec            100173b0 f   testKinectRPS_sfun_registry.obj
+ 0001:000163d0       _mdl_ext_mode_exec_processing 100173d0 f   testKinectRPS_sfun_registry.obj
+ 0001:00016410       _mdlRTW                    10017410 f   testKinectRPS_sfun_registry.obj
+ 0001:00016440       __CreateSimStruct          10017440 f   testKinectRPS_sfun_registry.obj
+ 0001:00016570       __RegNumInputPortsCB       10017570 f   testKinectRPS_sfun_registry.obj
+ 0001:000165d0       __RegNumOutputPortsCB      100175d0 f   testKinectRPS_sfun_registry.obj
+ 0001:00016b41       _pre_c_init                10017b41 f   MSVCRT:crtdll.obj
+ 0001:00016d99       ___DllMainCRTStartup       10017d99 f   MSVCRT:crtdll.obj

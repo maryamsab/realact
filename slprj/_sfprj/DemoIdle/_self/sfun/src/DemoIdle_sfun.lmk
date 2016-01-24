@@ -1,0 +1,62 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"DemoIdle_sfun.obj"\
+	"c1_DemoIdle.obj"\
+	"c2_DemoIdle.obj"\
+	"c4_DemoIdle.obj"\
+	"c5_DemoIdle.obj"\
+	"c8_DemoIdle.obj"\
+	"c9_DemoIdle.obj"\
+	"c10_DemoIdle.obj"\
+	"c11_DemoIdle.obj"\
+	"c20_DemoIdle.obj"\
+	"DemoIdle_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\7-10-2015-Matlab-Demo\slprj\_sfprj\DemoIdle\_self\sfun\src" 
+ 
+
+DemoIdle_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o DemoIdle_sfun.mexw32 @DemoIdle_sfun.lmko
+DemoIdle_sfun.obj :	"DemoIdle_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "DemoIdle_sfun.c"
+c1_DemoIdle.obj :	"c1_DemoIdle.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_DemoIdle.c"
+c2_DemoIdle.obj :	"c2_DemoIdle.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_DemoIdle.c"
+c4_DemoIdle.obj :	"c4_DemoIdle.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_DemoIdle.c"
+c5_DemoIdle.obj :	"c5_DemoIdle.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_DemoIdle.c"
+c8_DemoIdle.obj :	"c8_DemoIdle.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_DemoIdle.c"
+c9_DemoIdle.obj :	"c9_DemoIdle.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_DemoIdle.c"
+c10_DemoIdle.obj :	"c10_DemoIdle.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_DemoIdle.c"
+c11_DemoIdle.obj :	"c11_DemoIdle.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_DemoIdle.c"
+c20_DemoIdle.obj :	"c20_DemoIdle.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_DemoIdle.c"
+DemoIdle_sfun_registry.obj :	"DemoIdle_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "DemoIdle_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

@@ -1,0 +1,117 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Demo_Shore_sfun.obj"\
+	"c1_Demo_Shore.obj"\
+	"c2_Demo_Shore.obj"\
+	"c4_Demo_Shore.obj"\
+	"c5_Demo_Shore.obj"\
+	"c8_Demo_Shore.obj"\
+	"c9_Demo_Shore.obj"\
+	"c10_Demo_Shore.obj"\
+	"c11_Demo_Shore.obj"\
+	"c12_Demo_Shore.obj"\
+	"c13_Demo_Shore.obj"\
+	"c14_Demo_Shore.obj"\
+	"c15_Demo_Shore.obj"\
+	"c16_Demo_Shore.obj"\
+	"c17_Demo_Shore.obj"\
+	"c20_Demo_Shore.obj"\
+	"c21_Demo_Shore.obj"\
+	"c24_Demo_Shore.obj"\
+	"c35_Demo_Shore.obj"\
+	"c37_Demo_Shore.obj"\
+	"c38_Demo_Shore.obj"\
+	"c39_Demo_Shore.obj"\
+	"c40_Demo_Shore.obj"\
+	"c41_Demo_Shore.obj"\
+	"c42_Demo_Shore.obj"\
+	"c43_Demo_Shore.obj"\
+	"c44_Demo_Shore.obj"\
+	"c45_Demo_Shore.obj"\
+	"Demo_Shore_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\Users\root180\Documents\affective-project\6-11-2015-Matlab\slprj\_sfprj\Demo_Shore\lib_affectiveChar_behavior\sfun\src\lib_affectiveChar_behavior_sfun.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\6-11-2015-Matlab\slprj\_sfprj\Demo_Shore\_self\sfun\src" 
+ 
+
+Demo_Shore_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Demo_Shore_sfun.mexw32 @Demo_Shore_sfun.lmko
+Demo_Shore_sfun.obj :	"Demo_Shore_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_Shore_sfun.c"
+c1_Demo_Shore.obj :	"c1_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_Demo_Shore.c"
+c2_Demo_Shore.obj :	"c2_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_Demo_Shore.c"
+c4_Demo_Shore.obj :	"c4_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_Demo_Shore.c"
+c5_Demo_Shore.obj :	"c5_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_Demo_Shore.c"
+c8_Demo_Shore.obj :	"c8_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_Demo_Shore.c"
+c9_Demo_Shore.obj :	"c9_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_Demo_Shore.c"
+c10_Demo_Shore.obj :	"c10_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_Demo_Shore.c"
+c11_Demo_Shore.obj :	"c11_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_Demo_Shore.c"
+c12_Demo_Shore.obj :	"c12_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_Demo_Shore.c"
+c13_Demo_Shore.obj :	"c13_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_Demo_Shore.c"
+c14_Demo_Shore.obj :	"c14_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_Demo_Shore.c"
+c15_Demo_Shore.obj :	"c15_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_Demo_Shore.c"
+c16_Demo_Shore.obj :	"c16_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_Demo_Shore.c"
+c17_Demo_Shore.obj :	"c17_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_Demo_Shore.c"
+c20_Demo_Shore.obj :	"c20_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_Demo_Shore.c"
+c21_Demo_Shore.obj :	"c21_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_Demo_Shore.c"
+c24_Demo_Shore.obj :	"c24_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c24_Demo_Shore.c"
+c35_Demo_Shore.obj :	"c35_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c35_Demo_Shore.c"
+c37_Demo_Shore.obj :	"c37_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c37_Demo_Shore.c"
+c38_Demo_Shore.obj :	"c38_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c38_Demo_Shore.c"
+c39_Demo_Shore.obj :	"c39_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c39_Demo_Shore.c"
+c40_Demo_Shore.obj :	"c40_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c40_Demo_Shore.c"
+c41_Demo_Shore.obj :	"c41_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c41_Demo_Shore.c"
+c42_Demo_Shore.obj :	"c42_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c42_Demo_Shore.c"
+c43_Demo_Shore.obj :	"c43_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c43_Demo_Shore.c"
+c44_Demo_Shore.obj :	"c44_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c44_Demo_Shore.c"
+c45_Demo_Shore.obj :	"c45_Demo_Shore.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c45_Demo_Shore.c"
+Demo_Shore_sfun_registry.obj :	"Demo_Shore_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Demo_Shore_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

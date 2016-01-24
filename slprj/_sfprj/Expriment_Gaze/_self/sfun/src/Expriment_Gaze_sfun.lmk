@@ -1,0 +1,138 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Expriment_Gaze_sfun.obj"\
+	"c1_Expriment_Gaze.obj"\
+	"c2_Expriment_Gaze.obj"\
+	"c4_Expriment_Gaze.obj"\
+	"c5_Expriment_Gaze.obj"\
+	"c8_Expriment_Gaze.obj"\
+	"c9_Expriment_Gaze.obj"\
+	"c10_Expriment_Gaze.obj"\
+	"c11_Expriment_Gaze.obj"\
+	"c12_Expriment_Gaze.obj"\
+	"c13_Expriment_Gaze.obj"\
+	"c14_Expriment_Gaze.obj"\
+	"c15_Expriment_Gaze.obj"\
+	"c16_Expriment_Gaze.obj"\
+	"c17_Expriment_Gaze.obj"\
+	"c20_Expriment_Gaze.obj"\
+	"c21_Expriment_Gaze.obj"\
+	"c35_Expriment_Gaze.obj"\
+	"c37_Expriment_Gaze.obj"\
+	"c38_Expriment_Gaze.obj"\
+	"c39_Expriment_Gaze.obj"\
+	"c40_Expriment_Gaze.obj"\
+	"c41_Expriment_Gaze.obj"\
+	"c42_Expriment_Gaze.obj"\
+	"c43_Expriment_Gaze.obj"\
+	"c44_Expriment_Gaze.obj"\
+	"c45_Expriment_Gaze.obj"\
+	"c51_Expriment_Gaze.obj"\
+	"c52_Expriment_Gaze.obj"\
+	"c53_Expriment_Gaze.obj"\
+	"c54_Expriment_Gaze.obj"\
+	"c55_Expriment_Gaze.obj"\
+	"c56_Expriment_Gaze.obj"\
+	"c57_Expriment_Gaze.obj"\
+	"c58_Expriment_Gaze.obj"\
+	"Expriment_Gaze_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\Users\root180\Documents\affective-project\24-12-2015-Matlab\slprj\_sfprj\Expriment_Gaze\lib_affectiveChar_behavior\sfun\src\lib_affectiveChar_behavior_sfun.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\24-12-2015-Matlab\slprj\_sfprj\Expriment_Gaze\_self\sfun\src" 
+ 
+
+Expriment_Gaze_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Expriment_Gaze_sfun.mexw32 @Expriment_Gaze_sfun.lmko
+Expriment_Gaze_sfun.obj :	"Expriment_Gaze_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Expriment_Gaze_sfun.c"
+c1_Expriment_Gaze.obj :	"c1_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_Expriment_Gaze.c"
+c2_Expriment_Gaze.obj :	"c2_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_Expriment_Gaze.c"
+c4_Expriment_Gaze.obj :	"c4_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_Expriment_Gaze.c"
+c5_Expriment_Gaze.obj :	"c5_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_Expriment_Gaze.c"
+c8_Expriment_Gaze.obj :	"c8_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_Expriment_Gaze.c"
+c9_Expriment_Gaze.obj :	"c9_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_Expriment_Gaze.c"
+c10_Expriment_Gaze.obj :	"c10_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_Expriment_Gaze.c"
+c11_Expriment_Gaze.obj :	"c11_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_Expriment_Gaze.c"
+c12_Expriment_Gaze.obj :	"c12_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_Expriment_Gaze.c"
+c13_Expriment_Gaze.obj :	"c13_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_Expriment_Gaze.c"
+c14_Expriment_Gaze.obj :	"c14_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_Expriment_Gaze.c"
+c15_Expriment_Gaze.obj :	"c15_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_Expriment_Gaze.c"
+c16_Expriment_Gaze.obj :	"c16_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_Expriment_Gaze.c"
+c17_Expriment_Gaze.obj :	"c17_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c17_Expriment_Gaze.c"
+c20_Expriment_Gaze.obj :	"c20_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_Expriment_Gaze.c"
+c21_Expriment_Gaze.obj :	"c21_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c21_Expriment_Gaze.c"
+c35_Expriment_Gaze.obj :	"c35_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c35_Expriment_Gaze.c"
+c37_Expriment_Gaze.obj :	"c37_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c37_Expriment_Gaze.c"
+c38_Expriment_Gaze.obj :	"c38_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c38_Expriment_Gaze.c"
+c39_Expriment_Gaze.obj :	"c39_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c39_Expriment_Gaze.c"
+c40_Expriment_Gaze.obj :	"c40_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c40_Expriment_Gaze.c"
+c41_Expriment_Gaze.obj :	"c41_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c41_Expriment_Gaze.c"
+c42_Expriment_Gaze.obj :	"c42_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c42_Expriment_Gaze.c"
+c43_Expriment_Gaze.obj :	"c43_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c43_Expriment_Gaze.c"
+c44_Expriment_Gaze.obj :	"c44_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c44_Expriment_Gaze.c"
+c45_Expriment_Gaze.obj :	"c45_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c45_Expriment_Gaze.c"
+c51_Expriment_Gaze.obj :	"c51_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c51_Expriment_Gaze.c"
+c52_Expriment_Gaze.obj :	"c52_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c52_Expriment_Gaze.c"
+c53_Expriment_Gaze.obj :	"c53_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c53_Expriment_Gaze.c"
+c54_Expriment_Gaze.obj :	"c54_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c54_Expriment_Gaze.c"
+c55_Expriment_Gaze.obj :	"c55_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c55_Expriment_Gaze.c"
+c56_Expriment_Gaze.obj :	"c56_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c56_Expriment_Gaze.c"
+c57_Expriment_Gaze.obj :	"c57_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c57_Expriment_Gaze.c"
+c58_Expriment_Gaze.obj :	"c58_Expriment_Gaze.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c58_Expriment_Gaze.c"
+Expriment_Gaze_sfun_registry.obj :	"Expriment_Gaze_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Expriment_Gaze_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"

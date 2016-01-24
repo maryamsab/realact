@@ -1,0 +1,35 @@
+#!/usr/bin/python
+
+import yarp
+import os
+import time
+
+yarp.Network.init();
+
+portOut = yarp.BufferedPortBottle();
+
+portOut.open("/testSender");
+
+#os.system("yarp connect /ants/outUB /ctrl2/in/pos");
+#os.system("yarp connect /ctrl/out/pos /3ds01/pos");
+
+
+while True : 
+    bottleOut = portOut.prepare();
+    bottleOut.clear(); 
+    bottleOut.addDouble(1.0);
+#    bottleOut.addDouble(2.0);
+#    bottleOut.addDouble(3.0);
+    print ("Sending ", bottleOut.toString());
+    portOut.write();
+    time.sleep(.1)
+  
+
+portOut.close();
+yarp.Network.fini();
+
+
+
+
+ 
+

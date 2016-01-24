@@ -1,0 +1,83 @@
+CC     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcc.exe"
+LD     = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "C:\MATLAB\R2014a32\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup 
+LDFLAGS = -s -dll -L"C:\MATLAB\R2014a32\sys\lcc\lib" 
+LIBFLAGS = 
+
+OBJECTS = \
+	"DemoSmile_KS_sfun.obj"\
+	"c1_DemoSmile_KS.obj"\
+	"c2_DemoSmile_KS.obj"\
+	"c4_DemoSmile_KS.obj"\
+	"c5_DemoSmile_KS.obj"\
+	"c8_DemoSmile_KS.obj"\
+	"c9_DemoSmile_KS.obj"\
+	"c10_DemoSmile_KS.obj"\
+	"c11_DemoSmile_KS.obj"\
+	"c12_DemoSmile_KS.obj"\
+	"c13_DemoSmile_KS.obj"\
+	"c14_DemoSmile_KS.obj"\
+	"c15_DemoSmile_KS.obj"\
+	"c16_DemoSmile_KS.obj"\
+	"c19_DemoSmile_KS.obj"\
+	"c20_DemoSmile_KS.obj"\
+	"c24_DemoSmile_KS.obj"\
+	"DemoSmile_KS_sfun_registry.obj"\
+	"lccstub.obj"\
+	"C:\MATLAB\R2014a32\sys\lcc\mex\lccdef.def"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\sf_runtime.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwblas.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmx.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmex.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmat.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libut.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libemlrt.lib"\
+	"C:\MATLAB\R2014a32\extern\lib\win32\lcc\libmwsl_log_load_blocks.lib"\
+	"C:\MATLAB\R2014a32\lib\win32\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\MATLAB\R2014a32\sys\lcc\include"  -I"C:\MATLAB\R2014a32\extern\include"  -I"C:\MATLAB\R2014a32\simulink\include"  -I"C:\MATLAB\R2014a32\stateflow\c\mex\include"  -I"C:\MATLAB\R2014a32\rtw\c\src"  -I"C:\Users\root180\Documents\affective-project\18-9-2015-v2-Matlab-prior-M+M\slprj\_sfprj\DemoSmile_KS\_self\sfun\src" 
+ 
+
+DemoSmile_KS_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o DemoSmile_KS_sfun.mexw32 @DemoSmile_KS_sfun.lmko
+DemoSmile_KS_sfun.obj :	"DemoSmile_KS_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "DemoSmile_KS_sfun.c"
+c1_DemoSmile_KS.obj :	"c1_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_DemoSmile_KS.c"
+c2_DemoSmile_KS.obj :	"c2_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_DemoSmile_KS.c"
+c4_DemoSmile_KS.obj :	"c4_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_DemoSmile_KS.c"
+c5_DemoSmile_KS.obj :	"c5_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_DemoSmile_KS.c"
+c8_DemoSmile_KS.obj :	"c8_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_DemoSmile_KS.c"
+c9_DemoSmile_KS.obj :	"c9_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c9_DemoSmile_KS.c"
+c10_DemoSmile_KS.obj :	"c10_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_DemoSmile_KS.c"
+c11_DemoSmile_KS.obj :	"c11_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c11_DemoSmile_KS.c"
+c12_DemoSmile_KS.obj :	"c12_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c12_DemoSmile_KS.c"
+c13_DemoSmile_KS.obj :	"c13_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c13_DemoSmile_KS.c"
+c14_DemoSmile_KS.obj :	"c14_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c14_DemoSmile_KS.c"
+c15_DemoSmile_KS.obj :	"c15_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c15_DemoSmile_KS.c"
+c16_DemoSmile_KS.obj :	"c16_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c16_DemoSmile_KS.c"
+c19_DemoSmile_KS.obj :	"c19_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c19_DemoSmile_KS.c"
+c20_DemoSmile_KS.obj :	"c20_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c20_DemoSmile_KS.c"
+c24_DemoSmile_KS.obj :	"c24_DemoSmile_KS.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c24_DemoSmile_KS.c"
+DemoSmile_KS_sfun_registry.obj :	"DemoSmile_KS_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "DemoSmile_KS_sfun_registry.c"
+lccstub.obj :	"C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\MATLAB\R2014a32\sys\lcc\mex\lccstub.c"
